@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>File Deduplicator — Find &amp; Remove Duplicate Files | WinUtils</title>
+  <meta name="description" content="Free Windows tool to find and remove duplicate files using SHA-256 hashing. Send to Recycle Bin, move to folder, or delete. Supports 20 file types. No install required." />
+  <meta name="keywords" content="file deduplicator, remove duplicate files, windows duplicate finder, sha256 file scanner, free duplicate remover" />
+
+  <meta property="og:title"       content="File Deduplicator — Free Windows Duplicate File Finder" />
+  <meta property="og:description" content="Find and safely remove duplicate files on Windows using SHA-256 fingerprinting. Free, open-source, no telemetry." />
+  <meta property="og:type"        content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- ADSENSE HEAD TAG (replace with yours) -->
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+</head>
+<body>
+
+  <!-- ═══════════ NAVIGATION ═══════════ -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Win<span>Utils</span></a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+        <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+        <li><a href="privacy-policy.html">Privacy</a></li>
+        <li><a href="https://github.com/YubNub7" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════ APP HERO ═══════════ -->
+  <section class="app-hero app-hero--blue">
+    <div class="container app-hero__inner">
+      <div class="app-hero__text">
+        <p class="section-label">Free Windows Utility</p>
+        <h1>File Deduplicator</h1>
+        <p class="hero__sub" style="margin-bottom:2rem;">Find and remove duplicate files using SHA-256 fingerprinting. Recover gigabytes of wasted space — safely.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:.75rem;">
+          <a href="#download" class="btn btn--download" style="background:#fff;color:#1565C0;" data-download="FileDeduplicator">
+            ⬇ Download Free
+          </a>
+          <a href="https://github.com/YubNub7/file-deduplicator" target="_blank" rel="noopener"
+             class="btn btn--outline" style="border-color:rgba(255,255,255,.5);color:#fff;">
+            View Source
+          </a>
+        </div>
+      </div>
+      <div class="app-hero__icon">📄</div>
+    </div>
+  </section>
+
+  <!-- ═══════════ AD SLOT — Top leaderboard ═══════════ -->
+  <div class="container ad-wrapper">
+    <div class="ad-slot ad-slot--leaderboard">
+      <p class="ad-label">Advertisement</p>
+      <!--
+        ADSENSE LEADERBOARD
+        Paste your <ins class="adsbygoogle"> block here.
+      -->
+    </div>
+  </div>
+
+  <!-- ═══════════ FEATURES ═══════════ -->
+  <section class="section section--alt">
+    <div class="container">
+      <p class="section-label">Features</p>
+      <h2>Everything you need, nothing you don't</h2>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">🔐</div>
+          <h4>SHA-256 Hashing</h4>
+          <p>Compares the actual content of files, not just their names. Two files named differently but with identical contents will always be caught.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">⚡</div>
+          <h4>Size-First Optimisation</h4>
+          <p>Files are grouped by size before hashing. If no two files share the same size, hashing is skipped entirely — making scans extremely fast.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">☑️</div>
+          <h4>20 File Type Filters</h4>
+          <p>Choose exactly which file types to scan: photos, videos, audio, documents, archives, executables and more — or scan everything at once.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🗑️</div>
+          <h4>Three Safe Actions</h4>
+          <p>Send duplicates to the Windows Recycle Bin, move them to a folder of your choice, or delete permanently. Your call — your data.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🏷️</div>
+          <h4>Original vs. Duplicate Labels</h4>
+          <p>Results are displayed in groups. The oldest file is marked "Original" in green; copies are marked "Duplicate" in amber. You always know which is which.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">📊</div>
+          <h4>After-Action Report</h4>
+          <p>Every scan produces a report showing files scanned, duplicates found, space recovered, and every action taken. Save it as a .txt file.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🚫</div>
+          <h4>Non-Blocking UI</h4>
+          <p>Scanning runs in a background thread. The app stays responsive during long scans — you can cancel at any time without force-quitting.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🔒</div>
+          <h4>Zero Telemetry</h4>
+          <p>The source code contains no network imports. File Deduplicator cannot send your file names, paths, or any other data to anyone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SCREENSHOT PLACEHOLDER ═══════════ -->
+  <section class="section">
+    <div class="container">
+      <p class="section-label">Screenshot</p>
+      <h2>Simple, clear interface</h2>
+      <div class="screenshot-placeholder">
+        <div class="screenshot-placeholder__icon">🖥️</div>
+        <p>Screenshot coming soon.<br>Download and try it for free — no sign-up required.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ AD SLOT — Mid-page ═══════════ -->
+  <div class="container ad-wrapper">
+    <div class="ad-slot ad-slot--leaderboard">
+      <p class="ad-label">Advertisement</p>
+      <!--
+        ADSENSE IN-CONTENT UNIT
+        Paste your second ad unit here.
+      -->
+    </div>
+  </div>
+
+  <!-- ═══════════ DOWNLOAD ═══════════ -->
+  <section class="download-section" id="download">
+    <div class="container">
+      <p class="section-label">Download</p>
+      <h2>Free to download, free forever</h2>
+
+      <div class="download-box">
+        <h3>File Deduplicator v1.0.0</h3>
+        <p>Single-file executable — no installation wizard required. Just download and run.</p>
+
+        <div class="download-meta">
+          <span>🪟 Windows 10 / 11</span>
+          <span>💾 ~10 MB</span>
+          <span>🏗️ 64-bit</span>
+          <span>📜 GPL v3</span>
+        </div>
+
+        <a href="https://github.com/YubNub7/file-deduplicator/releases/download/v1.0.0/FileDeduplicator.exe"
+           class="btn btn--primary btn--download"
+           data-download="FileDeduplicator">
+          ⬇ Download FileDeduplicator.exe
+        </a>
+
+        <p class="download-note">
+          Also available as a <a href="https://github.com/YubNub7/file-deduplicator/releases/download/v1.0.0/FileDeduplicator_Setup_v1.0.0.exe">Setup Wizard installer</a>
+          &bull; <a href="https://github.com/YubNub7/file-deduplicator" target="_blank" rel="noopener">View source on GitHub</a>
+        </p>
+      </div>
+
+      <p style="text-align:center;margin-top:1.25rem;font-size:.85rem;color:var(--text-muted);">
+        ⚠ Windows SmartScreen may show a warning on first run because the executable is not yet code-signed.<br>
+        Click <strong>More info → Run anyway</strong>. The source code is publicly available for your review.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SYSTEM REQUIREMENTS ═══════════ -->
+  <section class="section section--alt">
+    <div class="container" style="max-width:680px;">
+      <p class="section-label">System Requirements</p>
+      <h2>What you need to run it</h2>
+      <table class="requirements">
+        <thead>
+          <tr><th>Component</th><th>Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Operating System</td><td>Windows 10 or Windows 11 (64-bit)</td></tr>
+          <tr><td>Architecture</td><td>x64 (Intel or AMD)</td></tr>
+          <tr><td>Disk space</td><td>~25 MB (including temp files during first run)</td></tr>
+          <tr><td>RAM</td><td>No meaningful requirement — uses &lt;64 KB per file</td></tr>
+          <tr><td>Python</td><td>Not required — self-contained executable</td></tr>
+          <tr><td>Internet connection</td><td>Not required</td></tr>
+          <tr><td>Administrator rights</td><td>Not required</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ═══════════ FAQ ═══════════ -->
+  <section class="section">
+    <div class="container">
+      <p class="section-label">FAQ</p>
+      <h2 style="text-align:center;">Common questions</h2>
+
+      <div class="faq">
+        <div class="faq__item">
+          <button class="faq__question">Is this really free? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">Yes — completely free, forever. It is released under the GNU General Public License v3, which means you can use, copy, and even modify it at no cost.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">Will it delete files I actually need? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">The app never deletes anything automatically. You always see the results first, choose which duplicates to act on, and confirm before anything happens. The default action is "Send to Recycle Bin", which is fully reversible.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">How does it decide which file is the "Original"? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">Within each group of identical files, the one with the oldest modification timestamp is labelled "Original". The others are labelled "Duplicate". You can always choose to keep whichever one you prefer — just deselect it before applying the action.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">Why does Windows Defender warn me about it? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">The executable is not yet commercially code-signed, so SmartScreen shows a warning for any software it hasn't seen before. This is normal for new, self-published tools. You can review the full source code on GitHub before running it. Click "More info → Run anyway" to proceed.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">How fast is the scan? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">Very fast for most drives. The size-first grouping means many files are ruled out without being hashed at all. On a typical drive with 100,000 files, most scans complete in under a minute. SSD drives are faster than HDDs.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">Does it send my file names anywhere? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">No. The source code contains no network libraries whatsoever. The application has no ability to make any network connection. Your file names, paths, and content never leave your machine.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">Win<span>Utils</span></span>
+          <p class="footer__tagline">Free, open-source Windows utilities built with transparency and user safety as the top priority.</p>
+          <span class="footer__gpl">📜 GNU GPL v3.0</span>
+        </div>
+        <div class="footer__col">
+          <h4>Tools</h4>
+          <ul>
+            <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+            <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Legal &amp; Info</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">GPL v3 License</a></li>
+            <li><a href="https://github.com/YubNub7" target="_blank" rel="noopener">Source Code (GitHub)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <script>document.write(new Date().getFullYear())</script> WinUtils. Released under the GNU GPL v3.0.</span>
+        <span>No cookies used for tracking &bull; <a href="privacy-policy.html" style="color:#9CA3AF">Privacy Policy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

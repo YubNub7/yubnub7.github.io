@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WinUtils — Free Windows Utilities</title>
+  <meta name="description" content="Free, open-source Windows utilities. File Deduplicator removes duplicate files safely. De-Bloat Pro cleans junk, browser cache and orphaned registry entries." />
+  <meta name="keywords" content="windows utilities, file deduplicator, system cleaner, registry cleaner, free windows tools, debloat windows" />
+
+  <!-- Open Graph (social sharing previews) -->
+  <meta property="og:title"       content="WinUtils — Free Windows Utilities" />
+  <meta property="og:description" content="Free, safe, open-source tools to deduplicate files and clean your Windows PC." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://github.com/YubNub7/" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- ═══════════════════════════════════════════════════════════
+       GOOGLE ADSENSE — HEAD TAG
+       1. Sign up at https://adsense.google.com
+       2. Get your publisher ID (format: ca-pub-XXXXXXXXXXXXXXXX)
+       3. Replace the script below with the one Google gives you
+       ═══════════════════════════════════════════════════════════ -->
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+</head>
+<body>
+
+  <!-- ═══════════ NAVIGATION ═══════════ -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Win<span>Utils</span></a>
+
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+        <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+        <li><a href="privacy-policy.html">Privacy</a></li>
+        <li><a href="https://github.com/YubNub7" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="hero">
+    <div class="container">
+      <p class="hero__eyebrow">Free &amp; Open Source • Windows 10/11</p>
+      <h1 class="hero__title">Professional Windows utilities,<br><em>completely free</em></h1>
+      <p class="hero__sub">Reclaim disk space, remove junk files, and keep your PC running cleanly.<br>No subscriptions. No telemetry. No nonsense.</p>
+      <div class="hero__actions">
+        <a href="file-deduplicator.html" class="btn btn--primary btn--lg">File Deduplicator</a>
+        <a href="debloat-pro.html"       class="btn btn--orange  btn--lg">De-Bloat Pro</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ TRUST BAR ═══════════ -->
+  <div class="trust-bar">
+    <div class="container trust-bar__inner">
+      <div class="trust-item"><span class="trust-item__icon">🔓</span> Open Source (GPL v3)</div>
+      <div class="trust-item"><span class="trust-item__icon">🚫</span> Zero Telemetry</div>
+      <div class="trust-item"><span class="trust-item__icon">🛡️</span> No Background Processes</div>
+      <div class="trust-item"><span class="trust-item__icon">💾</span> Single .exe — No Installer Required</div>
+      <div class="trust-item"><span class="trust-item__icon">✅</span> Windows 10 &amp; 11</div>
+    </div>
+  </div>
+
+  <!-- ═══════════ AD SLOT — Leaderboard below hero ═══════════ -->
+  <div class="container ad-wrapper">
+    <div class="ad-slot ad-slot--leaderboard">
+      <p class="ad-label">Advertisement</p>
+      <!--
+        ADSENSE LEADERBOARD (728×90 or Responsive)
+        Paste your <ins class="adsbygoogle"> block here.
+        Example:
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+               data-ad-slot="XXXXXXXXXX"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      -->
+    </div>
+  </div>
+
+  <!-- ═══════════ APP CARDS ═══════════ -->
+  <section class="section section--alt">
+    <div class="container">
+      <p class="section-label">Our Tools</p>
+      <h2>Two apps. One mission: a cleaner PC.</h2>
+
+      <div class="apps-grid">
+
+        <!-- File Deduplicator card -->
+        <article class="app-card app-card--blue">
+          <div class="app-card__badge app-card__badge--blue">🗂️ File Utility</div>
+          <div class="app-card__icon app-card__icon--blue">📄</div>
+          <div>
+            <h3>File Deduplicator</h3>
+            <p>Find and remove identical files using SHA-256 fingerprinting. Recover gigabytes of wasted disk space with a single scan.</p>
+          </div>
+          <ul class="app-card__features">
+            <li>SHA-256 hashing — finds true duplicates regardless of filename</li>
+            <li>Size-first optimisation — blazing fast even on large drives</li>
+            <li>Filter by 20 common file types</li>
+            <li>Move to Recycle Bin, folder, or delete</li>
+            <li>Full after-action report with space recovered</li>
+          </ul>
+          <div class="app-card__actions">
+            <a href="file-deduplicator.html" class="btn btn--primary">Learn More</a>
+            <a href="file-deduplicator.html#download" class="btn btn--outline" data-download="FileDeduplicator">Download Free</a>
+          </div>
+        </article>
+
+        <!-- De-Bloat Pro card -->
+        <article class="app-card app-card--orange">
+          <div class="app-card__badge app-card__badge--orange">🧹 System Cleaner</div>
+          <div class="app-card__icon app-card__icon--orange">🛡️</div>
+          <div>
+            <h3>De-Bloat Pro</h3>
+            <p>A safe, transparent alternative to CCleaner. Cleans temp files, browser cache, and dead registry entries — with backups before every change.</p>
+          </div>
+          <ul class="app-card__features">
+            <li>Temp file scrubber — %TEMP% &amp; Windows\Temp</li>
+            <li>Browser cache cleaner — Chrome, Edge, Firefox &amp; more</li>
+            <li>Registry orphan finder with automatic backup</li>
+            <li>Analyze mode — preview everything before deleting</li>
+            <li>Zero network code — physically cannot phone home</li>
+          </ul>
+          <div class="app-card__actions">
+            <a href="debloat-pro.html" class="btn btn--orange">Learn More</a>
+            <a href="debloat-pro.html#download" class="btn btn--outline-orange" data-download="DeBloatPro">Download Free</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ WHY CHOOSE US ═══════════ -->
+  <section class="section">
+    <div class="container">
+      <p class="section-label">Why WinUtils?</p>
+      <h2>Built with trust, not tracking</h2>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-card__icon">🔍</div>
+          <h4>Fully Transparent</h4>
+          <p>Every file and registry key that would be affected is shown to you before anything is deleted. Analyze mode is always available.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__icon">🔒</div>
+          <h4>No Telemetry, Ever</h4>
+          <p>The source code contains zero network imports. These apps are physically incapable of sending any data anywhere.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__icon">💾</div>
+          <h4>Registry Backups</h4>
+          <p>De-Bloat Pro exports a .reg backup file before removing any registry entry. Your system is always recoverable.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__icon">⚡</div>
+          <h4>Lightweight</h4>
+          <p>Single .exe files under 11 MB each. No background services, no scheduled tasks, no bloat of their own.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ AD SLOT — Mid-page rectangle ═══════════ -->
+  <div class="container ad-wrapper">
+    <div class="ad-slot ad-slot--leaderboard">
+      <p class="ad-label">Advertisement</p>
+      <!--
+        ADSENSE IN-CONTENT UNIT
+        Paste your second ad unit here.
+      -->
+    </div>
+  </div>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">Win<span>Utils</span></span>
+          <p class="footer__tagline">Free, open-source Windows utilities built with transparency and user safety as the top priority.</p>
+          <span class="footer__gpl">📜 GNU GPL v3.0</span>
+        </div>
+
+        <div class="footer__col">
+          <h4>Tools</h4>
+          <ul>
+            <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+            <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Legal &amp; Info</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">GPL v3 License</a></li>
+            <li><a href="https://github.com/YubNub7" target="_blank" rel="noopener">Source Code (GitHub)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>&copy; <script>document.write(new Date().getFullYear())</script> WinUtils. Released under the GNU GPL v3.0.</span>
+        <span>No cookies used for tracking &bull; <a href="privacy-policy.html" style="color:#9CA3AF">Privacy Policy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

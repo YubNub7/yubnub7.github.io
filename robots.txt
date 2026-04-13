@@ -1,0 +1,5 @@
+  ```
+  User-agent: *
+  Allow: /
+  Sitemap: https://yubnub7.github.io/sitemap.xml
+  ```

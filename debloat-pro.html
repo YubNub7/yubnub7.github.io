@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>De-Bloat Pro — Windows System Cleaner &amp; Registry Cleaner | WinUtils</title>
+  <meta name="description" content="Free, safe alternative to CCleaner. Cleans temp files, browser cache, and orphaned registry entries with automatic backups. Zero telemetry. Windows 10/11." />
+  <meta name="keywords" content="debloat windows, ccleaner alternative, registry cleaner, temp file cleaner, browser cache cleaner, windows system cleaner, free pc cleaner" />
+
+  <meta property="og:title"       content="De-Bloat Pro — Free Safe Windows System Cleaner" />
+  <meta property="og:description" content="Clean junk files, browser cache, and orphaned registry entries safely. Backs up registry before every change. Zero telemetry." />
+  <meta property="og:type"        content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- ADSENSE HEAD TAG (replace with yours) -->
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+</head>
+<body>
+
+  <!-- ═══════════ NAVIGATION ═══════════ -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Win<span>Utils</span></a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+        <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+        <li><a href="privacy-policy.html">Privacy</a></li>
+        <li><a href="https://github.com/YubNub7" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════ APP HERO ═══════════ -->
+  <section class="app-hero app-hero--orange">
+    <div class="container app-hero__inner">
+      <div class="app-hero__text">
+        <p class="section-label">Free Windows System Cleaner</p>
+        <h1>De-Bloat Pro</h1>
+        <p class="hero__sub" style="margin-bottom:2rem;">The transparent, safe alternative to CCleaner. Cleans junk files, browser cache, and dead registry entries — with backups before every change, and zero telemetry.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:.75rem;">
+          <a href="#download" class="btn btn--download" style="background:#fff;color:#E65100;" data-download="DeBloatPro">
+            ⬇ Download Free
+          </a>
+          <a href="https://github.com/YubNub7/debloat-pro" target="_blank" rel="noopener"
+             class="btn btn--outline" style="border-color:rgba(255,255,255,.5);color:#fff;">
+            View Source
+          </a>
+        </div>
+      </div>
+      <div class="app-hero__icon">🛡️</div>
+    </div>
+  </section>
+
+  <!-- ═══════════ AD SLOT — Top leaderboard ═══════════ -->
+  <div class="container ad-wrapper">
+    <div class="ad-slot ad-slot--leaderboard">
+      <p class="ad-label">Advertisement</p>
+      <!--
+        ADSENSE LEADERBOARD
+        Paste your <ins class="adsbygoogle"> block here.
+      -->
+    </div>
+  </div>
+
+  <!-- ═══════════ VS CCLEANER CALLOUT ═══════════ -->
+  <section class="section section--alt">
+    <div class="container" style="max-width:780px;text-align:center;">
+      <p class="section-label">Why not CCleaner?</p>
+      <h2>Built because the alternatives can't be trusted</h2>
+      <p style="margin:1rem auto 0;color:var(--text-muted);font-size:1.05rem;">CCleaner has had a documented malware incident (2017), introduced background telemetry without consent, and is laden with upsell prompts. De-Bloat Pro was built from scratch to do the same job — transparently, safely, and without any network code at all.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════ FEATURES ═══════════ -->
+  <section class="section">
+    <div class="container">
+      <p class="section-label">Cleaning Modules</p>
+      <h2>Four targeted cleaning modules</h2>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">🗑️</div>
+          <h4>Temp File Scrubber</h4>
+          <p>Removes junk from <code>%TEMP%</code>, <code>%USERPROFILE%\AppData\Local\Temp</code>, and <code>C:\Windows\Temp</code> (admin). Uses deep scanning to catch files in subdirectories.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">⚡</div>
+          <h4>Prefetch Cleaner</h4>
+          <p>Clears Windows Prefetch (<code>C:\Windows\Prefetch</code>) to remove launch traces for applications that no longer exist. Requires administrator access.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🌐</div>
+          <h4>Browser Cache</h4>
+          <p>Clears cache for Chrome, Edge, Brave, Opera, and Firefox (all profiles). Uses full directory traversal to catch files in cache subdirectories that other tools miss.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🗝️</div>
+          <h4>Registry Orphan Cleaner</h4>
+          <p>Scans the Windows Uninstall registry hive for entries whose <code>InstallLocation</code> points to a path that no longer exists on disk — the leftover ghost entries from uninstalled software.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🔍</div>
+          <h4>Analyze Mode</h4>
+          <p>Run any module in Analyze mode first. Everything that would be cleaned is shown in the live log — no files are touched. Switch to Clean mode only when you're satisfied.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">💾</div>
+          <h4>Registry Backup First</h4>
+          <p>Before deleting any registry entry, De-Bloat Pro exports it to a <code>.reg</code> file in your home folder. If deletion is skipped, the entry is never removed — safety is unconditional.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🛡️</div>
+          <h4>UAC Elevation</h4>
+          <p>The app checks for administrator privileges at launch. If not elevated, the Prefetch module is automatically disabled. A "Restart as Administrator" button is shown when needed.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">📋</div>
+          <h4>Live Log &amp; Report</h4>
+          <p>A dark-themed console shows every action in real time. When finished, a full summary report is generated — and can be saved to a .txt file for your records.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SCREENSHOT PLACEHOLDER ═══════════ -->
+  <section class="section section--alt">
+    <div class="container">
+      <p class="section-label">Screenshot</p>
+      <h2>Live log gives full visibility</h2>
+      <div class="screenshot-placeholder" style="background:linear-gradient(135deg,#FFF3E0,#FFE0B2);border-color:#FFCC80;color:#E65100;">
+        <div class="screenshot-placeholder__icon">🖥️</div>
+        <p>Screenshot coming soon.<br>Download and try it for free — Analyze mode shows everything without touching a single file.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ AD SLOT — Mid-page ═══════════ -->
+  <div class="container ad-wrapper">
+    <div class="ad-slot ad-slot--leaderboard">
+      <p class="ad-label">Advertisement</p>
+      <!--
+        ADSENSE IN-CONTENT UNIT
+        Paste your second ad unit here.
+      -->
+    </div>
+  </div>
+
+  <!-- ═══════════ DOWNLOAD ═══════════ -->
+  <section class="download-section" id="download">
+    <div class="container">
+      <p class="section-label">Download</p>
+      <h2>Free to download, free forever</h2>
+
+      <div class="download-box">
+        <h3>De-Bloat Pro v1.0.0</h3>
+        <p>Single-file executable with UAC manifest embedded. Windows will prompt for administrator access when you run it — that's expected and required for full functionality.</p>
+
+        <div class="download-meta">
+          <span>🪟 Windows 10 / 11</span>
+          <span>💾 ~10 MB</span>
+          <span>🏗️ 64-bit</span>
+          <span>📜 GPL v3</span>
+        </div>
+
+        <a href="https://github.com/YubNub7/debloat-pro/releases/download/v1.0.0/DeBloatPro.exe"
+           class="btn btn--orange btn--download"
+           data-download="DeBloatPro">
+          ⬇ Download DeBloatPro.exe
+        </a>
+
+        <p class="download-note">
+          Also available as a <a href="https://github.com/YubNub7/debloat-pro/releases/download/v1.0.0/DeBloatPro_Setup_v1.0.0.exe">Setup Wizard installer</a>
+          &bull; <a href="https://github.com/YubNub7/debloat-pro" target="_blank" rel="noopener">View source on GitHub</a>
+        </p>
+      </div>
+
+      <p style="text-align:center;margin-top:1.25rem;font-size:.85rem;color:var(--text-muted);">
+        ⚠ Windows SmartScreen may show a warning on first run. Click <strong>More info → Run anyway</strong>.<br>
+        The full source code is publicly available for review on GitHub.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SYSTEM REQUIREMENTS ═══════════ -->
+  <section class="section section--alt">
+    <div class="container" style="max-width:680px;">
+      <p class="section-label">System Requirements</p>
+      <h2>What you need to run it</h2>
+      <table class="requirements">
+        <thead>
+          <tr><th>Component</th><th>Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Operating System</td><td>Windows 10 or Windows 11 (64-bit)</td></tr>
+          <tr><td>Architecture</td><td>x64 (Intel or AMD)</td></tr>
+          <tr><td>Disk space</td><td>~25 MB (including temp files during first run)</td></tr>
+          <tr><td>Python</td><td>Not required — self-contained executable</td></tr>
+          <tr><td>Internet connection</td><td>Not required</td></tr>
+          <tr><td>Administrator rights</td><td>Required for Prefetch &amp; Windows\Temp cleaning; optional for all other modules</td></tr>
+          <tr><td>Registry backup location</td><td><code>%USERPROFILE%\DeBloatPro_Backups\</code> (created automatically)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ═══════════ FAQ ═══════════ -->
+  <section class="section">
+    <div class="container">
+      <p class="section-label">FAQ</p>
+      <h2 style="text-align:center;">Common questions</h2>
+
+      <div class="faq">
+        <div class="faq__item">
+          <button class="faq__question">Is this safe to use on my main PC? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">Yes — with the standard precaution of always running in Analyze mode first and keeping a system backup. The registry cleaner only targets orphaned uninstall entries, backs up each key before deletion, and skips the deletion entirely if the backup fails. It does not touch HKLM (system-critical) registry keys.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">Why does it ask for administrator access? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">Cleaning <code>C:\Windows\Temp</code> and <code>C:\Windows\Prefetch</code> requires administrator privileges because they are system-owned directories. If you decline the UAC prompt, those two modules are automatically disabled — all other modules (user temp files, browser cache, registry) still work normally.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">What if a registry key I deleted was actually needed? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">Before any key is deleted, De-Bloat Pro exports it to a <code>.reg</code> file in <code>%USERPROFILE%\DeBloatPro_Backups\</code>. To restore it, simply double-click the corresponding <code>.reg</code> file and confirm the import. It's a one-click restore.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">Will clearing browser cache log me out of websites? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">De-Bloat Pro only clears the <em>cache</em> directories, not cookies or session data. You will not be logged out. Pages may load slightly slower on first visit after a cache clear, as the browser re-downloads assets.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">Does it send any data to the internet? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">No. The source code imports zero network libraries. The application has no ability to make any network connection whatsoever. You can verify this yourself by reviewing the source on GitHub.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">How is this different from CCleaner? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">CCleaner has had documented privacy incidents (a 2017 malware injection via its update mechanism) and collects telemetry by default. De-Bloat Pro is open-source, contains no network code, makes no background processes, and is fully auditable. It is also entirely free with no upsell prompts.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">Win<span>Utils</span></span>
+          <p class="footer__tagline">Free, open-source Windows utilities built with transparency and user safety as the top priority.</p>
+          <span class="footer__gpl">📜 GNU GPL v3.0</span>
+        </div>
+        <div class="footer__col">
+          <h4>Tools</h4>
+          <ul>
+            <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+            <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Legal &amp; Info</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">GPL v3 License</a></li>
+            <li><a href="https://github.com/YubNub7" target="_blank" rel="noopener">Source Code (GitHub)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <script>document.write(new Date().getFullYear())</script> WinUtils. Released under the GNU GPL v3.0.</span>
+        <span>No cookies used for tracking &bull; <a href="privacy-policy.html" style="color:#9CA3AF">Privacy Policy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

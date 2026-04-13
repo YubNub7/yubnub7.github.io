@@ -1,0 +1,9 @@
+  ```xml
+  <?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url><loc>https://yubnub7.github.io/</loc></url>
+    <url><loc>https://yubnub7.github.io/file-deduplicator.html</loc></url>
+    <url><loc>https://yubnub7.github.io/debloat-pro.html</loc></url>
+    <url><loc>https://yubnub7.github.io/privacy-policy.html</loc></url>
+  </urlset>
+  ```
