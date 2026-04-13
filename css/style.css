@@ -512,18 +512,14 @@ p  { max-width: 68ch; }
   justify-content: center;
 }
 
-/* --- Screenshot placeholder --- */
-.screenshot-placeholder {
-  background: linear-gradient(135deg, #E3F2FD, #BBDEFB);
+/* --- App screenshot --- */
+.app-screenshot {
+  max-width: 100%;
+  width: 720px;
   border-radius: var(--radius-lg);
-  border: 1px solid #90CAF9;
-  padding: 4rem 2rem;
-  text-align: center;
-  color: #1565C0;
-  margin-top: 2rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+  border: 1px solid var(--border);
 }
-.screenshot-placeholder__icon { font-size: 3rem; margin-bottom: .75rem; }
-.screenshot-placeholder p     { font-size: .9rem; opacity: .7; margin: 0 auto; }
 
 /* --- Footer --- */
 .footer {
