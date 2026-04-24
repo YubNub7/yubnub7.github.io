@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Free Up Disk Space on Windows 10 and 11 | WinUtils Tips</title>
+  <meta name="description" content="A practical guide to recovering disk space on Windows 10 and 11. Learn which files are safe to delete, how to use built-in tools, and where the biggest space wasters hide." />
+  <meta name="keywords" content="free up disk space windows 11, free up disk space windows 10, how to clean up windows, recover disk space, windows storage full, clean c drive windows" />
+
+  <meta property="og:title"       content="How to Free Up Disk Space on Windows 10 and 11" />
+  <meta property="og:description" content="Practical steps to recover gigabytes of wasted disk space on Windows — from quick wins to deep cleaning." />
+  <meta property="og:type"        content="article" />
+  <meta property="og:url"         content="https://yubnub7.github.io/tips-free-up-disk-space.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3113497797062498" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Win<span>Utils</span></a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+        <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+        <li><a href="guide-file-deduplicator.html">Guides</a></li>
+        <li><a href="tips-free-up-disk-space.html" aria-current="page">Tips</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://github.com/yubnub7" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <sep>›</sep>
+        <a href="tips-free-up-disk-space.html">Windows Tips</a>
+        <sep>›</sep>
+        <span>Free Up Disk Space</span>
+      </nav>
+      <p class="section-label">Windows Tips</p>
+      <h1>How to Free Up Disk Space on Windows 10 and 11</h1>
+      <p>A practical walkthrough — from the quick wins to the deep cleaning strategies that actually move the needle.</p>
+      <div class="guide-meta">
+        <span>🪟 Windows 10 / 11</span>
+        <span>⏱ ~8 min read</span>
+        <span>📅 2024</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="container ad-wrapper">
+    <div class="ad-slot ad-slot--leaderboard"><p class="ad-label">Advertisement</p></div>
+  </div>
+
+  <section class="section section--alt">
+    <div class="container guide-content">
+
+      <div class="toc">
+        <h3>In this article</h3>
+        <ol>
+          <li><a href="#why-disk-fills">Why Windows drives fill up faster than you expect</a></li>
+          <li><a href="#storage-sense">Use Storage Sense to automate cleanup</a></li>
+          <li><a href="#temp-files">Delete temp files manually</a></li>
+          <li><a href="#duplicate-files">Find and remove duplicate files</a></li>
+          <li><a href="#large-files">Hunt down large forgotten files</a></li>
+          <li><a href="#browser-cache">Clear browser cache</a></li>
+          <li><a href="#windows-update">Clean up Windows Update leftovers</a></li>
+          <li><a href="#recycle-bin">Empty the Recycle Bin (and check its size)</a></li>
+        </ol>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="why-disk-fills">
+    <div class="container guide-content">
+      <p class="section-label">Section 1</p>
+      <h2>Why Windows drives fill up faster than you expect</h2>
+      <p>A 500 GB SSD sounds like plenty of space until Windows starts warning you it's almost full. The reason is that Windows doesn't just store your files — it quietly accumulates its own pile of data in the background. Windows Update caches old patch files in case you need to roll back. Every browser session leaves cached images, scripts, and cookies. Applications write to temporary folders constantly and almost never clean up after themselves. Installer packages remain on disk long after the software they installed is running.</p>
+      <p>The result is that on a typical Windows 10 or 11 machine that has been running for a year or two, anywhere from 10 to 40 GB of disk space is occupied by files that can be safely deleted without affecting any installed software or your personal data. This article walks through each category from fastest to most impactful.</p>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="storage-sense">
+    <div class="container guide-content">
+      <p class="section-label">Section 2</p>
+      <h2>Use Storage Sense to automate cleanup</h2>
+      <p>Windows 10 and 11 both include a feature called Storage Sense that can automatically delete certain categories of temporary files on a schedule. It is disabled by default but takes about 60 seconds to configure.</p>
+
+      <div class="step-card">
+        <div class="step-card__num">1</div>
+        <div class="step-card__body">Open <strong>Settings → System → Storage</strong>. You will see a breakdown of what is using space on each drive.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-card__num">2</div>
+        <div class="step-card__body">Click <strong>Storage Sense</strong> and toggle it on. Set it to run automatically — monthly is a reasonable default for most users.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-card__num">3</div>
+        <div class="step-card__body">Under "Delete files in my recycle bin if they have been there for over," set this to 30 days. Do the same for the Downloads folder if you're comfortable with that.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-card__num">4</div>
+        <div class="step-card__body">Click <strong>Run Storage Sense now</strong> to do an immediate cleanup pass. This typically recovers between 1 and 5 GB on a machine that hasn't been cleaned in a while.</div>
+      </div>
+
+      <div class="tip-box tip-box--info" style="margin-top:1.5rem;">
+        Storage Sense targets temp files, Recycle Bin contents, and old Windows Update delivery optimization files. It does not touch your personal documents, photos, or installed applications.
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="temp-files">
+    <div class="container guide-content">
+      <p class="section-label">Section 3</p>
+      <h2>Delete temp files manually</h2>
+      <p>Windows maintains two main temporary file locations that fill up over time. Both are safe to delete completely while no programs are actively running.</p>
+
+      <p><strong>%TEMP% (user temp folder):</strong> Press <kbd>Win + R</kbd>, type <code>%TEMP%</code>, and press Enter. This opens your user-level temp folder, typically at <code>C:\Users\[username]\AppData\Local\Temp</code>. Select everything with <kbd>Ctrl + A</kbd>, then delete. You may get "file in use" errors for a handful of files — skip those and delete the rest.</p>
+
+      <p><strong>Windows\Temp (system temp folder):</strong> Press <kbd>Win + R</kbd>, type <code>C:\Windows\Temp</code>, and press Enter. Delete the contents the same way. This folder typically requires administrator permission.</p>
+
+      <div class="tip-box tip-box--warning">
+        <strong>Close other applications first.</strong> Running programs write temporary files constantly. If you delete temp files while an application is writing to them, you may get errors or the application may crash. Close browsers, Office apps, and anything else before cleaning temp folders.
+      </div>
+
+      <p>Between these two locations, it is common to recover 1–8 GB on a machine that has never had them cleared. De-Bloat Pro can automate this process, handling both folders and skipping in-use files automatically.</p>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="duplicate-files">
+    <div class="container guide-content">
+      <p class="section-label">Section 4</p>
+      <h2>Find and remove duplicate files</h2>
+      <p>Duplicate files are one of the least obvious sources of wasted space because they're invisible — you don't know they exist until you go looking. They accumulate when you download the same attachment from email multiple times, copy a folder to back it up without remembering you already did, or migrate from an old PC and bring along a second copy of everything.</p>
+
+      <p>The only reliable way to find true duplicates is by comparing file contents, not names. Two files named <code>photo_edited.jpg</code> and <code>photo_backup.jpg</code> could be identical inside even though their names differ, and two files with the same name in different folders might be different versions of the same document.</p>
+
+      <p><a href="file-deduplicator.html">File Deduplicator</a> handles this by computing a SHA-256 hash of every file in your chosen folders and grouping files with matching hashes. The result is a list of verified duplicate groups with sizes, so you can see exactly what each deletion will recover before committing to anything.</p>
+
+      <div class="tip-box tip-box--success">
+        <strong>Where to look first:</strong> Downloads folder, Desktop, Documents, and OneDrive/Google Drive sync folders tend to accumulate the most duplicates. Scanning all four in one pass typically finds the most wasted space.
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="large-files">
+    <div class="container guide-content">
+      <p class="section-label">Section 5</p>
+      <h2>Hunt down large forgotten files</h2>
+      <p>Sometimes disk space disappears not because of many small files but because of one or two very large ones you've forgotten about. Common culprits include old virtual machine disk images (.vmdk, .vhd), game install packages you downloaded and never deleted, video files from old projects, and database backups.</p>
+
+      <p>Windows has a built-in way to find these: open <strong>Settings → System → Storage → Other</strong>, which shows a breakdown by file type. For a more detailed view, the free tool <strong>WinDirStat</strong> visualizes your entire drive as a color-coded treemap, making it immediately obvious which files and folders are consuming the most space.</p>
+
+      <p>Once you've found the large files, verify you actually no longer need them before deleting. Virtual machine images and database backups in particular can look like junk but represent hours of work.</p>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="browser-cache">
+    <div class="container guide-content">
+      <p class="section-label">Section 6</p>
+      <h2>Clear browser cache</h2>
+      <p>Browsers cache every image, stylesheet, script, and video thumbnail you encounter while browsing. On a heavily used machine this cache can grow to several gigabytes over months of normal use. It exists to make page loads faster when you revisit sites, but it's completely safe to delete — the only side effect is slightly slower first loads on sites you visit frequently until the cache rebuilds.</p>
+
+      <p><strong>Chrome and Edge:</strong> Press <kbd>Ctrl + Shift + Delete</kbd>, select "All time" from the time range dropdown, check "Cached images and files," and click Clear data.</p>
+
+      <p><strong>Firefox:</strong> Press <kbd>Ctrl + Shift + Delete</kbd>, set the time range to "Everything," check "Cache," and click OK.</p>
+
+      <p>De-Bloat Pro can clear browser cache for Chrome, Edge, Firefox, and Brave in a single pass, including the browser-specific subdirectories that the in-browser clear sometimes misses.</p>
+    </div>
+  </section>
+
+  <section class="section" id="windows-update">
+    <div class="container guide-content">
+      <p class="section-label">Section 7</p>
+      <h2>Clean up Windows Update leftovers</h2>
+      <p>After Windows installs updates, it keeps a copy of the replaced system files in the <code>C:\Windows\WinSxS</code> folder. This allows you to uninstall recent updates if something breaks. The downside is that this folder can grow very large — on systems that have been running for several years without cleanup, WinSxS can reach 10–20 GB.</p>
+
+      <p>The safe way to clean this up is through Disk Cleanup. Press <kbd>Win + S</kbd>, search for "Disk Cleanup," right-click it and choose <strong>Run as administrator</strong>. Click <strong>Clean up system files</strong>, check "Windows Update Cleanup" and "Previous Windows installations" (if present), and click OK. This is safe to do once your current Windows version has been stable for a few weeks.</p>
+
+      <div class="tip-box tip-box--warning">
+        <strong>Note:</strong> After running Windows Update Cleanup, you will no longer be able to uninstall the updates that were cleaned. Only do this once you're confident the recent updates haven't caused any issues.
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="recycle-bin">
+    <div class="container guide-content">
+      <p class="section-label">Section 8</p>
+      <h2>Empty the Recycle Bin (and check its size limit)</h2>
+      <p>This seems obvious, but it's easy to forget: files in the Recycle Bin still occupy disk space. If you've been deleting files for months without emptying it, the bin could be holding gigabytes. Right-click the Recycle Bin icon on the desktop and choose Empty Recycle Bin.</p>
+
+      <p>Less obvious: Windows sets a maximum size for the Recycle Bin per drive, and the default is often 10% of the drive capacity. On a 1 TB drive that's 100 GB — a significant amount of space that could be reserved for files you've already decided to delete. To reduce this, right-click the Recycle Bin, choose Properties, and lower the maximum size to something more reasonable like 4096 MB (4 GB).</p>
+
+      <div class="tip-box tip-box--success">
+        <strong>Quick summary — space recovered per step:</strong><br>
+        Storage Sense: 1–5 GB &bull; Temp files: 1–8 GB &bull; Duplicate files: 2–20+ GB &bull; Browser cache: 0.5–3 GB &bull; Windows Update cleanup: 2–15 GB
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="guide-nav">
+        <div>
+          <p style="font-size:.8rem;color:var(--text-muted);margin-bottom:.25rem;">More Windows tips</p>
+          <a href="tips-safe-to-delete.html">What's actually safe to delete in Windows →</a>
+        </div>
+        <a href="debloat-pro.html#download" class="btn btn--orange">⬇ Download De-Bloat Pro Free</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">Win<span>Utils</span></span>
+          <p class="footer__tagline">Free, open-source Windows utilities built with transparency and user safety as the top priority.</p>
+          <span class="footer__gpl">📜 GNU GPL v3.0</span>
+        </div>
+        <div class="footer__col">
+          <h4>Tools</h4>
+          <ul>
+            <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+            <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Guides &amp; Tips</h4>
+          <ul>
+            <li><a href="guide-file-deduplicator.html">File Deduplicator Guide</a></li>
+            <li><a href="guide-debloat-pro.html">De-Bloat Pro Guide</a></li>
+            <li><a href="tips-free-up-disk-space.html">Free Up Disk Space</a></li>
+            <li><a href="tips-safe-to-delete.html">Safe to Delete in Windows</a></li>
+            <li><a href="tips-signs-pc-needs-cleanup.html">Signs Your PC Needs a Cleanup</a></li>
+            <li><a href="tips-registry-orphans.html">Registry Orphans Explained</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Legal &amp; Info</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">GPL v3 License</a></li>
+            <li><a href="https://github.com/yubnub7" target="_blank" rel="noopener">Source Code</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <script>document.write(new Date().getFullYear())</script> WinUtils. Released under the GNU GPL v3.0.</span>
+        <span>No cookies used for tracking &bull; <a href="privacy-policy.html" style="color:#9CA3AF">Privacy Policy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

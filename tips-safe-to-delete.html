@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What's Safe to Delete in Windows 10 and 11 | WinUtils Tips</title>
+  <meta name="description" content="Not sure which Windows files are safe to delete? This guide covers temp files, prefetch, thumbnails, log files, installer caches, and what to leave alone." />
+  <meta name="keywords" content="what files are safe to delete windows, windows temp files safe to delete, can i delete prefetch windows, windows installer cache delete, safe to delete windows files" />
+
+  <meta property="og:title"       content="What's Safe to Delete in Windows 10 and 11" />
+  <meta property="og:description" content="A clear breakdown of which Windows files are safe to delete and which ones to leave alone." />
+  <meta property="og:type"        content="article" />
+  <meta property="og:url"         content="https://yubnub7.github.io/tips-safe-to-delete.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3113497797062498" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Win<span>Utils</span></a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+        <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+        <li><a href="guide-file-deduplicator.html">Guides</a></li>
+        <li><a href="tips-free-up-disk-space.html" aria-current="page">Tips</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://github.com/yubnub7" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <sep>›</sep>
+        <a href="tips-free-up-disk-space.html">Windows Tips</a>
+        <sep>›</sep>
+        <span>Safe to Delete</span>
+      </nav>
+      <p class="section-label">Windows Tips</p>
+      <h1>What's Actually Safe to Delete in Windows</h1>
+      <p>A clear, no-guesswork breakdown of which files you can delete confidently, which ones to leave alone, and why.</p>
+      <div class="guide-meta">
+        <span>🪟 Windows 10 / 11</span>
+        <span>⏱ ~7 min read</span>
+        <span>📅 2024</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="container ad-wrapper">
+    <div class="ad-slot ad-slot--leaderboard"><p class="ad-label">Advertisement</p></div>
+  </div>
+
+  <section class="section section--alt">
+    <div class="container guide-content">
+      <div class="toc">
+        <h3>In this article</h3>
+        <ol>
+          <li><a href="#temp">Temporary files (%TEMP% and Windows\Temp)</a></li>
+          <li><a href="#prefetch">Prefetch files</a></li>
+          <li><a href="#thumbnails">Thumbnail cache</a></li>
+          <li><a href="#browser">Browser cache and cookies</a></li>
+          <li><a href="#downloads">Downloads folder</a></li>
+          <li><a href="#recycle">Recycle Bin contents</a></li>
+          <li><a href="#logs">Windows log files</a></li>
+          <li><a href="#leave-alone">Files to leave alone</a></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="temp">
+    <div class="container guide-content">
+      <p class="section-label">Section 1</p>
+      <h2>Temporary files — %TEMP% and Windows\Temp</h2>
+      <div class="tip-box tip-box--success"><strong>Safe to delete:</strong> Yes, with one caveat.</div>
+      <p>Temporary files are created by Windows and applications as working space — think of them as scratch paper. When you install software, extract a ZIP, render a video, or open a document, the application writes temporary data here. When the operation finishes, the application is supposed to clean up after itself. Most don't.</p>
+      <p>The <strong>%TEMP%</strong> folder (at <code>C:\Users\[your name]\AppData\Local\Temp</code>) is your user-level temp folder. The <strong>C:\Windows\Temp</strong> folder is the system-level equivalent used by Windows itself and system services.</p>
+      <p>Both are safe to delete. The caveat: close all running applications first. Some programs hold open handles to temp files while running, and deleting those files can cause errors or crashes. You'll get "file in use" errors on the ones you can't delete — skip those and delete the rest.</p>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="prefetch">
+    <div class="container guide-content">
+      <p class="section-label">Section 2</p>
+      <h2>Prefetch files</h2>
+      <div class="tip-box tip-box--success"><strong>Safe to delete:</strong> Yes, minor performance tradeoff.</div>
+      <p>Located at <code>C:\Windows\Prefetch</code>, prefetch files are small records that Windows keeps about programs you've run. When you launch an application, Windows reads its prefetch file to understand which disk reads will be needed and loads them proactively, making the second and subsequent launches faster than the first.</p>
+      <p>Deleting prefetch files is completely safe. The only consequence is that the next launch of each affected program will be very slightly slower while Windows rebuilds the prefetch data — typically by less than a second. Windows will recreate the files automatically as you use your computer.</p>
+      <p>Prefetch files are small — each one is only a few hundred kilobytes — so deleting them doesn't recover a huge amount of space. De-Bloat Pro cleans the prefetch folder as part of its standard cleanup pass.</p>
+    </div>
+  </section>
+
+  <section class="section" id="thumbnails">
+    <div class="container guide-content">
+      <p class="section-label">Section 3</p>
+      <h2>Thumbnail cache</h2>
+      <div class="tip-box tip-box--success"><strong>Safe to delete:</strong> Yes.</div>
+      <p>When you open a folder full of images or videos in File Explorer, Windows generates small preview thumbnails for each file and stores them in a hidden database at <code>C:\Users\[your name]\AppData\Local\Microsoft\Windows\Explorer</code>. This cache exists purely to speed up future browses of the same folder — without it, Explorer has to regenerate thumbnails every time, which takes a moment.</p>
+      <p>Deleting the thumbnail cache is completely safe. File Explorer will rebuild it the next time you browse image folders. On machines with large photo libraries, this cache can grow to several gigabytes.</p>
+      <p>To clear it: open Disk Cleanup, select your C: drive, and check "Thumbnails" in the list. Alternatively, it's included in De-Bloat Pro's cleanup pass.</p>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="browser">
+    <div class="container guide-content">
+      <p class="section-label">Section 4</p>
+      <h2>Browser cache and cookies</h2>
+      <div class="tip-box tip-box--success"><strong>Cache: safe to delete.</strong> <strong>Cookies: safe, but with side effects.</strong></div>
+      <p><strong>Browser cache</strong> stores copies of web pages, images, and scripts so they load faster on repeat visits. Deleting it is completely safe — the only side effect is slightly slower first loads on familiar sites while the cache rebuilds. Over time this cache can grow to 2–5 GB.</p>
+      <p><strong>Cookies</strong> store your login sessions and site preferences. Deleting them will log you out of every website where you're currently signed in and reset site-specific settings (like dark mode toggles or language preferences). Safe from a system perspective, but expect to re-log in everywhere.</p>
+      <p>If you want to recover space without losing logins, delete cache only and leave cookies. In Chrome and Edge, press <kbd>Ctrl + Shift + Delete</kbd> and uncheck "Cookies" before clearing.</p>
+    </div>
+  </section>
+
+  <section class="section" id="downloads">
+    <div class="container guide-content">
+      <p class="section-label">Section 5</p>
+      <h2>Downloads folder</h2>
+      <div class="tip-box tip-box--warning"><strong>Safe to delete: Review carefully before deleting.</strong></div>
+      <p>Your Downloads folder is often the single largest source of recoverable space — and entirely your responsibility to manage. Old installer files, PDF reports you downloaded once, ZIP archives, and duplicate copies of files you downloaded from email all accumulate here. On a machine that's been running for a few years without cleanup, Downloads can easily hold 10–30 GB.</p>
+      <p>Go through the folder and delete anything you no longer need. Sort by Size to find the biggest items first. Be careful not to delete installer files for software you might need to reinstall — but most installers can be re-downloaded if needed.</p>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="recycle">
+    <div class="container guide-content">
+      <p class="section-label">Section 6</p>
+      <h2>Recycle Bin contents</h2>
+      <div class="tip-box tip-box--success"><strong>Safe to delete:</strong> Yes — that's the point.</div>
+      <p>Files in the Recycle Bin are files you've already decided to delete. They still consume disk space until you empty the bin. The only reason to pause before emptying is to confirm you haven't accidentally deleted something you need.</p>
+      <p>One often-overlooked setting: Windows allows the Recycle Bin to grow up to 10% of your drive size by default. On a 1 TB drive, that's 100 GB potentially held for deleted files. Right-click the Recycle Bin → Properties and lower the maximum size to something more reasonable like 4 GB.</p>
+    </div>
+  </section>
+
+  <section class="section" id="logs">
+    <div class="container guide-content">
+      <p class="section-label">Section 7</p>
+      <h2>Windows log files</h2>
+      <div class="tip-box tip-box--success"><strong>Safe to delete:</strong> Generally yes, unless you're troubleshooting.</div>
+      <p>Windows writes log files constantly — application logs, system event logs, setup logs, and update logs all pile up in <code>C:\Windows\Logs</code> and other locations. Most of these are only useful when you're actively diagnosing a problem. Once a system is running stably, the old logs serve no purpose.</p>
+      <p>The exception: if you're currently troubleshooting a problem or planning to contact support, keep the logs until the issue is resolved. Log files are often the only record of what went wrong.</p>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="leave-alone">
+    <div class="container guide-content">
+      <p class="section-label">Section 8</p>
+      <h2>Files to leave alone</h2>
+      <div class="tip-box tip-box--warning"><strong>Do not delete these without understanding exactly what they are.</strong></div>
+
+      <p><strong>C:\Windows\System32 and C:\Windows\SysWOW64:</strong> Core Windows system files. Deleting anything here can make Windows unbootable. Leave these alone entirely.</p>
+
+      <p><strong>C:\Windows\WinSxS:</strong> The Windows component store, used for updates and repairs. It looks enormous but Windows manages it internally. Don't manually delete files here — use Disk Cleanup's "Windows Update Cleanup" option instead.</p>
+
+      <p><strong>Pagefile.sys and hiberfil.sys:</strong> The page file (virtual memory overflow) and hibernation file. You can disable hibernation to reclaim the space hiberfil.sys uses (typically 4–8 GB), but don't delete these files directly — change the setting in Windows instead.</p>
+
+      <p><strong>C:\Program Files and C:\Program Files (x86):</strong> Installed application files. Don't delete individual files from here — uninstall applications through Settings → Apps instead.</p>
+
+      <p><strong>AppData\Roaming:</strong> Application settings and save data. Many games and applications store save files and configuration here. Deleting this folder will wipe settings and progress for applications that use it.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="guide-nav">
+        <div>
+          <p style="font-size:.8rem;color:var(--text-muted);margin-bottom:.25rem;">More Windows tips</p>
+          <a href="tips-signs-pc-needs-cleanup.html">5 signs your PC needs a cleanup →</a>
+        </div>
+        <a href="debloat-pro.html#download" class="btn btn--orange">⬇ Download De-Bloat Pro Free</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">Win<span>Utils</span></span>
+          <p class="footer__tagline">Free, open-source Windows utilities built with transparency and user safety as the top priority.</p>
+          <span class="footer__gpl">📜 GNU GPL v3.0</span>
+        </div>
+        <div class="footer__col">
+          <h4>Tools</h4>
+          <ul>
+            <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+            <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Guides &amp; Tips</h4>
+          <ul>
+            <li><a href="guide-file-deduplicator.html">File Deduplicator Guide</a></li>
+            <li><a href="guide-debloat-pro.html">De-Bloat Pro Guide</a></li>
+            <li><a href="tips-free-up-disk-space.html">Free Up Disk Space</a></li>
+            <li><a href="tips-safe-to-delete.html">Safe to Delete in Windows</a></li>
+            <li><a href="tips-signs-pc-needs-cleanup.html">Signs Your PC Needs a Cleanup</a></li>
+            <li><a href="tips-registry-orphans.html">Registry Orphans Explained</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Legal &amp; Info</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">GPL v3 License</a></li>
+            <li><a href="https://github.com/yubnub7" target="_blank" rel="noopener">Source Code</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <script>document.write(new Date().getFullYear())</script> WinUtils. Released under the GNU GPL v3.0.</span>
+        <span>No cookies used for tracking &bull; <a href="privacy-policy.html" style="color:#9CA3AF">Privacy Policy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

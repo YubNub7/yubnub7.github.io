@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About WinUtils — Free Windows Utilities</title>
+  <meta name="description" content="WinUtils is a collection of free, open-source Windows utilities built by a working software developer who got tired of bloated, ad-stuffed tools. No subscriptions, no telemetry, no nonsense." />
+  <meta name="keywords" content="about winutils, free windows tools, open source windows utilities, who made winutils" />
+
+  <meta property="og:title"       content="About WinUtils" />
+  <meta property="og:description" content="Free, open-source Windows utilities built by a developer who got tired of bloated, ad-stuffed tools." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://yubnub7.github.io/about.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3113497797062498" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- ═══════════ NAVIGATION ═══════════ -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Win<span>Utils</span></a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+        <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+        <li><a href="guide-file-deduplicator.html">Guides</a></li>
+        <li><a href="tips-free-up-disk-space.html">Tips</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://github.com/yubnub7" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <sep>›</sep>
+        <span>About</span>
+      </nav>
+      <p class="section-label">About WinUtils</p>
+      <h1>Built by a developer who needed better tools</h1>
+      <p>Free, open-source Windows utilities with no subscriptions, no telemetry, and no dark patterns.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════ MAIN CONTENT ═══════════ -->
+  <section class="section section--alt">
+    <div class="container guide-content">
+
+      <h2>Why WinUtils exists</h2>
+      <p>Every developer eventually runs into the same problem: you need a simple utility to clean up your PC or find duplicate files, and every tool you find is either paywalled after a free trial, stuffed with adware, or quietly installs a browser toolbar you never asked for. CCleaner used to be the gold standard for PC cleaning — until it got acquired, bloated, and started bundling software. Duplicate file finders are everywhere, but most require payment to actually delete anything.</p>
+
+      <p>WinUtils started as a personal project to solve both problems. The goal was straightforward: write utilities that do exactly what they claim, show you everything they plan to do before doing it, never touch the network, and cost nothing. The result is two tools — <a href="file-deduplicator.html">File Deduplicator</a> and <a href="debloat-pro.html">De-Bloat Pro</a> — that have been running on personal machines and shared with colleagues ever since.</p>
+
+      <h2>What we build</h2>
+
+      <div class="why-grid" style="margin-top:1.5rem;">
+        <div class="why-card">
+          <div class="why-card__icon">📄</div>
+          <h4>File Deduplicator</h4>
+          <p>Finds genuinely identical files using SHA-256 hashing — not just same-name files, but byte-for-byte identical content regardless of filename or location. Safely removes duplicates to the Recycle Bin, a quarantine folder, or permanently, with a full after-action report.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__icon">🛡️</div>
+          <h4>De-Bloat Pro</h4>
+          <p>A transparent alternative to bloated system cleaners. Removes temp files, browser cache, and orphaned registry entries — but only after showing you exactly what it plans to remove. Every registry operation is backed up to a .reg file before anything is touched.</p>
+        </div>
+      </div>
+
+      <h2 style="margin-top:2.5rem;">Our principles</h2>
+
+      <div class="step-card" style="margin-bottom:1rem;">
+        <div class="step-card__num">1</div>
+        <div class="step-card__body">
+          <strong>No network code.</strong> Both tools contain zero network imports. They cannot phone home, check for updates automatically, send crash reports, or contact any server. This is verifiable in the source code on GitHub — not a policy statement, a technical fact.
+        </div>
+      </div>
+
+      <div class="step-card" style="margin-bottom:1rem;">
+        <div class="step-card__num">2</div>
+        <div class="step-card__body">
+          <strong>Preview before action.</strong> Every destructive operation — file deletion, cache removal, registry cleanup — is shown to you before it happens. Analyze mode is always available and always free.
+        </div>
+      </div>
+
+      <div class="step-card" style="margin-bottom:1rem;">
+        <div class="step-card__num">3</div>
+        <div class="step-card__body">
+          <strong>Backups before registry changes.</strong> De-Bloat Pro exports a .reg backup file before removing any registry key. If something goes wrong, you can restore with a double-click.
+        </div>
+      </div>
+
+      <div class="step-card" style="margin-bottom:1rem;">
+        <div class="step-card__num">4</div>
+        <div class="step-card__body">
+          <strong>Open source, always.</strong> All code is published under the GNU GPL v3.0. You can read it, compile it yourself, fork it, or audit it. There are no hidden builds or binary-only releases.
+        </div>
+      </div>
+
+      <div class="step-card" style="margin-bottom:1rem;">
+        <div class="step-card__num">5</div>
+        <div class="step-card__body">
+          <strong>Free, permanently.</strong> Not "free tier with paid upgrade." Not "free for 30 days." Free. There is no premium version. All features are available from the first launch with no account required.
+        </div>
+      </div>
+
+      <h2 style="margin-top:2.5rem;">Who maintains this</h2>
+      <p>WinUtils is maintained by a software developer with a background in network engineering and systems administration. The tools grew out of real frustration with the available alternatives — and a belief that utilities this straightforward shouldn't cost money or come with strings attached.</p>
+
+      <p>Both tools are actively maintained. Bug reports and feature suggestions are welcome via <a href="https://github.com/yubnub7" target="_blank" rel="noopener">GitHub</a> or the <a href="contact.html">contact page</a>.</p>
+
+      <div class="tip-box tip-box--info" style="margin-top:2rem;">
+        <strong>Want to contribute?</strong> WinUtils is open source under GPL v3. Pull requests, issue reports, and documentation improvements are all welcome on <a href="https://github.com/yubnub7" target="_blank" rel="noopener">GitHub</a>.
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ CTA ═══════════ -->
+  <section class="section">
+    <div class="container" style="text-align:center;">
+      <p class="section-label">Get Started</p>
+      <h2>Try the tools</h2>
+      <p style="color:var(--text-muted);margin-bottom:1.5rem;">Both utilities are free to download, require no installation, and run from a single .exe file.</p>
+      <div class="hero__actions">
+        <a href="file-deduplicator.html#download" class="btn btn--primary btn--lg">Download File Deduplicator</a>
+        <a href="debloat-pro.html#download"       class="btn btn--orange  btn--lg">Download De-Bloat Pro</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">Win<span>Utils</span></span>
+          <p class="footer__tagline">Free, open-source Windows utilities built with transparency and user safety as the top priority.</p>
+          <span class="footer__gpl">📜 GNU GPL v3.0</span>
+        </div>
+        <div class="footer__col">
+          <h4>Tools</h4>
+          <ul>
+            <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+            <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Guides &amp; Tips</h4>
+          <ul>
+            <li><a href="guide-file-deduplicator.html">File Deduplicator Guide</a></li>
+            <li><a href="guide-debloat-pro.html">De-Bloat Pro Guide</a></li>
+            <li><a href="tips-free-up-disk-space.html">Windows Tips</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Legal &amp; Info</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">GPL v3 License</a></li>
+            <li><a href="https://github.com/yubnub7" target="_blank" rel="noopener">Source Code</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <script>document.write(new Date().getFullYear())</script> WinUtils. Released under the GNU GPL v3.0.</span>
+        <span>No cookies used for tracking &bull; <a href="privacy-policy.html" style="color:#9CA3AF">Privacy Policy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
