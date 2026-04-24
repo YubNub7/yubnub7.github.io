@@ -610,3 +610,218 @@ p  { max-width: 68ch; }
   .btn--download { width: 100%; justify-content: center; }
   .download-box { padding: 2rem 1.25rem; }
 }
+
+/* ============================================================
+   Guide pages
+   ============================================================ */
+
+.guide-hero {
+  background: linear-gradient(135deg, #F4F6FB 0%, var(--blue-light) 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 3.5rem 0 3rem;
+}
+.guide-hero h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); margin-bottom: 1rem; }
+.guide-hero p  { color: var(--text-muted); font-size: 1.05rem; }
+
+.guide-hero--orange {
+  background: linear-gradient(135deg, #FFF8F0 0%, var(--orange-light) 100%);
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .8rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+.breadcrumb a   { color: var(--blue-mid); }
+.breadcrumb sep { color: var(--text-muted); }
+
+.guide-meta {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: .82rem;
+  color: var(--text-muted);
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.toc {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--blue-mid);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.75rem;
+  margin: 2rem 0;
+  max-width: 640px;
+}
+.toc h3        { font-size: 1rem; margin-bottom: .75rem; color: var(--blue-mid); }
+.toc ol        { padding-left: 1.25rem; }
+.toc li        { font-size: .9rem; color: var(--text-muted); padding: .2rem 0; }
+.toc a         { color: var(--blue-mid); }
+
+.guide-content { max-width: 800px; }
+.guide-content h2 { font-size: 1.45rem; margin: 0 0 1rem; padding-top: .25rem; }
+.guide-content h3 { font-size: 1.1rem; margin: 1.5rem 0 .6rem; }
+.guide-content p  { margin-bottom: 1rem; color: var(--text-muted); font-size: .97rem; }
+.guide-content ul,
+.guide-content ol { padding-left: 1.5rem; margin-bottom: 1rem; }
+.guide-content li { color: var(--text-muted); font-size: .97rem; margin-bottom: .35rem; line-height: 1.7; }
+.guide-content code {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: .15em .45em;
+  font-size: .88em;
+  font-family: 'Courier New', monospace;
+  color: var(--text);
+}
+
+/* Step-by-step cards */
+.step-list  { display: flex; flex-direction: column; gap: 1.25rem; margin: 2rem 0; }
+
+.step-card {
+  display: flex;
+  gap: 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.75rem;
+  box-shadow: var(--shadow-sm);
+  align-items: flex-start;
+}
+
+.step-card__num {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--blue-mid);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step-card--orange .step-card__num { background: var(--orange); }
+
+.step-card__body       { flex: 1; }
+.step-card__body h3    { font-size: 1.05rem; margin-bottom: .4rem; }
+.step-card__body p     { font-size: .9rem; color: var(--text-muted); margin: 0; }
+.step-card__body ul    { padding-left: 1.25rem; margin: .5rem 0 0; }
+.step-card__body li    { font-size: .9rem; color: var(--text-muted); margin-bottom: .25rem; }
+
+/* Tip / callout boxes */
+.tip-box {
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  border-left: 4px solid;
+  font-size: .9rem;
+  line-height: 1.65;
+}
+.tip-box strong { display: block; margin-bottom: .25rem; }
+.tip-box p { color: inherit; margin: 0; font-size: .9rem; max-width: 100%; }
+
+.tip-box--info    { background: var(--blue-light);  border-color: var(--blue-mid); color: #0D47A1; }
+.tip-box--warning { background: #FFF8E1; border-color: #F59E0B; color: #92400E; }
+.tip-box--success { background: #F0FDF4; border-color: #22C55E; color: #166534; }
+
+/* Guide prev/next nav */
+.guide-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  border-top: 1px solid var(--border);
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.guide-nav a { color: var(--blue-mid); font-weight: 600; font-size: .95rem; }
+
+/* ============================================================
+   News feed (homepage)
+   ============================================================ */
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.news-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.news-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+
+.news-card__tag {
+  display: inline-block;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: .2rem .6rem;
+  border-radius: 999px;
+  background: var(--blue-light);
+  color: var(--blue);
+  width: fit-content;
+}
+.news-card__tag--security { background: #FFF3E0; color: var(--orange); }
+
+.news-card__title   { font-size: .97rem; font-weight: 600; line-height: 1.4; margin: 0; }
+.news-card__title a { color: var(--text); }
+.news-card__title a:hover { color: var(--blue-mid); text-decoration: none; }
+
+.news-card__desc {
+  font-size: .85rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  flex: 1;
+  margin: 0;
+  max-width: 100%;
+}
+
+.news-card__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .78rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  padding-top: .75rem;
+  margin-top: auto;
+}
+.news-card__source { font-weight: 600; }
+
+.news-loading,
+.news-empty {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  color: var(--text-muted);
+  font-size: .9rem;
+  grid-column: 1 / -1;
+}
+
+/* 4-column footer */
+@media (min-width: 769px) {
+  .footer__inner { grid-template-columns: 1.5fr repeat(3, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .step-card      { flex-direction: column; gap: .75rem; }
+  .step-card__num { width: 36px; height: 36px; font-size: .95rem; }
+  .guide-nav      { flex-direction: column; text-align: center; }
+  .news-grid      { grid-template-columns: 1fr; }
+}

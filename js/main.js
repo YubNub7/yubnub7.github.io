@@ -63,3 +63,55 @@ document.querySelectorAll('[data-download]').forEach(btn => {
     // gtag('event', 'download', { app_name: appName });
   });
 });
+
+/* --- Tech news feed (homepage only) --- */
+const NEWS_FEEDS = [
+  { name: 'Krebs on Security', url: 'https://krebsonsecurity.com/feed/',                               tag: 'Security' },
+  { name: 'Bleeping Computer', url: 'https://www.bleepingcomputer.com/feed/',                          tag: 'Security' },
+  { name: 'Ars Technica',      url: 'https://feeds.arstechnica.com/arstechnica/technology-lab',        tag: 'Tech'     }
+];
+
+async function loadNewsFeed() {
+  const grid = document.getElementById('news-grid');
+  if (!grid) return;
+
+  const allItems = [];
+
+  await Promise.allSettled(NEWS_FEEDS.map(async feed => {
+    try {
+      const endpoint = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&count=3`;
+      const res = await fetch(endpoint);
+      if (!res.ok) return;
+      const data = await res.json();
+      if (data.items) {
+        data.items.forEach(item => allItems.push({ ...item, feedName: feed.name, tag: feed.tag }));
+      }
+    } catch (_) { /* feed unavailable — skip silently */ }
+  }));
+
+  allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  const top = allItems.slice(0, 6);
+
+  if (top.length === 0) {
+    grid.innerHTML = '<p class="news-empty">Unable to load news feed — please check back later.</p>';
+    return;
+  }
+
+  grid.innerHTML = top.map(item => {
+    const date     = new Date(item.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    const raw      = item.description || item.content || '';
+    const desc     = raw.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().substring(0, 130);
+    const tagClass = item.tag === 'Security' ? 'news-card__tag--security' : '';
+    return `<article class="news-card">
+        <span class="news-card__tag ${tagClass}">${item.tag}</span>
+        <h4 class="news-card__title"><a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a></h4>
+        <p class="news-card__desc">${desc}…</p>
+        <div class="news-card__meta">
+          <span class="news-card__source">${item.feedName}</span>
+          <span class="news-card__date">${date}</span>
+        </div>
+      </article>`;
+  }).join('');
+}
+
+loadNewsFeed();

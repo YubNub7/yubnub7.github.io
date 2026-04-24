@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>De-Bloat Pro — Complete User Guide | WinUtils</title>
+  <meta name="description" content="Step-by-step guide to using De-Bloat Pro on Windows. Learn how to safely clean temp files, browser cache, and orphaned registry entries — with full coverage of Analyze mode, registry backups, and every cleaning module." />
+  <meta name="keywords" content="de-bloat pro guide, how to clean windows registry safely, remove temp files windows, browser cache cleaner guide, windows registry orphan cleaner, ccleaner alternative guide" />
+
+  <meta property="og:title"       content="De-Bloat Pro — Complete User Guide" />
+  <meta property="og:description" content="Step-by-step walkthrough for safely cleaning Windows temp files, browser cache, and orphaned registry entries using De-Bloat Pro." />
+  <meta property="og:type"        content="article" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3113497797062498" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- ═══════════ NAVIGATION ═══════════ -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Win<span>Utils</span></a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+        <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+        <li><a href="guide-file-deduplicator.html">Guides</a></li>
+        <li><a href="privacy-policy.html">Privacy</a></li>
+        <li><a href="https://github.com/yubnub7" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════ GUIDE HERO ═══════════ -->
+  <section class="guide-hero guide-hero--orange">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <sep>›</sep>
+        <a href="debloat-pro.html">De-Bloat Pro</a>
+        <sep>›</sep>
+        <span>User Guide</span>
+      </nav>
+      <p class="section-label" style="color:var(--orange);">Complete User Guide</p>
+      <h1>De-Bloat Pro: Step-by-Step Guide</h1>
+      <p>How to safely clean temp files, browser cache, and Windows registry orphans — including a full walkthrough of every module and the registry backup system.</p>
+      <div class="guide-meta">
+        <span>🛡️ De-Bloat Pro v1.0.0</span>
+        <span>🪟 Windows 10 / 11</span>
+        <span>⏱ ~12 min read</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ AD SLOT ═══════════ -->
+  <div class="container ad-wrapper">
+    <div class="ad-slot ad-slot--leaderboard">
+      <p class="ad-label">Advertisement</p>
+    </div>
+  </div>
+
+  <!-- ═══════════ TABLE OF CONTENTS ═══════════ -->
+  <section class="section section--alt">
+    <div class="container guide-content">
+      <div class="toc" style="border-color:var(--orange);">
+        <h3 style="color:var(--orange);">In this guide</h3>
+        <ol>
+          <li><a href="#what-it-cleans">What De-Bloat Pro cleans and why it matters</a></li>
+          <li><a href="#download">Downloading and the UAC prompt explained</a></li>
+          <li><a href="#interface">Understanding the interface</a></li>
+          <li><a href="#analyze">Always use Analyze mode first</a></li>
+          <li><a href="#temp-files">Module 1: Temp File Scrubber</a></li>
+          <li><a href="#prefetch">Module 2: Prefetch Cleaner</a></li>
+          <li><a href="#browser-cache">Module 3: Browser Cache Cleaner</a></li>
+          <li><a href="#registry">Module 4: Registry Orphan Cleaner</a></li>
+          <li><a href="#backups">Understanding and restoring registry backups</a></li>
+          <li><a href="#tips">Tips and best practices</a></li>
+          <li><a href="#troubleshooting">Troubleshooting</a></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 1 ═══════════ -->
+  <section class="section" id="what-it-cleans">
+    <div class="container guide-content">
+      <p class="section-label">Section 1</p>
+      <h2>What De-Bloat Pro cleans and why it matters</h2>
+
+      <p>Over months and years of normal Windows use, several categories of files accumulate that Windows never automatically removes. None of these are dangerous, but collectively they consume disk space, leave behind a partial record of your activity, and occasionally slow specific operations.</p>
+
+      <p>De-Bloat Pro targets four distinct categories, each handled by a separate module you can enable or disable independently:</p>
+
+      <ul>
+        <li><strong>Temp files</strong> — created by applications during normal operation (installers, document editors, browsers) and rarely cleaned up by the application that created them.</li>
+        <li><strong>Windows Prefetch data</strong> — records of which files were loaded at application launch, used by Windows to optimise future starts. Safe to clear; Windows rebuilds this automatically.</li>
+        <li><strong>Browser cache</strong> — local copies of websites' images, scripts, and stylesheets. Clearing it frees space without affecting passwords or login sessions.</li>
+        <li><strong>Registry orphans</strong> — uninstall entries left in the Windows registry by software that was removed without a proper uninstaller, or by installers that crashed mid-run.</li>
+      </ul>
+
+      <div class="tip-box tip-box--info">
+        <strong>Why not just use CCleaner?</strong>
+        <p>CCleaner had a documented malware injection incident in 2017 (its update mechanism was compromised), has introduced background telemetry without consent in subsequent versions, and is laden with upsell prompts. De-Bloat Pro is open-source, contains no network code whatsoever, and backs up every registry entry before touching it. You can verify every claim by reading the source code on GitHub.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 2 ═══════════ -->
+  <section class="section section--alt" id="download">
+    <div class="container guide-content">
+      <p class="section-label">Section 2</p>
+      <h2>Downloading and the UAC prompt explained</h2>
+
+      <p>Download <strong>DeBloatPro.exe</strong> from the <a href="debloat-pro.html#download">download page</a>. Save it anywhere — your Desktop or Downloads folder works fine. No installation wizard is required.</p>
+
+      <p>When you run the application, Windows will immediately show a <strong>User Account Control (UAC)</strong> prompt asking whether you want to allow this app to make changes to your device. This is expected behaviour, not a warning sign.</p>
+
+      <h3>What administrator access enables</h3>
+      <ul>
+        <li>Cleaning <code>C:\Windows\Temp</code> (a system-owned directory)</li>
+        <li>Cleaning <code>C:\Windows\Prefetch</code> (a system-owned directory)</li>
+      </ul>
+
+      <h3>What works without administrator access</h3>
+      <ul>
+        <li>User temp files (<code>%TEMP%</code> and <code>AppData\Local\Temp</code>)</li>
+        <li>Browser cache (all supported browsers)</li>
+        <li>Registry orphan cleaner</li>
+      </ul>
+
+      <div class="tip-box tip-box--warning">
+        <strong>If you click "No" at the UAC prompt</strong>
+        <p>De-Bloat Pro starts in limited mode. The Prefetch and Windows\Temp modules are automatically disabled and greyed out in the UI. All other modules function normally. A <strong>Restart as Administrator</strong> button appears in the status bar if you change your mind.</p>
+      </div>
+
+      <p>As with all newly published executables, Windows SmartScreen may show a warning on first run. Click <strong>More info → Run anyway</strong>. The full source code is available on GitHub for your review.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 3 ═══════════ -->
+  <section class="section" id="interface">
+    <div class="container guide-content">
+      <p class="section-label">Section 3</p>
+      <h2>Understanding the interface</h2>
+
+      <p>The De-Bloat Pro interface has three main areas:</p>
+
+      <div class="step-list">
+        <div class="step-card step-card--orange">
+          <div class="step-card__num">A</div>
+          <div class="step-card__body">
+            <h3>Module checkboxes</h3>
+            <p>Four checkboxes, one per cleaning module. Enable only the modules you want to run in this session. You can mix and match — for example, run only browser cache and temp files without touching the registry.</p>
+          </div>
+        </div>
+        <div class="step-card step-card--orange">
+          <div class="step-card__num">B</div>
+          <div class="step-card__body">
+            <h3>Mode selector — Analyze vs. Clean</h3>
+            <p>The most important control in the app. <strong>Analyze</strong> reads your system and logs everything that would be cleaned, without touching any files. <strong>Clean</strong> performs the actual cleaning. Always use Analyze first.</p>
+          </div>
+        </div>
+        <div class="step-card step-card--orange">
+          <div class="step-card__num">C</div>
+          <div class="step-card__body">
+            <h3>Run button and live log</h3>
+            <p>Click Run to start the selected modules in the selected mode. The dark-themed live log scrolls in real time, showing every file path and registry key as it is processed. When finished, a summary appears at the bottom of the log.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 4 ═══════════ -->
+  <section class="section section--alt" id="analyze">
+    <div class="container guide-content">
+      <p class="section-label">Section 4</p>
+      <h2>Always use Analyze mode first</h2>
+
+      <p>This is the most important habit to develop when using De-Bloat Pro: <strong>always run in Analyze mode before Clean mode</strong>, especially when using the registry cleaner for the first time.</p>
+
+      <p>Analyze mode is completely safe to run as many times as you want. It scans your system, compiles a list of everything it would clean, prints it to the live log, and then stops. Nothing is deleted, modified, moved, or backed up. The sole purpose is to let you review the list before committing.</p>
+
+      <h3>How to use Analyze mode</h3>
+      <div class="step-list">
+        <div class="step-card step-card--orange">
+          <div class="step-card__num">1</div>
+          <div class="step-card__body">
+            <h3>Select your modules</h3>
+            <p>Check the boxes for the modules you plan to run this session.</p>
+          </div>
+        </div>
+        <div class="step-card step-card--orange">
+          <div class="step-card__num">2</div>
+          <div class="step-card__body">
+            <h3>Ensure "Analyze" is selected</h3>
+            <p>Confirm the mode radio button is set to Analyze, not Clean.</p>
+          </div>
+        </div>
+        <div class="step-card step-card--orange">
+          <div class="step-card__num">3</div>
+          <div class="step-card__body">
+            <h3>Click Run and read the log</h3>
+            <p>Scroll through the full output. For the registry module, check that you recognise (or don't care about) every entry listed. For temp files and browser cache, verify the paths look like your user profile.</p>
+          </div>
+        </div>
+        <div class="step-card step-card--orange">
+          <div class="step-card__num">4</div>
+          <div class="step-card__body">
+            <h3>Switch to Clean mode and run again</h3>
+            <p>If the Analyze output looks as expected, change the mode to Clean and click Run. The same modules run again, this time performing the actual cleaning.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ AD SLOT ═══════════ -->
+  <div class="container ad-wrapper">
+    <div class="ad-slot ad-slot--leaderboard">
+      <p class="ad-label">Advertisement</p>
+    </div>
+  </div>
+
+  <!-- ═══════════ SECTION 5 ═══════════ -->
+  <section class="section" id="temp-files">
+    <div class="container guide-content">
+      <p class="section-label">Section 5</p>
+      <h2>Module 1: Temp File Scrubber</h2>
+
+      <p>The Temp File Scrubber targets three locations:</p>
+      <ul>
+        <li><code>%TEMP%</code> — resolves to <code>C:\Users\[YourName]\AppData\Local\Temp</code></li>
+        <li><code>%USERPROFILE%\AppData\Local\Temp</code> — same path, cross-referenced for completeness</li>
+        <li><code>C:\Windows\Temp</code> — requires administrator access</li>
+      </ul>
+
+      <p>These directories are populated constantly during normal Windows use. Installers extract files here, applications write logs here, and browsers write temporary data here. Most applications clean up after themselves when they close, but many do not — and Windows never automatically clears these directories between reboots.</p>
+
+      <p><strong>Temp file cleaning is universally safe.</strong> No running application depends on temp files persisting after it closes. If a file cannot be deleted because another application currently has it open, De-Bloat Pro logs the error and moves on — it does not retry aggressively or attempt to force-close processes.</p>
+
+      <div class="tip-box tip-box--success">
+        <strong>How much space can you recover?</strong>
+        <p>On a PC that has never had its temp folders cleaned, it is common to find 1–5 GB of accumulated temp files. On actively-used development machines, this can be 10 GB or more from compiler outputs, package caches, and installer extractions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 6 ═══════════ -->
+  <section class="section section--alt" id="prefetch">
+    <div class="container guide-content">
+      <p class="section-label">Section 6</p>
+      <h2>Module 2: Prefetch Cleaner</h2>
+
+      <p>Windows Prefetch is a built-in performance feature. When you launch an application, Windows records which files it loaded and in what order, storing this data in <code>C:\Windows\Prefetch</code> as a <code>.pf</code> file. On subsequent launches, Windows can pre-load those files in the background, making the application open faster.</p>
+
+      <p>Prefetch files are not sensitive from a system-stability standpoint — Windows creates them automatically and rebuilds them the next time each application is run. However, they do maintain a historical record of which programs have been executed on the machine, including applications that have since been uninstalled. These ghost records accumulate over time.</p>
+
+      <p>Clearing prefetch frees a modest amount of disk space (typically 50–300 MB) and removes the activity history. After cleaning, your most-used applications may open slightly slower for their next one or two launches while Windows rebuilds the prefetch data. On SSDs, this difference is imperceptible. On HDDs, the first launch after a prefetch clear may take one to two extra seconds.</p>
+
+      <div class="tip-box tip-box--warning">
+        <strong>Administrator access required</strong>
+        <p>The Prefetch directory is owned by Windows. Cleaning it requires the app to be running with administrator privileges. If De-Bloat Pro was not elevated at launch, this module is automatically disabled. Use the <strong>Restart as Administrator</strong> button in the status bar to re-launch elevated.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 7 ═══════════ -->
+  <section class="section" id="browser-cache">
+    <div class="container guide-content">
+      <p class="section-label">Section 7</p>
+      <h2>Module 3: Browser Cache Cleaner</h2>
+
+      <p>The browser cache module clears local cache directories for the following browsers, if installed on your system:</p>
+      <ul>
+        <li>Google Chrome (all profiles)</li>
+        <li>Microsoft Edge (Chromium-based, all profiles)</li>
+        <li>Brave Browser</li>
+        <li>Opera</li>
+        <li>Mozilla Firefox (all profiles)</li>
+      </ul>
+
+      <p>De-Bloat Pro uses full directory traversal to reach cache files in subdirectories that simpler tools miss. This is especially relevant for Chrome and Edge, which store cache in nested subdirectories within each browser profile.</p>
+
+      <h3>What is cleared vs. what is not</h3>
+      <p>The module clears <strong>cache directories only</strong>. The following are explicitly not touched:</p>
+      <ul>
+        <li>Cookies</li>
+        <li>Saved passwords</li>
+        <li>Browsing history</li>
+        <li>Bookmarks</li>
+        <li>Session data (you will not be logged out of any website)</li>
+        <li>Browser extensions and their data</li>
+        <li>Autofill data</li>
+      </ul>
+
+      <div class="tip-box tip-box--info">
+        <strong>After clearing browser cache</strong>
+        <p>The first visit to frequently-visited websites after a cache clear may load slightly slower, as the browser re-downloads images, scripts, and stylesheets it previously cached. This is a one-time delay per site and disappears on the second visit. On fast connections, most users notice no difference at all.</p>
+      </div>
+
+      <p>How much space browser cache uses varies widely. A user who does not clear their cache and uses Chrome heavily with multiple profiles may find 3–10 GB of cached data on their system. This figure is entirely normal — the cache is a performance feature, not a flaw — but clearing it periodically prevents it from growing without bound.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 8 ═══════════ -->
+  <section class="section section--alt" id="registry">
+    <div class="container guide-content">
+      <p class="section-label">Section 8</p>
+      <h2>Module 4: Registry Orphan Cleaner</h2>
+
+      <p>The Windows registry contains an <strong>Uninstall hive</strong> that stores information about every piece of software installed via a proper installer. When software is correctly uninstalled, its registry entry is removed. When software is deleted manually, moved to a different drive, or removed by an uninstaller that did not finish cleanly, the registry entry is left behind as an "orphan."</p>
+
+      <p>De-Bloat Pro scans these two registry locations:</p>
+      <ul>
+        <li><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall</code></li>
+        <li><code>HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall</code> (32-bit apps on 64-bit Windows)</li>
+      </ul>
+
+      <p>For each entry, it checks whether the <code>InstallLocation</code> value points to a path that still exists on disk. If the path is missing — meaning the software's files are gone but the registry entry remains — the entry is flagged as an orphan.</p>
+
+      <div class="tip-box tip-box--warning">
+        <strong>What the registry cleaner does NOT do</strong>
+        <p>It does not perform broad registry cleaning. It does not remove "invalid" entries, "unused" DLL paths, or attempt to repair corrupted entries. It targets only one specific category: Uninstall entries whose install path no longer exists. This narrow scope is intentional — it dramatically reduces the risk of false positives.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 9 ═══════════ -->
+  <section class="section" id="backups">
+    <div class="container guide-content">
+      <p class="section-label">Section 9</p>
+      <h2>Understanding and restoring registry backups</h2>
+
+      <p>Before De-Bloat Pro removes any registry entry, it exports it to a <code>.reg</code> file. This backup happens unconditionally — if the backup export fails for any reason, the deletion is skipped entirely. The app never deletes a registry key without a successful backup.</p>
+
+      <h3>Where backups are stored</h3>
+      <p>All registry backups are saved to:</p>
+      <p><code>C:\Users\[YourName]\DeBloatPro_Backups\</code></p>
+      <p>This folder is created automatically on first run. You can navigate to it via File Explorer or by typing <code>%USERPROFILE%\DeBloatPro_Backups</code> in the address bar.</p>
+
+      <h3>Backup file naming</h3>
+      <p>Each backup file is named using the format:</p>
+      <p><code>[Date]_[Time]_[SoftwareName].reg</code></p>
+      <p>For example: <code>2026-04-24_14-30-00_AcmeWidget.reg</code></p>
+      <p>The timestamp and software name make it straightforward to identify which backup corresponds to which registry entry, even weeks later.</p>
+
+      <h3>Restoring a backup</h3>
+      <div class="step-list">
+        <div class="step-card step-card--orange">
+          <div class="step-card__num">1</div>
+          <div class="step-card__body">
+            <h3>Navigate to the backup folder</h3>
+            <p>Open File Explorer and go to <code>%USERPROFILE%\DeBloatPro_Backups\</code>.</p>
+          </div>
+        </div>
+        <div class="step-card step-card--orange">
+          <div class="step-card__num">2</div>
+          <div class="step-card__body">
+            <h3>Find the relevant .reg file</h3>
+            <p>Locate the backup for the entry you want to restore. Use the date/time in the filename to identify which clean session it came from.</p>
+          </div>
+        </div>
+        <div class="step-card step-card--orange">
+          <div class="step-card__num">3</div>
+          <div class="step-card__body">
+            <h3>Double-click the .reg file</h3>
+            <p>Windows will ask: "Are you sure you want to continue? If you continue, the values in [filename] will be added to the registry." Click <strong>Yes</strong>.</p>
+          </div>
+        </div>
+        <div class="step-card step-card--orange">
+          <div class="step-card__num">4</div>
+          <div class="step-card__body">
+            <h3>Confirm the restore</h3>
+            <p>Windows will confirm "The keys and values contained in [filename] have been successfully added to the registry." The software entry is now restored to Add/Remove Programs.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tip-box tip-box--info">
+        <strong>Restoring a registry entry does not reinstall the software</strong>
+        <p>The backup restores the Add/Remove Programs entry only. If the software's actual files were already removed, restoring the registry entry will not bring those files back. The restored entry is useful if a partially-uninstalled application still has files on disk and needs its registry entry to function.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 10 ═══════════ -->
+  <section class="section section--alt" id="tips">
+    <div class="container guide-content">
+      <p class="section-label">Section 10</p>
+      <h2>Tips and best practices</h2>
+
+      <div class="features-grid" style="margin-top:1.5rem;">
+        <div class="feature-card">
+          <div class="feature-card__icon">🔍</div>
+          <h4>Analyze first, always</h4>
+          <p>Even if you trust the tool, reviewing what will be cleaned takes 30 seconds and prevents surprises. This is especially important for the registry module on machines you have not cleaned before.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">📁</div>
+          <h4>Check the backup folder</h4>
+          <p>After a Clean run of the registry module, open the DeBloatPro_Backups folder and confirm that .reg files were created — before closing the app.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🗓️</div>
+          <h4>Registry cleaner: quarterly is enough</h4>
+          <p>The orphan list grows when software is installed and removed. Running the registry cleaner monthly or quarterly is appropriate. Running it daily is unnecessary and adds wear to your storage.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">⏸️</div>
+          <h4>Don't run during installations</h4>
+          <p>Temp file cleaners can interfere with an in-progress installer if they delete files the installer created in %TEMP%. Wait until all installations are complete before running De-Bloat Pro.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🌐</div>
+          <h4>Close browsers before cleaning cache</h4>
+          <p>Browsers lock their cache files while running. For the most thorough cache clean, close all browser windows before running the browser cache module.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">📋</div>
+          <h4>Save the clean report</h4>
+          <p>The live log's Save function writes a timestamped .txt file. Keeping a history of what was cleaned on what date is useful if you ever need to diagnose a problem and want to know what changed recently.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 11: TROUBLESHOOTING ═══════════ -->
+  <section class="section" id="troubleshooting">
+    <div class="container guide-content">
+      <p class="section-label">Section 11</p>
+      <h2>Troubleshooting</h2>
+
+      <div class="faq" style="margin-top:1.5rem;">
+        <div class="faq__item">
+          <button class="faq__question">Access denied errors on temp files <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">This means another application has a temp file open and locked. De-Bloat Pro logs these errors and continues — it does not force-close applications. Close the applications that are likely holding temp files (browsers, Office, Outlook) and run again, or reboot the PC and run immediately before opening other programs for a thorough clean.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">No registry orphans were found <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">This is a genuinely good result. It means all software removed from your PC was properly uninstalled (its uninstaller cleaned the registry correctly). Fresh Windows installs or machines maintained with a proper uninstaller will consistently have zero orphans. Run the cleaner again after your next software removal cycle.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">The UAC prompt does not appear — the app starts in limited mode immediately <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">If you are logged into a standard (non-administrator) Windows account, Windows may not show a UAC prompt — it simply denies the elevation request silently. Right-click DeBloatPro.exe and select <strong>Run as administrator</strong>. Windows will prompt you for administrator credentials. All modules will then be available.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">Browser cache cleaner shows 0 bytes cleaned <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">Two common causes: (1) The browser is still running and has its cache files locked — close all browser windows and retry. (2) You or another tool recently cleared the cache — there is simply nothing left to clean. This is a valid zero-byte result, not an error.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">Backup .reg files were not created for some entries <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">If the backup folder cannot be created or written to, De-Bloat Pro skips the deletion for that entry rather than proceeding without a backup. Check that your user profile folder (<code>C:\Users\[YourName]</code>) is writable — this would indicate an unusual permission configuration. Running as administrator typically resolves any permission issue with the backup folder.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">I restored a registry key but the application still does not appear in Add/Remove Programs <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">After importing the .reg file, the entry should appear immediately in Settings → Apps without a reboot. If it does not, try opening the Registry Editor (regedit) and navigating manually to <code>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall</code> to verify the key is present. If the key is present but the app is not showing in Settings, this may be a Windows display caching issue — sign out and sign back in to force a refresh.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ NEXT GUIDE CTA ═══════════ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="guide-nav">
+        <div>
+          <p style="font-size:.8rem;color:var(--text-muted);margin-bottom:.25rem;">Also available</p>
+          <a href="guide-file-deduplicator.html">← File Deduplicator: Complete User Guide</a>
+        </div>
+        <a href="debloat-pro.html#download" class="btn btn--orange">⬇ Download De-Bloat Pro</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">Win<span>Utils</span></span>
+          <p class="footer__tagline">Free, open-source Windows utilities built with transparency and user safety as the top priority.</p>
+          <span class="footer__gpl">📜 GNU GPL v3.0</span>
+        </div>
+        <div class="footer__col">
+          <h4>Tools</h4>
+          <ul>
+            <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+            <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Guides</h4>
+          <ul>
+            <li><a href="guide-file-deduplicator.html">File Deduplicator Guide</a></li>
+            <li><a href="guide-debloat-pro.html">De-Bloat Pro Guide</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Legal &amp; Info</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">GPL v3 License</a></li>
+            <li><a href="https://github.com/yubnub7" target="_blank" rel="noopener">Source Code (GitHub)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <script>document.write(new Date().getFullYear())</script> WinUtils. Released under the GNU GPL v3.0.</span>
+        <span>No cookies used for tracking &bull; <a href="privacy-policy.html" style="color:#9CA3AF">Privacy Policy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

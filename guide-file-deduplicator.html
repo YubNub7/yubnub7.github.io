@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>File Deduplicator — Complete User Guide | WinUtils</title>
+  <meta name="description" content="Step-by-step guide to using File Deduplicator on Windows. Learn how to safely find and remove duplicate files using SHA-256 fingerprinting, choose the right action, and get the most out of every scan." />
+  <meta name="keywords" content="file deduplicator guide, how to remove duplicate files windows, duplicate file finder tutorial, sha256 file scanner, find duplicates windows 10, find duplicates windows 11" />
+
+  <meta property="og:title"       content="File Deduplicator — Complete User Guide" />
+  <meta property="og:description" content="Step-by-step walkthrough for finding and removing duplicate files on Windows safely using SHA-256 fingerprinting." />
+  <meta property="og:type"        content="article" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3113497797062498" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- ═══════════ NAVIGATION ═══════════ -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Win<span>Utils</span></a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+        <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+        <li><a href="guide-file-deduplicator.html">Guides</a></li>
+        <li><a href="privacy-policy.html">Privacy</a></li>
+        <li><a href="https://github.com/yubnub7" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════ GUIDE HERO ═══════════ -->
+  <section class="guide-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <sep>›</sep>
+        <a href="file-deduplicator.html">File Deduplicator</a>
+        <sep>›</sep>
+        <span>User Guide</span>
+      </nav>
+      <p class="section-label">Complete User Guide</p>
+      <h1>File Deduplicator: Step-by-Step Guide</h1>
+      <p>Everything you need to safely find and remove duplicate files from your Windows PC — from your first scan to reading the results.</p>
+      <div class="guide-meta">
+        <span>📄 File Deduplicator v1.0.0</span>
+        <span>🪟 Windows 10 / 11</span>
+        <span>⏱ ~10 min read</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ AD SLOT ═══════════ -->
+  <div class="container ad-wrapper">
+    <div class="ad-slot ad-slot--leaderboard">
+      <p class="ad-label">Advertisement</p>
+    </div>
+  </div>
+
+  <!-- ═══════════ TABLE OF CONTENTS ═══════════ -->
+  <section class="section section--alt">
+    <div class="container guide-content">
+      <div class="toc">
+        <h3>In this guide</h3>
+        <ol>
+          <li><a href="#how-it-works">What File Deduplicator does — and how SHA-256 works</a></li>
+          <li><a href="#download">Downloading and first launch</a></li>
+          <li><a href="#folders">Adding folders to scan</a></li>
+          <li><a href="#filters">Choosing file type filters</a></li>
+          <li><a href="#action">Picking your action (Recycle Bin, move, or delete)</a></li>
+          <li><a href="#scan">Running the scan and reading progress</a></li>
+          <li><a href="#results">Understanding your results</a></li>
+          <li><a href="#apply">Applying the action and the after-action report</a></li>
+          <li><a href="#tips">Tips for best results</a></li>
+          <li><a href="#troubleshooting">Troubleshooting</a></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 1: HOW IT WORKS ═══════════ -->
+  <section class="section" id="how-it-works">
+    <div class="container guide-content">
+      <p class="section-label">Section 1</p>
+      <h2>What File Deduplicator does — and how SHA-256 works</h2>
+
+      <p>Duplicate files accumulate quietly. You download the same PDF from email twice, drag photos from your phone onto your PC without checking what is already there, or back up a folder that itself contains a previous backup. Over time these copies consume gigabytes without any obvious sign they exist.</p>
+
+      <p>File Deduplicator finds these copies by comparing the actual contents of files, not their names. It uses <strong>SHA-256 hashing</strong> — a mathematical algorithm that produces a unique 64-character "fingerprint" for any given sequence of bytes. Two files with completely different names, in completely different folders, with different creation dates, will produce the same SHA-256 hash if and only if their contents are byte-for-byte identical. This makes it impossible to get false positives: if the app reports two files as duplicates, they genuinely contain identical data.</p>
+
+      <p>The scan runs in two phases. First, files are grouped by size — since two files of different sizes can never be identical, this step eliminates the vast majority of files without reading their contents at all. Only files that share an exact size are passed to the SHA-256 hashing phase. This size-first approach is what keeps scans fast even on drives with hundreds of thousands of files.</p>
+
+      <div class="tip-box tip-box--info">
+        <strong>Why this matters vs. name-based finders</strong>
+        <p>Many older duplicate finders compare file names or sizes only. Name-based comparison misses duplicates with different names (very common with downloads and camera imports). Size-based comparison produces false positives for files that happen to share a size. SHA-256 has neither problem.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 2: DOWNLOAD ═══════════ -->
+  <section class="section section--alt" id="download">
+    <div class="container guide-content">
+      <p class="section-label">Section 2</p>
+      <h2>Downloading and first launch</h2>
+
+      <p>Download <strong>FileDeduplicator.exe</strong> from the <a href="file-deduplicator.html#download">download page</a> and save it anywhere — your Desktop or Downloads folder works fine. No installer is required. The application does not write to any system directories, does not create registry entries, and does not run background processes.</p>
+
+      <p>When you double-click the file for the first time, Windows SmartScreen may show a blue warning screen: <em>"Windows protected your PC."</em></p>
+
+      <div class="tip-box tip-box--warning">
+        <strong>SmartScreen warning — this is expected</strong>
+        <p>SmartScreen warns about any newly published executable that does not yet have a commercial code-signing certificate. This is not an indicator of malware. To proceed: click <strong>More info</strong> (small link below the warning text), then click <strong>Run anyway</strong>. You will only need to do this once — Windows remembers the decision. The full source code is publicly available on GitHub if you want to review it before running.</p>
+      </div>
+
+      <p>After the SmartScreen step (if it appeared), the application opens directly to its Configuration tab. There is no setup wizard, no "accept license" screen, and no installer that writes itself into Program Files.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 3: FOLDERS ═══════════ -->
+  <section class="section" id="folders">
+    <div class="container guide-content">
+      <p class="section-label">Section 3</p>
+      <h2>Adding folders to scan</h2>
+
+      <p>The first step in the Configuration tab is selecting which folders to include in the scan. Click <strong>Add Folder</strong> to open a standard Windows folder picker. You can add as many folders as you want — the app combines them into a single scan.</p>
+
+      <p>The <strong>Include subfolders</strong> checkbox (enabled by default) causes the scanner to recurse into all sub-directories. Leave it enabled unless you only want to scan a specific folder's root level.</p>
+
+      <h3>Where to start</h3>
+      <p>These are the most productive folders to scan first, in order of how many duplicates they typically contain:</p>
+      <ul>
+        <li><strong>Downloads</strong> — the same installer downloaded multiple times, PDFs saved from email that already exist in Documents, images saved from a browser that are already in Pictures.</li>
+        <li><strong>Pictures / Photos</strong> — phone syncs are a common source of exact duplicates, especially if you have used multiple sync tools over the years (iCloud, OneDrive, Google Photos backup, manual USB transfers).</li>
+        <li><strong>Documents</strong> — version copies of reports, contracts, and spreadsheets ("Final_v2_FINAL_USE_THIS.docx").</li>
+        <li><strong>Desktop</strong> — shortcuts and files accumulate here from multiple sources.</li>
+      </ul>
+
+      <div class="tip-box tip-box--warning">
+        <strong>Avoid scanning system folders</strong>
+        <p>Do not scan <code>C:\Windows</code>, <code>C:\Program Files</code>, or <code>C:\Program Files (x86)</code>. System files that appear as duplicates are managed by Windows and should be left alone. Scanning these folders adds scan time without practical benefit.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 4: FILTERS ═══════════ -->
+  <section class="section section--alt" id="filters">
+    <div class="container guide-content">
+      <p class="section-label">Section 4</p>
+      <h2>Choosing file type filters</h2>
+
+      <p>The file type filter lets you narrow the scan to specific categories, making it faster and the results easier to review. If you are only trying to free up space from photos, selecting only <strong>Images</strong> means the scan skips every other file type entirely.</p>
+
+      <p>The 20 file types are organized into these categories:</p>
+
+      <ul>
+        <li><strong>Images</strong> — JPG, JPEG, PNG, GIF, BMP, TIFF, WEBP, HEIC</li>
+        <li><strong>Videos</strong> — MP4, MKV, AVI, MOV, WMV, FLV, M4V</li>
+        <li><strong>Audio</strong> — MP3, WAV, FLAC, AAC, OGG, M4A, WMA</li>
+        <li><strong>Documents</strong> — PDF, DOCX, XLSX, PPTX, DOC, XLS, PPT, ODT</li>
+        <li><strong>Archives</strong> — ZIP, RAR, 7Z, TAR, GZ</li>
+        <li><strong>Executables</strong> — EXE, MSI, DLL</li>
+        <li><strong>All files</strong> — scans every file regardless of extension</li>
+      </ul>
+
+      <div class="tip-box tip-box--success">
+        <strong>Best starting point for most users</strong>
+        <p>Start with <strong>Images</strong> and <strong>Documents</strong> selected. These account for the majority of accidental duplicates on most PCs, and they are the easiest to verify before deletion. You can always run again with different filters.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 5: ACTION ═══════════ -->
+  <section class="section" id="action">
+    <div class="container guide-content">
+      <p class="section-label">Section 5</p>
+      <h2>Picking your action</h2>
+
+      <p>Before running the scan, choose what will happen to the duplicate files when you click <strong>Apply Action</strong>. There are three options:</p>
+
+      <div class="step-list">
+        <div class="step-card">
+          <div class="step-card__num">1</div>
+          <div class="step-card__body">
+            <h3>Send to Recycle Bin <em style="font-size:.8rem;font-weight:400;color:var(--text-muted)">(recommended for first-time users)</em></h3>
+            <p>Duplicate files are moved to your Windows Recycle Bin. They are not permanently deleted — if you realise a file was needed, open the Recycle Bin and restore it. This is the safest option and the best choice if you are running File Deduplicator for the first time.</p>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-card__num">2</div>
+          <div class="step-card__body">
+            <h3>Move to folder</h3>
+            <p>Duplicates are relocated to a folder you specify rather than deleted. This is useful if you want to review them manually — for example, move them to a temporary folder on your Desktop, look through them, then delete the ones you don't need. Good for large batches where you want full control.</p>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-card__num">3</div>
+          <div class="step-card__body">
+            <h3>Delete permanently</h3>
+            <p>Files are removed immediately and cannot be recovered from the Recycle Bin. Only use this option when you are confident in the results — for example, after already running a "Move to folder" pass and reviewing the output. Not recommended for a first-time scan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ AD SLOT ═══════════ -->
+  <div class="container ad-wrapper">
+    <div class="ad-slot ad-slot--leaderboard">
+      <p class="ad-label">Advertisement</p>
+    </div>
+  </div>
+
+  <!-- ═══════════ SECTION 6: RUNNING THE SCAN ═══════════ -->
+  <section class="section section--alt" id="scan">
+    <div class="container guide-content">
+      <p class="section-label">Section 6</p>
+      <h2>Running the scan and reading progress</h2>
+
+      <p>Once you have added your folders, selected your file type filters, and chosen your action, click <strong>Scan</strong>. The progress bar tracks two distinct phases:</p>
+
+      <h3>Phase 1 — Size grouping (fast)</h3>
+      <p>The app reads file metadata to group all files by size. This phase reads only directory entries, not file contents, so it typically completes in a few seconds even for folders with hundreds of thousands of files. At the end of this phase, the app knows exactly which files need to be hashed — and which can be skipped because no other file shares their size.</p>
+
+      <h3>Phase 2 — SHA-256 hashing (disk-speed dependent)</h3>
+      <p>For every group of size-matched files, the app reads their full contents and computes SHA-256 hashes. Speed depends on your storage hardware:</p>
+      <ul>
+        <li><strong>NVMe SSDs</strong> — typically 2–8 GB per minute processed</li>
+        <li><strong>SATA SSDs</strong> — typically 1–4 GB per minute</li>
+        <li><strong>HDDs</strong> — roughly 300 MB–1.2 GB per minute, depending on seek patterns</li>
+      </ul>
+      <p>You can click <strong>Cancel</strong> at any time. The scan stops cleanly without leaving partial results or modifying any files.</p>
+
+      <div class="tip-box tip-box--info">
+        <strong>The UI stays responsive during scanning</strong>
+        <p>Scanning runs in a background thread. The application does not freeze, and you can cancel at any point without force-quitting.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 7: RESULTS ═══════════ -->
+  <section class="section" id="results">
+    <div class="container guide-content">
+      <p class="section-label">Section 7</p>
+      <h2>Understanding your results</h2>
+
+      <p>Results are displayed as <strong>groups</strong>. Every file in a group shares the same SHA-256 hash — meaning they contain identical data. Each group shows:</p>
+
+      <ul>
+        <li><strong>Original (green label)</strong> — the file with the oldest modification timestamp in the group. The assumption is that the earliest copy is the "real" one. This is a useful heuristic, but it is not always correct — a file backed up to an external drive before the original was edited might appear as the "original."</li>
+        <li><strong>Duplicate (amber label)</strong> — all other files in the group. These are pre-selected for the action you chose earlier.</li>
+      </ul>
+
+      <h3>Overriding which file to keep</h3>
+      <p>You are not required to keep the file labelled "Original." Any file you <strong>uncheck</strong> is excluded from the action — only checked files are acted on. If you want to keep a file in a different location, uncheck it. You can also uncheck all files in a group to skip the group entirely.</p>
+
+      <h3>Sorting the results</h3>
+      <p>Sort by <strong>Size (largest first)</strong> to prioritise the groups where you will recover the most disk space. Sort by <strong>Group count (highest first)</strong> to tackle the files with the most copies first. The full path for every file is shown so you always know where each file lives on your drive.</p>
+
+      <div class="tip-box tip-box--success">
+        <strong>Review before you act</strong>
+        <p>Spend a minute scrolling through results before clicking Apply. Look for any file path that seems unexpected — an "Original" in an unusual location, or a group where you recognise all the copies and want to keep a specific one.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 8: APPLY ═══════════ -->
+  <section class="section section--alt" id="apply">
+    <div class="container guide-content">
+      <p class="section-label">Section 8</p>
+      <h2>Applying the action and the after-action report</h2>
+
+      <p>Once you have reviewed results and confirmed your selections, click <strong>Apply Action</strong>. A confirmation dialog shows how many files are about to be affected and what action will be taken. Confirm to proceed.</p>
+
+      <p>File Deduplicator processes each selected file one at a time. A live log shows each file as it is processed. If any file cannot be acted on — for example, it is locked by another running application — the error is logged and the app continues to the next file. It does not stop or crash on errors.</p>
+
+      <h3>The after-action report</h3>
+      <p>When the action completes, a full summary report is generated showing:</p>
+      <ul>
+        <li>Total files scanned</li>
+        <li>Duplicate groups found</li>
+        <li>Files acted on</li>
+        <li>Total disk space recovered</li>
+        <li>Any errors encountered (file locked, permission denied, etc.)</li>
+      </ul>
+      <p>Click <strong>Save Report</strong> to export this as a <code>.txt</code> file. Keeping a record is useful if you want to review what was removed at a later date.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 9: TIPS ═══════════ -->
+  <section class="section" id="tips">
+    <div class="container guide-content">
+      <p class="section-label">Section 9</p>
+      <h2>Tips for best results</h2>
+
+      <div class="features-grid" style="margin-top:1.5rem;">
+        <div class="feature-card">
+          <div class="feature-card__icon">📥</div>
+          <h4>Start with Downloads</h4>
+          <p>The Downloads folder is the single highest-yield target on most PCs. The same installer, the same PDF, the same image — downloaded multiple times over months and years.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🗑️</div>
+          <h4>Use Recycle Bin for your first run</h4>
+          <p>Even if you are confident, the Recycle Bin option gives you a safety net. After you have reviewed a few successful scans, you can switch to permanent delete if you prefer.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">📸</div>
+          <h4>Target one folder type at a time</h4>
+          <p>Scanning your entire C: drive at once produces a large result set that is harder to review. Run separate scans for Pictures, Documents, and Downloads to keep results focused.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🔁</div>
+          <h4>Run it monthly</h4>
+          <p>Duplicates accumulate gradually. A monthly scan of Downloads and Documents takes a few minutes and prevents space from quietly disappearing over time.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">💾</div>
+          <h4>SSD vs HDD speed expectations</h4>
+          <p>On an HDD, large scans take longer. Run the scan when you are not actively using the PC, or before bed, so the hashing phase can finish without competing with other disk activity.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🔒</div>
+          <h4>Close other apps before scanning</h4>
+          <p>Applications that hold files open (Outlook, photo editors, video players) can cause "file locked" errors during the action phase. Closing them before you click Apply avoids these errors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SECTION 10: TROUBLESHOOTING ═══════════ -->
+  <section class="section section--alt" id="troubleshooting">
+    <div class="container guide-content">
+      <p class="section-label">Section 10</p>
+      <h2>Troubleshooting</h2>
+
+      <div class="faq" style="margin-top:1.5rem;">
+        <div class="faq__item">
+          <button class="faq__question">The scan is taking a very long time <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">If you are scanning an HDD (not SSD), this is normal. SHA-256 hashing requires reading the full contents of every size-matched file, which is disk-bound. A 1 TB HDD with large numbers of size-matched files (for example, a folder of similarly-sized photos) can take 20–40 minutes. Leave the scan running in the background.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">SmartScreen keeps appearing even after I clicked "Run anyway" <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">This usually means the .exe file was moved or re-downloaded after you last approved it. Windows SmartScreen decisions are tied to the specific file on disk. Approve it once after each fresh download. If you are placing it in a consistent location (for example, a "Tools" folder on your Desktop), approve it there and do not move it.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">The scan finds no duplicates, but I know duplicates exist <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">Check that the folders containing the suspected duplicates were actually added to the scan. Also check whether the file type filter is set too narrowly — if you selected only "Images" but the duplicates are PDFs, they will not appear. Switch to "All files" mode and re-run.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">I see "Access denied" errors for some files in the report <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">These errors appear when a file is locked by another application (very common with Outlook .pst files, browser cache files, and documents open in Office). Close the relevant applications and re-run the action. Alternatively, reboot the PC and run the scan immediately before opening other programs.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">Can the SHA-256 comparison produce false positives? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">No. SHA-256 hash collisions have never been found in practice. If two files produce the same SHA-256 hash, they contain identical byte sequences — this is a mathematical certainty, not an approximation. File Deduplicator will never flag two files as duplicates unless they contain byte-for-byte identical data.</div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question">I accidentally deleted files I needed — can I recover them? <span class="faq__chevron">▼</span></button>
+          <div class="faq__answer">If you used "Send to Recycle Bin" (the recommended option), open your Recycle Bin, find the files, right-click, and select Restore. If you used "Move to folder," navigate to the folder you specified and move the files back. If you used "Delete permanently," the files are not recoverable through the Recycle Bin — use a data recovery tool such as Recuva immediately and avoid writing new data to the disk.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ NEXT GUIDE CTA ═══════════ -->
+  <section class="section">
+    <div class="container">
+      <div class="guide-nav">
+        <div>
+          <p style="font-size:.8rem;color:var(--text-muted);margin-bottom:.25rem;">Also available</p>
+          <a href="guide-debloat-pro.html">De-Bloat Pro: Complete User Guide →</a>
+        </div>
+        <a href="file-deduplicator.html#download" class="btn btn--primary">⬇ Download File Deduplicator</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">Win<span>Utils</span></span>
+          <p class="footer__tagline">Free, open-source Windows utilities built with transparency and user safety as the top priority.</p>
+          <span class="footer__gpl">📜 GNU GPL v3.0</span>
+        </div>
+        <div class="footer__col">
+          <h4>Tools</h4>
+          <ul>
+            <li><a href="file-deduplicator.html">File Deduplicator</a></li>
+            <li><a href="debloat-pro.html">De-Bloat Pro</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Guides</h4>
+          <ul>
+            <li><a href="guide-file-deduplicator.html">File Deduplicator Guide</a></li>
+            <li><a href="guide-debloat-pro.html">De-Bloat Pro Guide</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Legal &amp; Info</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">GPL v3 License</a></li>
+            <li><a href="https://github.com/yubnub7" target="_blank" rel="noopener">Source Code (GitHub)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <script>document.write(new Date().getFullYear())</script> WinUtils. Released under the GNU GPL v3.0.</span>
+        <span>No cookies used for tracking &bull; <a href="privacy-policy.html" style="color:#9CA3AF">Privacy Policy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
