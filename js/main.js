@@ -79,14 +79,22 @@ async function loadNewsFeed() {
 
   await Promise.allSettled(NEWS_FEEDS.map(async feed => {
     try {
-      const endpoint = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&count=3`;
-      const res = await fetch(endpoint);
+      const proxy = `https://api.allorigins.win/get?disableCache=true&url=${encodeURIComponent(feed.url)}`;
+      const res = await fetch(proxy);
       if (!res.ok) return;
-      const data = await res.json();
-      if (data.items) {
-        data.items.forEach(item => allItems.push({ ...item, feedName: feed.name, tag: feed.tag }));
-      }
-    } catch (_) { /* feed unavailable — skip silently */ }
+      const { contents } = await res.json();
+      const doc = new DOMParser().parseFromString(contents, 'text/xml');
+      doc.querySelectorAll('item').forEach(item => {
+        allItems.push({
+          title:       item.querySelector('title')?.textContent || '',
+          link:        item.querySelector('link')?.textContent || '',
+          pubDate:     item.querySelector('pubDate')?.textContent || '',
+          description: item.querySelector('description')?.textContent || '',
+          feedName:    feed.name,
+          tag:         feed.tag,
+        });
+      });
+    } catch (_) {}
   }));
 
   allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
@@ -99,8 +107,7 @@ async function loadNewsFeed() {
 
   grid.innerHTML = top.map(item => {
     const date     = new Date(item.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-    const raw      = item.description || item.content || '';
-    const desc     = raw.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().substring(0, 130);
+    const desc     = item.description.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().substring(0, 130);
     const tagClass = item.tag === 'Security' ? 'news-card__tag--security' : '';
     return `<article class="news-card">
         <span class="news-card__tag ${tagClass}">${item.tag}</span>
