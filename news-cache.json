@@ -1,0 +1,69 @@
+{
+  "updated": "2026-04-24T19:18:30.121893+00:00",
+  "items": [
+    {
+      "title": "Microsoft issues emergency update for macOS and Linux ASP.NET threat",
+      "link": "https://arstechnica.com/security/2026/04/microsoft-issues-emergency-update-for-macos-and-linux-asp-net-threat/",
+      "pubDate": "Wed, 22 Apr 2026 19:32:56 +0000",
+      "description": "When authentication fails, things can go very, very wrong.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
+      "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
+      "pubDate": "Tue, 21 Apr 2026 14:53:59 +0000",
+      "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity ",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "Contrary to popular superstition, AES 128 is just fine in a post-quantum world",
+      "link": "https://arstechnica.com/security/2026/04/contrary-to-popular-superstition-aes-128-is-just-fine-in-a-post-quantum-world/",
+      "pubDate": "Tue, 21 Apr 2026 12:35:20 +0000",
+      "description": "A stubborn misconception is hampering the already hard work of quantum readiness.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Patch Tuesday, April 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
+      "pubDate": "Tue, 14 Apr 2026 21:47:59 +0000",
+      "description": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a Shar",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
+      "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
+      "pubDate": "Tue, 07 Apr 2026 17:02:44 +0000",
+      "description": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Offi",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "In a first, a ransomware family is confirmed to be quantum-safe",
+      "link": "https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/",
+      "pubDate": "Thu, 23 Apr 2026 20:41:23 +0000",
+      "description": "Technically speaking, there's no practical benefit to use PQC. So why is it being used?",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
+      "link": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
+      "pubDate": "Mon, 06 Apr 2026 02:07:17 +0000",
+      "description": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "US-sanctioned currency exchange says $15 million heist done by \"unfriendly states\"",
+      "link": "https://arstechnica.com/security/2026/04/russia-friendly-exchange-says-western-special-service-behind-15-million-cyberattack/",
+      "pubDate": "Fri, 17 Apr 2026 21:28:35 +0000",
+      "description": "Grinex says needed hacking resources \"available exclusively to... unfriendly states.\"",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    }
+  ]
+}

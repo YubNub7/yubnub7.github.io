@@ -1,0 +1,63 @@
+name: Update News Cache
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily at 6 AM UTC
+  workflow_dispatch:        # allow manual trigger from GitHub UI
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch RSS feeds and write news-cache.json
+        run: |
+          python3 - <<'EOF'
+          import urllib.request, xml.etree.ElementTree as ET, json, html, re
+          from datetime import datetime, timezone
+
+          FEEDS = [
+              {"url": "https://krebsonsecurity.com/feed/",                        "name": "Krebs on Security", "tag": "Security"},
+              {"url": "https://www.bleepingcomputer.com/feed/",                   "name": "Bleeping Computer", "tag": "Security"},
+              {"url": "https://feeds.arstechnica.com/arstechnica/technology-lab", "name": "Ars Technica",      "tag": "Tech"},
+          ]
+
+          items = []
+          for feed in FEEDS:
+              try:
+                  req = urllib.request.Request(feed["url"], headers={"User-Agent": "Mozilla/5.0"})
+                  with urllib.request.urlopen(req, timeout=15) as r:
+                      raw = r.read()
+                  root = ET.fromstring(raw)
+                  ns = {"atom": "http://www.w3.org/2005/Atom"}
+                  for item in root.findall(".//item")[:4]:
+                      title = item.findtext("title", "").strip()
+                      link  = item.findtext("link", "").strip()
+                      pub   = item.findtext("pubDate", "").strip()
+                      desc  = item.findtext("description", "").strip()
+                      desc  = re.sub(r"<[^>]+>", "", html.unescape(desc))
+                      desc  = re.sub(r"\s+", " ", desc).strip()[:160]
+                      if title and link:
+                          items.append({"title": title, "link": link, "pubDate": pub,
+                                        "description": desc, "feedName": feed["name"], "tag": feed["tag"]})
+                  print(f"OK  {feed['name']} ({len(root.findall('.//item'))} items)")
+              except Exception as e:
+                  print(f"ERR {feed['name']}: {e}")
+
+          items.sort(key=lambda x: x["pubDate"], reverse=True)
+          out = {"updated": datetime.now(timezone.utc).isoformat(), "items": items[:9]}
+          with open("news-cache.json", "w", encoding="utf-8") as f:
+              json.dump(out, f, ensure_ascii=False, indent=2)
+          print(f"Wrote {len(out['items'])} items to news-cache.json")
+          EOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news-cache.json
+          git diff --cached --quiet && echo "No changes" || git commit -m "chore: refresh news cache [skip ci]" && git push

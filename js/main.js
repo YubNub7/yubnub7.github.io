@@ -75,39 +75,23 @@ async function loadNewsFeed() {
   const grid = document.getElementById('news-grid');
   if (!grid) return;
 
-  const allItems = [];
+  let items = [];
+  try {
+    const res = await fetch('news-cache.json?v=' + Date.now());
+    if (res.ok) {
+      const data = await res.json();
+      items = data.items || [];
+    }
+  } catch (_) {}
 
-  await Promise.allSettled(NEWS_FEEDS.map(async feed => {
-    try {
-      const proxy = `https://api.allorigins.win/get?disableCache=true&url=${encodeURIComponent(feed.url)}`;
-      const res = await fetch(proxy);
-      if (!res.ok) return;
-      const { contents } = await res.json();
-      const doc = new DOMParser().parseFromString(contents, 'text/xml');
-      doc.querySelectorAll('item').forEach(item => {
-        allItems.push({
-          title:       item.querySelector('title')?.textContent || '',
-          link:        item.querySelector('link')?.textContent || '',
-          pubDate:     item.querySelector('pubDate')?.textContent || '',
-          description: item.querySelector('description')?.textContent || '',
-          feedName:    feed.name,
-          tag:         feed.tag,
-        });
-      });
-    } catch (_) {}
-  }));
-
-  allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-  const top = allItems.slice(0, 6);
-
-  if (top.length === 0) {
+  if (items.length === 0) {
     grid.innerHTML = '<p class="news-empty">Unable to load news feed — please check back later.</p>';
     return;
   }
 
-  grid.innerHTML = top.map(item => {
-    const date     = new Date(item.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-    const desc     = item.description.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().substring(0, 130);
+  grid.innerHTML = items.slice(0, 6).map(item => {
+    const date     = item.pubDate ? new Date(item.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '';
+    const desc     = (item.description || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().substring(0, 130);
     const tagClass = item.tag === 'Security' ? 'news-card__tag--security' : '';
     return `<article class="news-card">
         <span class="news-card__tag ${tagClass}">${item.tag}</span>
