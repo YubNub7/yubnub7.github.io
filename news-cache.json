@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-24T19:18:30.121893+00:00",
+  "updated": "2026-04-25T07:06:52.889399+00:00",
   "items": [
     {
       "title": "Microsoft issues emergency update for macOS and Linux ASP.NET threat",
@@ -58,10 +58,10 @@
       "tag": "Security"
     },
     {
-      "title": "US-sanctioned currency exchange says $15 million heist done by \"unfriendly states\"",
-      "link": "https://arstechnica.com/security/2026/04/russia-friendly-exchange-says-western-special-service-behind-15-million-cyberattack/",
-      "pubDate": "Fri, 17 Apr 2026 21:28:35 +0000",
-      "description": "Grinex says needed hacking resources \"available exclusively to... unfriendly states.\"",
+      "title": "Why are top university websites serving porn? It comes down to shoddy housekeeping.",
+      "link": "https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/",
+      "pubDate": "Fri, 24 Apr 2026 19:00:39 +0000",
+      "description": "Hundreds of subdomains from dozens of universities have been hijacked by scammers.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     }
