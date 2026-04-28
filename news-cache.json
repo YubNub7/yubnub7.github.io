@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-27T08:12:40.140215+00:00",
+  "updated": "2026-04-28T08:14:24.999335+00:00",
   "items": [
     {
       "title": "Microsoft issues emergency update for macOS and Linux ASP.NET threat",
@@ -16,14 +16,6 @@
       "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity ",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Contrary to popular superstition, AES 128 is just fine in a post-quantum world",
-      "link": "https://arstechnica.com/security/2026/04/contrary-to-popular-superstition-aes-128-is-just-fine-in-a-post-quantum-world/",
-      "pubDate": "Tue, 21 Apr 2026 12:35:20 +0000",
-      "description": "A stubborn misconception is hampering the already hard work of quantum readiness.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Patch Tuesday, April 2026 Edition",
@@ -46,6 +38,14 @@
       "link": "https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/",
       "pubDate": "Thu, 23 Apr 2026 20:41:23 +0000",
       "description": "Technically speaking, there's no practical benefit to use PQC. So why is it being used?",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Open source package with 1 million monthly downloads stole user credentials",
+      "link": "https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/",
+      "pubDate": "Mon, 27 Apr 2026 21:04:03 +0000",
+      "description": "If you're one of millions using element-data, it's time to check for compromise.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
