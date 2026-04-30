@@ -1,11 +1,11 @@
 {
-  "updated": "2026-04-29T08:07:35.565604+00:00",
+  "updated": "2026-04-30T08:11:12.105165+00:00",
   "items": [
     {
-      "title": "Microsoft issues emergency update for macOS and Linux ASP.NET threat",
-      "link": "https://arstechnica.com/security/2026/04/microsoft-issues-emergency-update-for-macos-and-linux-asp-net-threat/",
-      "pubDate": "Wed, 22 Apr 2026 19:32:56 +0000",
-      "description": "When authentication fails, things can go very, very wrong.",
+      "title": "Why a recent supply-chain attack singled out security firms Checkmarx and Bitwarden",
+      "link": "https://arstechnica.com/information-technology/2026/04/why-a-recent-supply-chain-attack-singled-out-security-firms-checkmarx-and-bitwarden/",
+      "pubDate": "Wed, 29 Apr 2026 11:00:24 +0000",
+      "description": "Security firms find themselves especially exposed.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
