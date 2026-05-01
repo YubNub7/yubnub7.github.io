@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-30T08:11:12.105165+00:00",
+  "updated": "2026-05-01T08:05:56.631236+00:00",
   "items": [
     {
       "title": "Why a recent supply-chain attack singled out security firms Checkmarx and Bitwarden",
@@ -34,12 +34,20 @@
       "tag": "Security"
     },
     {
-      "title": "In a first, a ransomware family is confirmed to be quantum-safe",
-      "link": "https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/",
-      "pubDate": "Thu, 23 Apr 2026 20:41:23 +0000",
-      "description": "Technically speaking, there's no practical benefit to use PQC. So why is it being used?",
+      "title": "The most severe Linux threat to surface in years catches the world flat-footed",
+      "link": "https://arstechnica.com/security/2026/04/as-the-most-severe-linux-threat-in-years-surfaces-the-world-scrambles/",
+      "pubDate": "Thu, 30 Apr 2026 20:20:48 +0000",
+      "description": "CopyFail threatens multi-tenant servers, CI/CD work flows, Kubernetes containers, and more.",
       "feedName": "Ars Technica",
       "tag": "Tech"
+    },
+    {
+      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
+      "link": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+      "pubDate": "Thu, 30 Apr 2026 14:04:26 +0000",
+      "description": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an ex",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
     },
     {
       "title": "Open source package with 1 million monthly downloads stole user credentials",
@@ -48,14 +56,6 @@
       "description": "If you're one of millions using element-data, it's time to check for compromise.",
       "feedName": "Ars Technica",
       "tag": "Tech"
-    },
-    {
-      "title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
-      "link": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
-      "pubDate": "Mon, 06 Apr 2026 02:07:17 +0000",
-      "description": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
     },
     {
       "title": "Why are top university websites serving porn? It comes down to shoddy housekeeping.",
