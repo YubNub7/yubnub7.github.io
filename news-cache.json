@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-01T08:05:56.631236+00:00",
+  "updated": "2026-05-02T07:24:44.730124+00:00",
   "items": [
     {
       "title": "Why a recent supply-chain attack singled out security firms Checkmarx and Bitwarden",
@@ -58,10 +58,10 @@
       "tag": "Tech"
     },
     {
-      "title": "Why are top university websites serving porn? It comes down to shoddy housekeeping.",
-      "link": "https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/",
-      "pubDate": "Fri, 24 Apr 2026 19:00:39 +0000",
-      "description": "Hundreds of subdomains from dozens of universities have been hijacked by scammers.",
+      "title": "Ubuntu infrastructure has been down for more than a day",
+      "link": "https://arstechnica.com/security/2026/05/ubuntu-infrastructure-has-been-down-for-more-than-a-day/",
+      "pubDate": "Fri, 01 May 2026 19:12:26 +0000",
+      "description": "The outage has hampered communication concerning a critical vulnerability that gives root.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     }
