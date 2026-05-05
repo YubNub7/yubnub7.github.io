@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T08:23:01.365289+00:00",
+  "updated": "2026-05-05T08:00:46.474032+00:00",
   "items": [
     {
       "title": "Why a recent supply-chain attack singled out security firms Checkmarx and Bitwarden",
@@ -50,10 +50,10 @@
       "tag": "Security"
     },
     {
-      "title": "Open source package with 1 million monthly downloads stole user credentials",
-      "link": "https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/",
-      "pubDate": "Mon, 27 Apr 2026 21:04:03 +0000",
-      "description": "If you're one of millions using element-data, it's time to check for compromise.",
+      "title": "GameStop offers $56 billion for eBay, struggles to explain how it'll pay for it",
+      "link": "https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/",
+      "pubDate": "Mon, 04 May 2026 17:57:46 +0000",
+      "description": "Amid falling revenue and store closures, GameStop wants to buy the much larger eBay.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
