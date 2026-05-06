@@ -1,14 +1,6 @@
 {
-  "updated": "2026-05-05T08:00:46.474032+00:00",
+  "updated": "2026-05-06T08:14:58.548719+00:00",
   "items": [
-    {
-      "title": "Why a recent supply-chain attack singled out security firms Checkmarx and Bitwarden",
-      "link": "https://arstechnica.com/information-technology/2026/04/why-a-recent-supply-chain-attack-singled-out-security-firms-checkmarx-and-bitwarden/",
-      "pubDate": "Wed, 29 Apr 2026 11:00:24 +0000",
-      "description": "Security firms find themselves especially exposed.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
       "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
@@ -34,10 +26,18 @@
       "tag": "Security"
     },
     {
-      "title": "The most severe Linux threat to surface in years catches the world flat-footed",
-      "link": "https://arstechnica.com/security/2026/04/as-the-most-severe-linux-threat-in-years-surfaces-the-world-scrambles/",
-      "pubDate": "Thu, 30 Apr 2026 20:20:48 +0000",
-      "description": "CopyFail threatens multi-tenant servers, CI/CD work flows, Kubernetes containers, and more.",
+      "title": "Widely used Daemon Tools disk app backdoored in monthlong supply-chain attack",
+      "link": "https://arstechnica.com/security/2026/05/widely-used-daemon-tools-disk-app-backdoored-in-monthlong-supply-chain-attack/",
+      "pubDate": "Tue, 05 May 2026 19:46:15 +0000",
+      "description": "Daemon Tools users: It's time to check your machines for stealthy infections, stat.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Why Reddit blocked my daily visit to its mobile website",
+      "link": "https://arstechnica.com/information-technology/2026/05/why-reddit-blocked-my-daily-visit-to-its-mobile-website/",
+      "pubDate": "Tue, 05 May 2026 11:20:08 +0000",
+      "description": "Reddit REALLY wants you to use its app.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
