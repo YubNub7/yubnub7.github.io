@@ -1,6 +1,14 @@
 {
-  "updated": "2026-05-06T08:14:58.548719+00:00",
+  "updated": "2026-05-07T08:25:51.989136+00:00",
   "items": [
+    {
+      "title": "Ars Asks: Share your shell and show us your tricked-out terminals!",
+      "link": "https://arstechnica.com/information-technology/2026/05/ars-asks-share-your-shell-and-show-us-your-tricked-out-terminals/",
+      "pubDate": "Wed, 06 May 2026 13:32:47 +0000",
+      "description": "A celebration of the tweaks and customizations that make life easier at the CLI.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
       "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
@@ -54,14 +62,6 @@
       "link": "https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/",
       "pubDate": "Mon, 04 May 2026 17:57:46 +0000",
       "description": "Amid falling revenue and store closures, GameStop wants to buy the much larger eBay.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Ubuntu infrastructure has been down for more than a day",
-      "link": "https://arstechnica.com/security/2026/05/ubuntu-infrastructure-has-been-down-for-more-than-a-day/",
-      "pubDate": "Fri, 01 May 2026 19:12:26 +0000",
-      "description": "The outage has hampered communication concerning a critical vulnerability that gives root.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     }
