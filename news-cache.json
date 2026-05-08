@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T08:25:51.989136+00:00",
+  "updated": "2026-05-08T07:22:08.675546+00:00",
   "items": [
     {
       "title": "Ars Asks: Share your shell and show us your tricked-out terminals!",
@@ -22,14 +22,6 @@
       "link": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
       "pubDate": "Tue, 14 Apr 2026 21:47:59 +0000",
       "description": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a Shar",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
-      "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
-      "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
-      "pubDate": "Tue, 07 Apr 2026 17:02:44 +0000",
-      "description": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Offi",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
@@ -58,12 +50,20 @@
       "tag": "Security"
     },
     {
-      "title": "GameStop offers $56 billion for eBay, struggles to explain how it'll pay for it",
-      "link": "https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/",
-      "pubDate": "Mon, 04 May 2026 17:57:46 +0000",
-      "description": "Amid falling revenue and store closures, GameStop wants to buy the much larger eBay.",
+      "title": "Mozilla says 271 vulnerabilities found by Mythos have \"almost no false positives\"",
+      "link": "https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/",
+      "pubDate": "Thu, 07 May 2026 19:18:16 +0000",
+      "description": "The developer of Firefox says it has \"completely bought in\" on AI-assisted bug discovery.",
       "feedName": "Ars Technica",
       "tag": "Tech"
+    },
+    {
+      "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
+      "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
+      "pubDate": "Fri, 08 May 2026 02:58:46 +0000",
+      "description": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and univers",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
     }
   ]
 }
