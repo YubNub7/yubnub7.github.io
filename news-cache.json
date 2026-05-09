@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T07:22:08.675546+00:00",
+  "updated": "2026-05-09T07:48:55.291461+00:00",
   "items": [
     {
       "title": "Ars Asks: Share your shell and show us your tricked-out terminals!",
@@ -34,14 +34,6 @@
       "tag": "Tech"
     },
     {
-      "title": "Why Reddit blocked my daily visit to its mobile website",
-      "link": "https://arstechnica.com/information-technology/2026/05/why-reddit-blocked-my-daily-visit-to-its-mobile-website/",
-      "pubDate": "Tue, 05 May 2026 11:20:08 +0000",
-      "description": "Reddit REALLY wants you to use its app.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
       "link": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
       "pubDate": "Thu, 30 Apr 2026 14:04:26 +0000",
@@ -54,6 +46,14 @@
       "link": "https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/",
       "pubDate": "Thu, 07 May 2026 19:18:16 +0000",
       "description": "The developer of Firefox says it has \"completely bought in\" on AI-assisted bug discovery.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Chaos erupts as cyberattack disrupts learning platform Canvas amid finals",
+      "link": "https://arstechnica.com/security/2026/05/chaos-erupts-as-cyberattack-disrupts-learning-platform-canvas-amid-finals/",
+      "pubDate": "Fri, 08 May 2026 18:33:48 +0000",
+      "description": "Across the country, schools and colleges postpone year-end tests.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
