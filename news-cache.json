@@ -1,14 +1,6 @@
 {
-  "updated": "2026-05-18T09:51:18.340060+00:00",
+  "updated": "2026-05-19T09:33:45.023397+00:00",
   "items": [
-    {
-      "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
-      "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
-      "pubDate": "Tue, 21 Apr 2026 14:53:59 +0000",
-      "description": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity ",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
     {
       "title": "Patch Tuesday, May 2026 Edition",
       "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
@@ -40,6 +32,14 @@
       "description": "Layoffs are \"not a savings-driven restructure,\" CFO says.",
       "feedName": "Ars Technica",
       "tag": "Tech"
+    },
+    {
+      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "pubDate": "Mon, 18 May 2026 20:48:21 +0000",
+      "description": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentia",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
     },
     {
       "title": "Linux bitten by second severe vulnerability in as many weeks",
