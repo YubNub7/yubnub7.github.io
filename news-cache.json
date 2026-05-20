@@ -1,6 +1,14 @@
 {
-  "updated": "2026-05-19T09:33:45.023397+00:00",
+  "updated": "2026-05-20T08:58:16.817555+00:00",
   "items": [
+    {
+      "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
+      "link": "https://arstechnica.com/information-technology/2026/05/in-stunning-display-of-stupid-secret-cisa-credentials-found-in-public-github-repo/",
+      "pubDate": "Tue, 19 May 2026 18:27:08 +0000",
+      "description": "SSH keys, plaintext passwords, other sensitive data had been up since November 2025.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "Patch Tuesday, May 2026 Edition",
       "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
@@ -46,14 +54,6 @@
       "link": "https://arstechnica.com/security/2026/05/linux-bitten-by-second-severe-vulnerability-in-as-many-weeks/",
       "pubDate": "Mon, 11 May 2026 22:28:19 +0000",
       "description": "Production-version patches are coming online and should be installed pronto.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Chaos erupts as cyberattack disrupts learning platform Canvas amid finals",
-      "link": "https://arstechnica.com/security/2026/05/chaos-erupts-as-cyberattack-disrupts-learning-platform-canvas-amid-finals/",
-      "pubDate": "Fri, 08 May 2026 18:33:48 +0000",
-      "description": "Across the country, schools and colleges postpone year-end tests.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
