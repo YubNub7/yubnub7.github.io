@@ -1,6 +1,14 @@
 {
-  "updated": "2026-05-20T08:58:16.817555+00:00",
+  "updated": "2026-05-21T09:29:15.806284+00:00",
   "items": [
+    {
+      "title": "Google publishes exploit code threatening millions of Chromium users",
+      "link": "https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/",
+      "pubDate": "Wed, 20 May 2026 19:10:36 +0000",
+      "description": "Google publishes exploit code before patch, reported 29 months earlier, is fixed.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
       "link": "https://arstechnica.com/information-technology/2026/05/in-stunning-display-of-stupid-secret-cisa-credentials-found-in-public-github-repo/",
@@ -48,14 +56,6 @@
       "description": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentia",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Linux bitten by second severe vulnerability in as many weeks",
-      "link": "https://arstechnica.com/security/2026/05/linux-bitten-by-second-severe-vulnerability-in-as-many-weeks/",
-      "pubDate": "Mon, 11 May 2026 22:28:19 +0000",
-      "description": "Production-version patches are coming online and should be installed pronto.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
