@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-21T09:29:15.806284+00:00",
+  "updated": "2026-05-22T08:53:39.222064+00:00",
   "items": [
     {
       "title": "Google publishes exploit code threatening millions of Chromium users",
       "link": "https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/",
       "pubDate": "Wed, 20 May 2026 19:10:36 +0000",
-      "description": "Google publishes exploit code before patch, reported 29 months earlier, is fixed.",
+      "description": "Google publishes exploit code before patch, reported 42 months earlier, is fixed.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
@@ -26,26 +26,26 @@
       "tag": "Security"
     },
     {
-      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
-      "link": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
-      "pubDate": "Thu, 30 Apr 2026 14:04:26 +0000",
-      "description": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an ex",
+      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
+      "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+      "pubDate": "Thu, 21 May 2026 21:50:25 +0000",
+      "description": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet t",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "US government takes $2 billion equity stake in nine quantum computing firms",
+      "link": "https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms/",
+      "pubDate": "Thu, 21 May 2026 13:48:38 +0000",
+      "description": "Beneficiaries include startup backed by firm with links to the Trump family.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Zero-day exploit completely defeats default Windows 11 BitLocker protections",
       "link": "https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/",
       "pubDate": "Thu, 14 May 2026 18:32:01 +0000",
       "description": "It's not entirely clear how the exploit works. Microsoft says it's investigating.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Cisco announces record revenue and 4,000 layoffs in the same day",
-      "link": "https://arstechnica.com/information-technology/2026/05/cisco-announces-record-revenue-and-4000-layoffs-in-the-same-day/",
-      "pubDate": "Thu, 14 May 2026 16:47:43 +0000",
-      "description": "Layoffs are \"not a savings-driven restructure,\" CFO says.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
