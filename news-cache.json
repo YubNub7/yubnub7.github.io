@@ -1,22 +1,6 @@
 {
-  "updated": "2026-05-25T09:55:54.835945+00:00",
+  "updated": "2026-05-26T09:42:13.423129+00:00",
   "items": [
-    {
-      "title": "Google publishes exploit code threatening millions of Chromium users",
-      "link": "https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/",
-      "pubDate": "Wed, 20 May 2026 19:10:36 +0000",
-      "description": "Google publishes exploit code before patch, reported 42 months earlier, is fixed.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Patch Tuesday, May 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
-      "pubDate": "Tue, 12 May 2026 21:46:45 +0000",
-      "description": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vul",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
     {
       "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
       "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
@@ -30,6 +14,22 @@
       "link": "https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms/",
       "pubDate": "Thu, 21 May 2026 13:48:38 +0000",
       "description": "Beneficiaries include startup backed by firm with links to the Trump family.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+      "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "pubDate": "Mon, 25 May 2026 13:21:49 +0000",
+      "description": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "US's big bet on quantum computing may not be entirely legal",
+      "link": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
+      "pubDate": "Mon, 25 May 2026 12:00:15 +0000",
+      "description": "Deal also launched the first quantum foundry company, but is there a need for it?",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
