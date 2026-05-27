@@ -1,6 +1,14 @@
 {
-  "updated": "2026-05-26T09:42:13.423129+00:00",
+  "updated": "2026-05-27T09:36:07.930550+00:00",
   "items": [
+    {
+      "title": "Millions of AI agents imperiled by critical vulnerability in open source package",
+      "link": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
+      "pubDate": "Tue, 26 May 2026 19:50:33 +0000",
+      "description": "\"BadHost\" was found in Starlette, a package with 325 million weekly downloads.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
       "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
@@ -8,14 +16,6 @@
       "description": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet t",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "US government takes $2 billion equity stake in nine quantum computing firms",
-      "link": "https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms/",
-      "pubDate": "Thu, 21 May 2026 13:48:38 +0000",
-      "description": "Beneficiaries include startup backed by firm with links to the Trump family.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
