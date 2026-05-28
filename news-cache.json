@@ -1,6 +1,14 @@
 {
-  "updated": "2026-05-27T09:36:07.930550+00:00",
+  "updated": "2026-05-28T09:52:41.855583+00:00",
   "items": [
+    {
+      "title": "Websites have a new way to spy on visitors: analyzing their SSD activity",
+      "link": "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/",
+      "pubDate": "Wed, 27 May 2026 20:56:03 +0000",
+      "description": "Telltale SSD activity can be measured in the browser using simple JavaScript.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "Millions of AI agents imperiled by critical vulnerability in open source package",
       "link": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
@@ -56,14 +64,6 @@
       "description": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported th",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "A hacker group is poisoning open source code at an unprecedented scale",
-      "link": "https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/",
-      "pubDate": "Fri, 22 May 2026 10:30:14 +0000",
-      "description": "GitHub is just the latest victim of TeamPCP, a gang that has carried out a spree of software supply chain attacks.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     }
   ]
 }
