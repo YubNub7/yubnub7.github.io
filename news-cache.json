@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-28T09:52:41.855583+00:00",
+  "updated": "2026-05-29T09:43:17.203819+00:00",
   "items": [
     {
-      "title": "Websites have a new way to spy on visitors: analyzing their SSD activity",
+      "title": "Websites have a new way to spy on visitors: Analyzing their SSD activity",
       "link": "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/",
       "pubDate": "Wed, 27 May 2026 20:56:03 +0000",
       "description": "Telltale SSD activity can be measured in the browser using simple JavaScript.",
@@ -14,6 +14,14 @@
       "link": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
       "pubDate": "Tue, 26 May 2026 19:50:33 +0000",
       "description": "\"BadHost\" was found in Starlette, a package with 325 million weekly downloads.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
+      "link": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
+      "pubDate": "Thu, 28 May 2026 20:29:53 +0000",
+      "description": "Undisclosed addition in jqwik instructed AI coding agents to delete app output.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
@@ -48,14 +56,6 @@
       "description": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentia",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Texas AG sues Meta over claims that WhatsApp doesn't provide end-to-end encryption",
-      "link": "https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/",
-      "pubDate": "Fri, 22 May 2026 18:13:05 +0000",
-      "description": "Critics note a lack of factual support in lawsuit filed by US Senate candidate.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
