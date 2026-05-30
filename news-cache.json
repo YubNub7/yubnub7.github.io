@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T09:43:17.203819+00:00",
+  "updated": "2026-05-30T08:21:54.360286+00:00",
   "items": [
     {
       "title": "Websites have a new way to spy on visitors: Analyzing their SSD activity",
@@ -42,20 +42,20 @@
       "tag": "Security"
     },
     {
-      "title": "US's big bet on quantum computing may not be entirely legal",
-      "link": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
-      "pubDate": "Mon, 25 May 2026 12:00:15 +0000",
-      "description": "Deal also launched the first quantum foundry company, but is there a need for it?",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
       "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "pubDate": "Mon, 18 May 2026 20:48:21 +0000",
       "description": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentia",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Botnet of more than 17 million devices dismantled",
+      "link": "https://arstechnica.com/security/2026/05/botnet-of-more-than-17-million-devices-dismantled/",
+      "pubDate": "Fri, 29 May 2026 18:46:33 +0000",
+      "description": "The botnet was reportedly tied to a Russia-based residential proxy network.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
