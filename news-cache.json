@@ -1,19 +1,11 @@
 {
-  "updated": "2026-06-01T11:21:31.306509+00:00",
+  "updated": "2026-06-02T10:12:24.693106+00:00",
   "items": [
     {
       "title": "Websites have a new way to spy on visitors: Analyzing their SSD activity",
       "link": "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/",
       "pubDate": "Wed, 27 May 2026 20:56:03 +0000",
       "description": "Telltale SSD activity can be measured in the browser using simple JavaScript.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Millions of AI agents imperiled by critical vulnerability in open source package",
-      "link": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
-      "pubDate": "Tue, 26 May 2026 19:50:33 +0000",
-      "description": "\"BadHost\" was found in Starlette, a package with 325 million weekly downloads.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
@@ -42,10 +34,18 @@
       "tag": "Security"
     },
     {
-      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-      "pubDate": "Mon, 18 May 2026 20:48:21 +0000",
-      "description": "Until this past weekend, a contractor for the Cybersecurity & Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentia",
+      "title": "Dozens of Red Hat packages backdoored through its official NPM channel",
+      "link": "https://arstechnica.com/security/2026/06/dozens-of-red-hat-packages-backdoored-through-its-offical-npm-channel/",
+      "pubDate": "Mon, 01 Jun 2026 19:49:09 +0000",
+      "description": "Anyone who has downloaded affected Red Hat packages should investigate immediately.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
+      "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "pubDate": "Mon, 01 Jun 2026 17:32:50 +0000",
+      "description": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
