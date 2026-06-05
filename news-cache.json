@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04T09:48:14.410618+00:00",
+  "updated": "2026-06-05T09:36:56.265876+00:00",
   "items": [
     {
       "title": "Can't make sense of Dashlane's vault theft notification? You're not alone.",
@@ -10,20 +10,20 @@
       "tag": "Tech"
     },
     {
-      "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
-      "link": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
-      "pubDate": "Thu, 28 May 2026 20:29:53 +0000",
-      "description": "Undisclosed addition in jqwik instructed AI coding agents to delete app output.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
       "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
       "pubDate": "Thu, 21 May 2026 21:50:25 +0000",
       "description": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet t",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Dashlane explains how attackers managed to download encrypted password vaults",
+      "link": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/",
+      "pubDate": "Thu, 04 Jun 2026 20:02:04 +0000",
+      "description": "By targeting large numbers of users, attackers increased their chances of success.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
