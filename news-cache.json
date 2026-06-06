@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T09:36:56.265876+00:00",
+  "updated": "2026-06-06T08:27:29.268729+00:00",
   "items": [
     {
       "title": "Can't make sense of Dashlane's vault theft notification? You're not alone.",
@@ -50,20 +50,20 @@
       "tag": "Security"
     },
     {
-      "title": "Botnet of more than 17 million devices dismantled",
-      "link": "https://arstechnica.com/security/2026/05/botnet-of-more-than-17-million-devices-dismantled/",
-      "pubDate": "Fri, 29 May 2026 18:46:33 +0000",
-      "description": "The botnet was reportedly tied to a Russia-based residential proxy network.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
       "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "pubDate": "Fri, 22 May 2026 16:34:24 +0000",
       "description": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported th",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "How a USB-connected speaker can infect a PC without ever being touched",
+      "link": "https://arstechnica.com/security/2026/06/highly-reviewed-speaker-can-be-hacked-over-the-air-to-infect-connected-devices/",
+      "pubDate": "Fri, 05 Jun 2026 21:00:29 +0000",
+      "description": "Seller of the Sound Blaster Katana V2X doesn't consider the behavior a vulnerability.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     }
   ]
 }
