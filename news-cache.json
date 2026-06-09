@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T10:25:45.034427+00:00",
+  "updated": "2026-06-09T09:31:53.063905+00:00",
   "items": [
     {
       "title": "Can't make sense of Dashlane's vault theft notification? You're not alone.",
@@ -34,10 +34,10 @@
       "tag": "Security"
     },
     {
-      "title": "Dozens of Red Hat packages backdoored through its official NPM channel",
-      "link": "https://arstechnica.com/security/2026/06/dozens-of-red-hat-packages-backdoored-through-its-offical-npm-channel/",
-      "pubDate": "Mon, 01 Jun 2026 19:49:09 +0000",
-      "description": "Anyone who has downloaded affected Red Hat packages should investigate immediately.",
+      "title": "For the 2nd time in weeks, Microsoft packages laced with credential stealer",
+      "link": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/",
+      "pubDate": "Mon, 08 Jun 2026 18:34:23 +0000",
+      "description": "73 packages run self-replicating stealer as soon as they're opened by an AI agent.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
