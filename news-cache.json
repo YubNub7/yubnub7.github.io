@@ -1,27 +1,27 @@
 {
-  "updated": "2026-06-09T09:31:53.063905+00:00",
+  "updated": "2026-06-10T09:46:52.247997+00:00",
   "items": [
     {
-      "title": "Can't make sense of Dashlane's vault theft notification? You're not alone.",
-      "link": "https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen/",
-      "pubDate": "Wed, 03 Jun 2026 19:53:14 +0000",
-      "description": "Security advisory leaves out key details. Dashlane maintains complete silence.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
-      "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-      "pubDate": "Thu, 21 May 2026 21:50:25 +0000",
-      "description": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet t",
+      "title": "A Record-Breaking Patch Tuesday for June 2026",
+      "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+      "pubDate": "Tue, 09 Jun 2026 22:07:28 +0000",
+      "description": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixe",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
     {
-      "title": "Dashlane explains how attackers managed to download encrypted password vaults",
-      "link": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/",
-      "pubDate": "Thu, 04 Jun 2026 20:02:04 +0000",
-      "description": "By targeting large numbers of users, attackers increased their chances of success.",
+      "title": "Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed",
+      "link": "https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/",
+      "pubDate": "Tue, 09 Jun 2026 20:56:52 +0000",
+      "description": "A separate zero-day also disclosed by Nightmare Eclipse appears to be patched as well.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "High-severity vulnerability in Linux caused by a single faulty character",
+      "link": "https://arstechnica.com/security/2026/06/a-single-errant-character-in-the-linux-kernel-allows-attacker-to-gain-root/",
+      "pubDate": "Tue, 09 Jun 2026 15:12:43 +0000",
+      "description": "Use-after-free bug can be exploited to evade sandbox defenses.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
