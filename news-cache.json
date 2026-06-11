@@ -1,6 +1,14 @@
 {
-  "updated": "2026-06-10T09:46:52.247997+00:00",
+  "updated": "2026-06-11T10:14:17.267026+00:00",
   "items": [
+    {
+      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
+      "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "pubDate": "Wed, 10 Jun 2026 14:03:44 +0000",
+      "description": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers t",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
     {
       "title": "A Record-Breaking Patch Tuesday for June 2026",
       "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
@@ -46,14 +54,6 @@
       "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "pubDate": "Mon, 01 Jun 2026 17:32:50 +0000",
       "description": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
-      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "pubDate": "Fri, 22 May 2026 16:34:24 +0000",
-      "description": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity & Infrastructure Security Agency (CISA) after KrebsOnSecurity reported th",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
