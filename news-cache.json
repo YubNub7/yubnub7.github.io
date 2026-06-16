@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T11:53:03.695940+00:00",
+  "updated": "2026-06-16T11:01:00.044870+00:00",
   "items": [
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
@@ -42,10 +42,10 @@
       "tag": "Security"
     },
     {
-      "title": "For the 2nd time in weeks, Microsoft packages laced with credential stealer",
-      "link": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/",
-      "pubDate": "Mon, 08 Jun 2026 18:34:23 +0000",
-      "description": "73 packages run self-replicating stealer as soon as they're opened by an AI agent.",
+      "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
+      "link": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
+      "pubDate": "Mon, 15 Jun 2026 17:55:46 +0000",
+      "description": "AMD's stripping of TSME from consumer CPUs appears to be a deliberate, covert move.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
