@@ -1,6 +1,38 @@
 {
-  "updated": "2026-06-17T10:45:06.893001+00:00",
+  "updated": "2026-06-18T10:12:55.126587+00:00",
   "items": [
+    {
+      "title": "Massive breach spills credentials for thousands of sensitive networks",
+      "link": "https://arstechnica.com/security/2026/06/massive-breach-spills-credentials-for-thousands-of-sensitive-networks/",
+      "pubDate": "Wed, 17 Jun 2026 19:54:31 +0000",
+      "description": "The affected include Oracle, Lenovo, FedEx, a NATO contractor, and Fortinet.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Tesco moving 40,000 server workloads off VMware amid Broadcom's “abusive conduct”",
+      "link": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
+      "pubDate": "Wed, 17 Jun 2026 19:43:13 +0000",
+      "description": "Tesco claimed Broadcom hiked its VMware prices by about 175 percent in UK court filings.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "\"Dangerous\" AI models are coming no matter what",
+      "link": "https://arstechnica.com/ai/2026/06/dangerous-ai-models-are-coming-no-matter-what/",
+      "pubDate": "Wed, 17 Jun 2026 17:50:46 +0000",
+      "description": "AI models with advanced hacking capabilities will soon be the norm.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Windows and Linux users: The deadline to update Secure Boot keys is near",
+      "link": "https://arstechnica.com/security/2026/06/windows-and-linux-users-the-deadline-to-update-secure-boot-keys-is-near/",
+      "pubDate": "Wed, 17 Jun 2026 11:15:17 +0000",
+      "description": "What you need to know about the expiration of keys securing your machine's boot sequence.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
       "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
@@ -8,22 +40,6 @@
       "description": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers t",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Year of free HPE software a “step in the correct direction” in VMware rivalry",
-      "link": "https://arstechnica.com/information-technology/2026/06/hpe-tempts-vmware-users-partners-with-year-of-free-virtualization-software/",
-      "pubDate": "Tue, 16 Jun 2026 22:11:15 +0000",
-      "description": "Partner tells Ars that HPE should be giving out more free VM Essentials licenses.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Critical Copilot vulnerability allowed hackers to steal 2FA code from users",
-      "link": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
-      "pubDate": "Tue, 16 Jun 2026 11:15:46 +0000",
-      "description": "SearchLeak exploit shows why the industry's approach to LLM security fails over and over.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "A Record-Breaking Patch Tuesday for June 2026",
@@ -42,28 +58,12 @@
       "tag": "Security"
     },
     {
-      "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
-      "link": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
-      "pubDate": "Mon, 15 Jun 2026 17:55:46 +0000",
-      "description": "AMD's stripping of TSME from consumer CPUs appears to be a deliberate, covert move.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
       "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "pubDate": "Mon, 01 Jun 2026 17:32:50 +0000",
       "description": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "PeopleSoft 0-day affecting hundreds of organizations steals gigabytes of data",
-      "link": "https://arstechnica.com/security/2026/06/peoplesoft-0-day-affecting-hundreds-of-organizations-steals-gigabytes-of-data/",
-      "pubDate": "Fri, 12 Jun 2026 19:26:47 +0000",
-      "description": "Vulnerability in the Oracle-owned PeopleSoft software is about as critical as they come.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     }
   ]
 }
