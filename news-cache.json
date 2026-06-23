@@ -1,14 +1,6 @@
 {
-  "updated": "2026-06-22T11:42:29.439167+00:00",
+  "updated": "2026-06-23T09:28:53.872525+00:00",
   "items": [
-    {
-      "title": "Massive breach spills credentials for thousands of sensitive networks",
-      "link": "https://arstechnica.com/security/2026/06/massive-breach-spills-credentials-for-thousands-of-sensitive-networks/",
-      "pubDate": "Wed, 17 Jun 2026 19:54:31 +0000",
-      "description": "The affected include Oracle, Lenovo, FedEx, a NATO contractor, and Fortinet.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
       "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
@@ -56,6 +48,14 @@
       "description": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising f",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Following user outcry, AMD reinstates memory encryption in consumer CPUs",
+      "link": "https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/",
+      "pubDate": "Mon, 22 Jun 2026 19:16:52 +0000",
+      "description": "Critics saw the move as an underhanded way to steer them toward more costly chips.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
