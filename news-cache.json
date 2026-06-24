@@ -1,11 +1,35 @@
 {
-  "updated": "2026-06-23T09:28:53.872525+00:00",
+  "updated": "2026-06-24T08:57:30.279824+00:00",
   "items": [
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
       "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
       "pubDate": "Wed, 10 Jun 2026 14:03:44 +0000",
       "description": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers t",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
+      "link": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/",
+      "pubDate": "Tue, 23 Jun 2026 22:30:57 +0000",
+      "description": "Order warns of national security risks if post-quantum cryptography isn't adopted in time.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Oracle’s 21,000 layoffs help drive its debt-fueled AI investments",
+      "link": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/",
+      "pubDate": "Tue, 23 Jun 2026 20:17:38 +0000",
+      "description": "Oracle is spending billions on data center infrastructure to support AI.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "pubDate": "Tue, 23 Jun 2026 16:12:49 +0000",
+      "description": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the enti",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
@@ -26,22 +50,6 @@
       "tag": "Tech"
     },
     {
-      "title": "Apple patches high-severity eavesdropping vulnerability in Beats Studio Buds",
-      "link": "https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds/",
-      "pubDate": "Thu, 18 Jun 2026 19:41:35 +0000",
-      "description": "The vulnerability, disclosed 12 months ago, affects multiple manufacturers.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
-      "link": "https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/",
-      "pubDate": "Thu, 18 Jun 2026 17:42:18 +0000",
-      "description": "One previously unreported SpaceX investor has ties to Chinese military contractors.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
       "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
       "pubDate": "Thu, 18 Jun 2026 17:37:58 +0000",
@@ -56,14 +64,6 @@
       "description": "Critics saw the move as an underhanded way to steer them toward more costly chips.",
       "feedName": "Ars Technica",
       "tag": "Tech"
-    },
-    {
-      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-      "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "pubDate": "Mon, 01 Jun 2026 17:32:50 +0000",
-      "description": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
     }
   ]
 }
