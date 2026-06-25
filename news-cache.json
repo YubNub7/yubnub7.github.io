@@ -1,6 +1,14 @@
 {
-  "updated": "2026-06-24T08:57:30.279824+00:00",
+  "updated": "2026-06-25T08:52:08.129187+00:00",
   "items": [
+    {
+      "title": "One-two punch delivered in global operation disrupts cybercrime \"assembly line\"",
+      "link": "https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/",
+      "pubDate": "Wed, 24 Jun 2026 21:03:34 +0000",
+      "description": "\"Operation Endgame\" simultaneously disrupts two widely used crime tools.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
       "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
@@ -40,14 +48,6 @@
       "description": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixe",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Microsoft discovers new lightweight backdoor that steals cryptocurrency",
-      "link": "https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/",
-      "pubDate": "Thu, 18 Jun 2026 23:28:52 +0000",
-      "description": "Crypto Clipper spreads over USB and communicates over Tor.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
