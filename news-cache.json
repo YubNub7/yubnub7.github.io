@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T08:52:08.129187+00:00",
+  "updated": "2026-06-26T08:55:17.098153+00:00",
   "items": [
     {
       "title": "One-two punch delivered in global operation disrupts cybercrime \"assembly line\"",
@@ -50,20 +50,20 @@
       "tag": "Security"
     },
     {
+      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+      "link": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+      "pubDate": "Thu, 25 Jun 2026 19:04:57 +0000",
+      "description": "Notion is \"going all in on using agents to run your inbox.\"",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
       "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
       "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
       "pubDate": "Thu, 18 Jun 2026 17:37:58 +0000",
       "description": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising f",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Following user outcry, AMD reinstates memory encryption in consumer CPUs",
-      "link": "https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/",
-      "pubDate": "Mon, 22 Jun 2026 19:16:52 +0000",
-      "description": "Critics saw the move as an underhanded way to steer them toward more costly chips.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     }
   ]
 }
