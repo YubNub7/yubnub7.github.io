@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T08:29:34.314453+00:00",
+  "updated": "2026-06-28T08:44:29.120943+00:00",
   "items": [
     {
       "title": "One-two punch delivered in global operation disrupts cybercrime \"assembly line\"",
@@ -8,14 +8,6 @@
       "description": "\"Operation Endgame\" simultaneously disrupts two widely used crime tools.",
       "feedName": "Ars Technica",
       "tag": "Tech"
-    },
-    {
-      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-      "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-      "pubDate": "Wed, 10 Jun 2026 14:03:44 +0000",
-      "description": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers t",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
     },
     {
       "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
@@ -34,36 +26,12 @@
       "tag": "Tech"
     },
     {
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "pubDate": "Tue, 23 Jun 2026 16:12:49 +0000",
-      "description": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the enti",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
-      "title": "A Record-Breaking Patch Tuesday for June 2026",
-      "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-      "pubDate": "Tue, 09 Jun 2026 22:07:28 +0000",
-      "description": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixe",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
       "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
       "link": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
       "pubDate": "Thu, 25 Jun 2026 19:04:57 +0000",
       "description": "Notion is \"going all in on using agents to run your inbox.\"",
       "feedName": "Ars Technica",
       "tag": "Tech"
-    },
-    {
-      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
-      "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-      "pubDate": "Thu, 18 Jun 2026 17:37:58 +0000",
-      "description": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising f",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
     }
   ]
 }
