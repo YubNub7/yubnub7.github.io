@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T10:45:55.207590+00:00",
+  "updated": "2026-06-30T09:23:49.654901+00:00",
   "items": [
     {
       "title": "One-two punch delivered in global operation disrupts cybercrime \"assembly line\"",
@@ -22,14 +22,6 @@
       "link": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/",
       "pubDate": "Tue, 23 Jun 2026 22:30:57 +0000",
       "description": "Order warns of national security risks if post-quantum cryptography isn't adopted in time.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Oracle’s 21,000 layoffs help drive its debt-fueled AI investments",
-      "link": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/",
-      "pubDate": "Tue, 23 Jun 2026 20:17:38 +0000",
-      "description": "Oracle is spending billions on data center infrastructure to support AI.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
@@ -64,6 +56,14 @@
       "description": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising f",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
+      "link": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/",
+      "pubDate": "Mon, 29 Jun 2026 22:05:33 +0000",
+      "description": "Operation by two Russia-state groups has been ongoing since at least March.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     }
   ]
 }
