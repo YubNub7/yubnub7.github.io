@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T09:23:49.654901+00:00",
+  "updated": "2026-07-01T09:35:59.283412+00:00",
   "items": [
     {
       "title": "One-two punch delivered in global operation disrupts cybercrime \"assembly line\"",
@@ -18,10 +18,10 @@
       "tag": "Security"
     },
     {
-      "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
-      "link": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/",
-      "pubDate": "Tue, 23 Jun 2026 22:30:57 +0000",
-      "description": "Order warns of national security risks if post-quantum cryptography isn't adopted in time.",
+      "title": "New attack provides one more reason why AI browsers are a bad idea",
+      "link": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+      "pubDate": "Tue, 30 Jun 2026 20:03:14 +0000",
+      "description": "Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
