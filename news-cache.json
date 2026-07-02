@@ -1,14 +1,6 @@
 {
-  "updated": "2026-07-01T09:35:59.283412+00:00",
+  "updated": "2026-07-02T08:47:06.768092+00:00",
   "items": [
-    {
-      "title": "One-two punch delivered in global operation disrupts cybercrime \"assembly line\"",
-      "link": "https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/",
-      "pubDate": "Wed, 24 Jun 2026 21:03:34 +0000",
-      "description": "\"Operation Endgame\" simultaneously disrupts two widely used crime tools.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
       "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
@@ -16,6 +8,14 @@
       "description": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers t",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
+      "link": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/",
+      "pubDate": "Wed, 01 Jul 2026 21:21:21 +0000",
+      "description": "T-Mobile wants Broadcom to keep supporting its VMware perpetual licenses.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "New attack provides one more reason why AI browsers are a bad idea",
