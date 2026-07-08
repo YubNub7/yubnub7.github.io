@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T09:31:08.589456+00:00",
+  "updated": "2026-07-08T08:15:50.490415+00:00",
   "items": [
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
@@ -8,6 +8,14 @@
       "description": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers t",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "link": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "pubDate": "Wed, 08 Jul 2026 07:00:51 +0000",
+      "description": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\"",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
@@ -56,14 +64,6 @@
       "description": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residenti",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
-      "link": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/",
-      "pubDate": "Mon, 29 Jun 2026 22:05:33 +0000",
-      "description": "Operation by two Russia-state groups has been ongoing since at least March.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     }
   ]
 }
