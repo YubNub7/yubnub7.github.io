@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T09:33:02.767435+00:00",
+  "updated": "2026-07-10T09:24:16.413483+00:00",
   "items": [
     {
       "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
@@ -18,28 +18,12 @@
       "tag": "Tech"
     },
     {
-      "title": "US rare earths flow to Asia as domestic demand is slow to emerge",
-      "link": "https://arstechnica.com/science/2026/07/us-rare-earths-flow-to-asia-as-domestic-demand-is-slow-to-emerge/",
-      "pubDate": "Wed, 08 Jul 2026 13:26:10 +0000",
-      "description": "Miners backed by Trump admin sell to Japan, South Korea despite push to develop domestic supply chain.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
       "pubDate": "Wed, 08 Jul 2026 12:31:39 +0000",
       "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy t",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
-      "link": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
-      "pubDate": "Wed, 08 Jul 2026 07:00:51 +0000",
-      "description": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\"",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
@@ -56,6 +40,22 @@
       "description": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising f",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Patch for Windows Defender 0-day could allow attackers to fill hard disk",
+      "link": "https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/",
+      "pubDate": "Thu, 09 Jul 2026 20:52:55 +0000",
+      "description": "The feud between NightmareEclipse and Microsoft shows no signs of resolving soon.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Allstate accuses Broadcom of auditing it because it quit VMware, CA",
+      "link": "https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/",
+      "pubDate": "Thu, 09 Jul 2026 20:28:55 +0000",
+      "description": "Broadcom accuses Allstate of dodging VMware audits.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
