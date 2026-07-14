@@ -1,22 +1,6 @@
 {
-  "updated": "2026-07-13T08:57:05.940320+00:00",
+  "updated": "2026-07-14T07:52:28.560020+00:00",
   "items": [
-    {
-      "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
-      "link": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/",
-      "pubDate": "Wed, 08 Jul 2026 19:01:19 +0000",
-      "description": "Both vulnerabilities allow untrusted users to gain root privileges.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Aussie gov't tells volunteers to throw out thousands of functioning test routers",
-      "link": "https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia/",
-      "pubDate": "Wed, 08 Jul 2026 18:10:16 +0000",
-      "description": "But the devices could \"easily be reflashed.\"",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
     {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
@@ -30,14 +14,6 @@
       "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "pubDate": "Tue, 23 Jun 2026 16:12:49 +0000",
       "description": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the enti",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
-      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
-      "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-      "pubDate": "Thu, 18 Jun 2026 17:37:58 +0000",
-      "description": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising f",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
@@ -62,6 +38,30 @@
       "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
       "pubDate": "Thu, 02 Jul 2026 19:27:33 +0000",
       "description": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residenti",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "The US government warns that Russia state hackers are coming after your router",
+      "link": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
+      "pubDate": "Mon, 13 Jul 2026 21:03:07 +0000",
+      "description": "With residential proxies all the rage, CISA urges router users to be vigilant.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Now, defenders are embracing the prompt injection, too",
+      "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+      "pubDate": "Mon, 13 Jul 2026 15:06:34 +0000",
+      "description": "\"Context bombing\" tricks hacking agents into shutting down before they can do harm.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+      "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "pubDate": "Mon, 13 Jul 2026 15:03:28 +0000",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA crede",
       "feedName": "Krebs on Security",
       "tag": "Security"
     }
