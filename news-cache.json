@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T07:52:28.560020+00:00",
+  "updated": "2026-07-15T07:56:47.725941+00:00",
   "items": [
     {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
@@ -10,10 +10,18 @@
       "tag": "Security"
     },
     {
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "pubDate": "Tue, 23 Jun 2026 16:12:49 +0000",
-      "description": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the enti",
+      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+      "link": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+      "pubDate": "Tue, 14 Jul 2026 22:20:48 +0000",
+      "description": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "pubDate": "Tue, 14 Jul 2026 19:22:42 +0000",
+      "description": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the numbe",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
@@ -22,14 +30,6 @@
       "link": "https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/",
       "pubDate": "Thu, 09 Jul 2026 20:52:55 +0000",
       "description": "The feud between NightmareEclipse and Microsoft shows no signs of resolving soon.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Allstate accuses Broadcom of auditing it because it quit VMware, CA",
-      "link": "https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/",
-      "pubDate": "Thu, 09 Jul 2026 20:28:55 +0000",
-      "description": "Broadcom accuses Allstate of dodging VMware audits.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
