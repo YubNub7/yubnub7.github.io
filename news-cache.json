@@ -1,6 +1,22 @@
 {
-  "updated": "2026-07-15T07:56:47.725941+00:00",
+  "updated": "2026-07-16T08:02:20.530787+00:00",
   "items": [
+    {
+      "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
+      "link": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
+      "pubDate": "Wed, 15 Jul 2026 21:41:56 +0000",
+      "description": "The convenience store chain will use StorMagic instead.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
+      "link": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
+      "pubDate": "Wed, 15 Jul 2026 19:59:48 +0000",
+      "description": "HiveLegacy is a \"powerful primitive\" that's likely capable of other nefarious actions.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
@@ -26,14 +42,6 @@
       "tag": "Security"
     },
     {
-      "title": "Patch for Windows Defender 0-day could allow attackers to fill hard disk",
-      "link": "https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/",
-      "pubDate": "Thu, 09 Jul 2026 20:52:55 +0000",
-      "description": "The feud between NightmareEclipse and Microsoft shows no signs of resolving soon.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
       "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
       "pubDate": "Thu, 02 Jul 2026 19:27:33 +0000",
@@ -46,14 +54,6 @@
       "link": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
       "pubDate": "Mon, 13 Jul 2026 21:03:07 +0000",
       "description": "With residential proxies all the rage, CISA urges router users to be vigilant.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Now, defenders are embracing the prompt injection, too",
-      "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
-      "pubDate": "Mon, 13 Jul 2026 15:06:34 +0000",
-      "description": "\"Context bombing\" tricks hacking agents into shutting down before they can do harm.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
