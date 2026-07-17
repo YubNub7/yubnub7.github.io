@@ -1,19 +1,11 @@
 {
-  "updated": "2026-07-16T08:02:20.530787+00:00",
+  "updated": "2026-07-17T07:59:26.442289+00:00",
   "items": [
     {
       "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
       "link": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
       "pubDate": "Wed, 15 Jul 2026 21:41:56 +0000",
       "description": "The convenience store chain will use StorMagic instead.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
-      "link": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
-      "pubDate": "Wed, 15 Jul 2026 19:59:48 +0000",
-      "description": "HiveLegacy is a \"powerful primitive\" that's likely capable of other nefarious actions.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
@@ -26,14 +18,6 @@
       "tag": "Security"
     },
     {
-      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
-      "link": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
-      "pubDate": "Tue, 14 Jul 2026 22:20:48 +0000",
-      "description": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Microsoft Patches a Record 570 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
       "pubDate": "Tue, 14 Jul 2026 19:22:42 +0000",
@@ -42,20 +26,36 @@
       "tag": "Security"
     },
     {
+      "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
+      "link": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
+      "pubDate": "Thu, 16 Jul 2026 22:02:31 +0000",
+      "description": "Resellers threatened to ditch HP printing supplies for counterfeits.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Now, even Russia's most elite hackers are using Clickfix to infect devices",
+      "link": "https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/",
+      "pubDate": "Thu, 16 Jul 2026 19:28:33 +0000",
+      "description": "The social-engineering technique has primarily been a tool of financially motivated criminals.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "link": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+      "pubDate": "Thu, 16 Jul 2026 15:48:21 +0000",
+      "description": "Companies coming to market are raising money at fastest pace this century.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
       "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
       "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
       "pubDate": "Thu, 02 Jul 2026 19:27:33 +0000",
       "description": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residenti",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "The US government warns that Russia state hackers are coming after your router",
-      "link": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
-      "pubDate": "Mon, 13 Jul 2026 21:03:07 +0000",
-      "description": "With residential proxies all the rage, CISA urges router users to be vigilant.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Lessons Learned from CISA’s Recent GitHub Leak",
