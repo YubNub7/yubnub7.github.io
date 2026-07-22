@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-21T08:15:08.573696+00:00",
+  "updated": "2026-07-22T08:15:42.795425+00:00",
   "items": [
     {
-      "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
-      "link": "https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/",
-      "pubDate": "Wed, 15 Jul 2026 21:41:56 +0000",
-      "description": "The convenience store chain will use StorMagic instead.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "pubDate": "Wed, 22 Jul 2026 01:10:38 +0000",
+      "description": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on res",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
     },
     {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
@@ -16,6 +16,14 @@
       "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy t",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "TreeSize won't renew perpetual-license support unless users subscribe",
+      "link": "https://arstechnica.com/gadgets/2026/07/treesize-wont-renew-perpetual-license-support-unless-users-subscribe/",
+      "pubDate": "Tue, 21 Jul 2026 15:18:23 +0000",
+      "description": "\"Current economic conditions\" have shifted TreeSize's business model.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Microsoft Patches a Record 570 Security Flaws",
@@ -48,14 +56,6 @@
       "description": "Companies coming to market are raising money at fastest pace this century.",
       "feedName": "Ars Technica",
       "tag": "Tech"
-    },
-    {
-      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "pubDate": "Thu, 02 Jul 2026 19:27:33 +0000",
-      "description": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residenti",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
     },
     {
       "title": "Lessons Learned from CISA’s Recent GitHub Leak",
