@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T08:23:17.862581+00:00",
+  "updated": "2026-07-29T08:29:25.792438+00:00",
   "items": [
     {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
@@ -16,6 +16,14 @@
       "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy t",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
+      "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
+      "pubDate": "Tue, 28 Jul 2026 21:36:39 +0000",
+      "description": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "TreeSize won't renew perpetual-license support unless users subscribe",
@@ -38,14 +46,6 @@
       "link": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
       "pubDate": "Thu, 16 Jul 2026 22:02:31 +0000",
       "description": "Resellers threatened to ditch HP printing supplies for counterfeits.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Now, even Russia's most elite hackers are using Clickfix to infect devices",
-      "link": "https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/",
-      "pubDate": "Thu, 16 Jul 2026 19:28:33 +0000",
-      "description": "The social-engineering technique has primarily been a tool of financially motivated criminals.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
