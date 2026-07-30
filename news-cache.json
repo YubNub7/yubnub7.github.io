@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-29T08:29:25.792438+00:00",
+  "updated": "2026-07-30T08:13:18.055582+00:00",
   "items": [
+    {
+      "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
+      "link": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
+      "pubDate": "Wed, 29 Jul 2026 22:07:06 +0000",
+      "description": "HAWK withstood years of testing that had yet to uncover a fatal weakness found through Mythos.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
@@ -40,14 +48,6 @@
       "description": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the numbe",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
-      "link": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
-      "pubDate": "Thu, 16 Jul 2026 22:02:31 +0000",
-      "description": "Resellers threatened to ditch HP printing supplies for counterfeits.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Microsoft unveils AI security tools it says outperform competing platforms",
