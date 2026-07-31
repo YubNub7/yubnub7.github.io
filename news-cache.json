@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T08:13:18.055582+00:00",
+  "updated": "2026-07-31T08:40:14.606580+00:00",
   "items": [
     {
       "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
@@ -14,14 +14,6 @@
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "pubDate": "Wed, 22 Jul 2026 01:10:38 +0000",
       "description": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on res",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
-      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-      "pubDate": "Wed, 08 Jul 2026 12:31:39 +0000",
-      "description": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy t",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
@@ -46,6 +38,14 @@
       "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
       "pubDate": "Tue, 14 Jul 2026 19:22:42 +0000",
       "description": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the numbe",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "pubDate": "Thu, 30 Jul 2026 16:49:00 +0000",
+      "description": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, w",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
