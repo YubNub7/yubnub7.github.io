@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T08:26:07.607587+00:00",
+  "updated": "2026-08-06T08:23:51.344798+00:00",
   "items": [
     {
       "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
@@ -18,10 +18,10 @@
       "tag": "Security"
     },
     {
-      "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
-      "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
-      "pubDate": "Tue, 28 Jul 2026 21:36:39 +0000",
-      "description": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.",
+      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
+      "link": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
+      "pubDate": "Wed, 05 Aug 2026 22:35:20 +0000",
+      "description": "Baseboard management controllers from the world's biggest manufacturers are a security mess.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
