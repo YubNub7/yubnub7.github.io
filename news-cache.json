@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T08:23:51.344798+00:00",
+  "updated": "2026-08-07T07:05:00.895474+00:00",
   "items": [
     {
       "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
@@ -50,10 +50,10 @@
       "tag": "Security"
     },
     {
-      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
-      "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-      "pubDate": "Mon, 13 Jul 2026 15:03:28 +0000",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA crede",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "pubDate": "Thu, 06 Aug 2026 17:00:56 +0000",
+      "description": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy ",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
