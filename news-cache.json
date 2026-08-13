@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T07:15:06.794528+00:00",
+  "updated": "2026-08-13T07:17:13.420334+00:00",
   "items": [
     {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
@@ -10,18 +10,18 @@
       "tag": "Security"
     },
     {
-      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
-      "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
-      "pubDate": "Wed, 12 Aug 2026 00:08:40 +0000",
-      "description": "FBI Atlanta confirms it's looking into the incident, no arrests made.",
+      "title": "Terabytes of credentials leaked in massive supply-chain attack",
+      "link": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+      "pubDate": "Wed, 12 Aug 2026 21:43:21 +0000",
+      "description": "The data was scraped and exfiltrated from 2,500 users of a compromised AI package.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
     {
-      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
-      "link": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
-      "pubDate": "Wed, 05 Aug 2026 22:35:20 +0000",
-      "description": "Baseboard management controllers from the world's biggest manufacturers are a security mess.",
+      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
+      "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
+      "pubDate": "Wed, 12 Aug 2026 00:08:40 +0000",
+      "description": "FBI Atlanta confirms it's looking into the incident, no arrests made.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
