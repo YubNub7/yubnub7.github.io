@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T07:17:13.420334+00:00",
+  "updated": "2026-08-14T07:15:09.294676+00:00",
   "items": [
     {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
@@ -42,20 +42,20 @@
       "tag": "Tech"
     },
     {
-      "title": "New Pass-ta-key attack reveals all the things we didn't know about passkeys",
-      "link": "https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/",
-      "pubDate": "Tue, 11 Aug 2026 11:30:08 +0000",
-      "description": "Why passkey apps treat Windows differently than other operating systems.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "pubDate": "Thu, 30 Jul 2026 16:49:00 +0000",
       "description": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, w",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
+      "link": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
+      "pubDate": "Thu, 13 Aug 2026 19:38:58 +0000",
+      "description": "Trump memo is first time gov't has authorized private sector to perform cyberattacks.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
