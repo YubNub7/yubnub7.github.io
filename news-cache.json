@@ -1,30 +1,6 @@
 {
-  "updated": "2026-08-14T07:15:09.294676+00:00",
+  "updated": "2026-08-15T06:26:53.107980+00:00",
   "items": [
-    {
-      "title": "LG to Ban Residential Proxies from Smart TV Apps",
-      "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-      "pubDate": "Wed, 22 Jul 2026 01:10:38 +0000",
-      "description": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on res",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
-      "title": "Terabytes of credentials leaked in massive supply-chain attack",
-      "link": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
-      "pubDate": "Wed, 12 Aug 2026 21:43:21 +0000",
-      "description": "The data was scraped and exfiltrated from 2,500 users of a compromised AI package.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
-      "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
-      "pubDate": "Wed, 12 Aug 2026 00:08:40 +0000",
-      "description": "FBI Atlanta confirms it's looking into the incident, no arrests made.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
     {
       "title": "Microsoft Plugs Nearly 400 Security Holes",
       "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
@@ -32,14 +8,6 @@
       "description": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Chrome adopts what may be the best protection yet against account takeovers",
-      "link": "https://arstechnica.com/security/2026/08/chrome-adopts-what-may-be-the-best-protection-yet-against-account-takeovers/",
-      "pubDate": "Tue, 11 Aug 2026 20:59:52 +0000",
-      "description": "Device-bound session credentials thwart an increasingly common form of account takeover.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Read This Before You Buy That TV Streaming Stick",
@@ -62,6 +30,38 @@
       "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "pubDate": "Thu, 06 Aug 2026 17:00:56 +0000",
       "description": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy ",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+      "link": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+      "pubDate": "Fri, 14 Aug 2026 18:32:14 +0000",
+      "description": "Screen-sharing bug lets remote hackers log in without a password.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
+      "link": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+      "pubDate": "Fri, 14 Aug 2026 17:03:54 +0000",
+      "description": "\"We don't have access to the data on the hardware/servers,\" Iron Mountain told Ars.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "pubDate": "Fri, 14 Aug 2026 14:27:14 +0000",
+      "description": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Who’s Tracking You? Use This New Service to Find Out",
+      "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "pubDate": "Fri, 14 Aug 2026 11:24:35 +0000",
+      "description": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That",
       "feedName": "Krebs on Security",
       "tag": "Security"
     }
