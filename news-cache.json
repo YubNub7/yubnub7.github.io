@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T06:40:21.017379+00:00",
+  "updated": "2026-08-18T06:32:10.816945+00:00",
   "items": [
     {
       "title": "Microsoft Plugs Nearly 400 Security Holes",
@@ -18,20 +18,20 @@
       "tag": "Security"
     },
     {
-      "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
-      "link": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
-      "pubDate": "Thu, 13 Aug 2026 19:38:58 +0000",
-      "description": "Trump memo is first time gov't has authorized private sector to perform cyberattacks.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "pubDate": "Thu, 06 Aug 2026 17:00:56 +0000",
       "description": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy ",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Nvidia discloses $21B stake in SpaceX",
+      "link": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+      "pubDate": "Mon, 17 Aug 2026 14:22:54 +0000",
+      "description": "Filing comes after Elon Musk announced exclusive arrangement to kit out its data centers.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
