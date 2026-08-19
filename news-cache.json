@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-18T06:32:10.816945+00:00",
+  "updated": "2026-08-19T06:32:41.257042+00:00",
   "items": [
+    {
+      "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+      "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+      "pubDate": "Tue, 18 Aug 2026 13:00:04 +0000",
+      "description": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "Microsoft Plugs Nearly 400 Security Holes",
       "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
@@ -46,14 +54,6 @@
       "link": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
       "pubDate": "Fri, 14 Aug 2026 17:03:54 +0000",
       "description": "\"We don't have access to the data on the hardware/servers,\" Iron Mountain told Ars.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-      "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-      "pubDate": "Fri, 14 Aug 2026 14:27:14 +0000",
-      "description": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
