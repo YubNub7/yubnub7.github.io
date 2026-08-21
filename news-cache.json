@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T06:34:52.622585+00:00",
+  "updated": "2026-08-21T06:35:02.059463+00:00",
   "items": [
     {
       "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -26,6 +26,14 @@
       "tag": "Security"
     },
     {
+      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "pubDate": "Thu, 20 Aug 2026 13:00:35 +0000",
+      "description": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "pubDate": "Thu, 06 Aug 2026 17:00:56 +0000",
@@ -46,14 +54,6 @@
       "link": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
       "pubDate": "Fri, 14 Aug 2026 18:32:14 +0000",
       "description": "Screen-sharing bug lets remote hackers log in without a password.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
-      "link": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
-      "pubDate": "Fri, 14 Aug 2026 17:03:54 +0000",
-      "description": "\"We don't have access to the data on the hardware/servers,\" Iron Mountain told Ars.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
