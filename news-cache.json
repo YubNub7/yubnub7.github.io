@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T06:43:02.371357+00:00",
+  "updated": "2026-08-25T06:35:45.581933+00:00",
   "items": [
     {
       "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -42,10 +42,10 @@
       "tag": "Security"
     },
     {
-      "title": "Nvidia discloses $21B stake in SpaceX",
-      "link": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
-      "pubDate": "Mon, 17 Aug 2026 14:22:54 +0000",
-      "description": "Filing comes after Elon Musk announced exclusive arrangement to kit out its data centers.",
+      "title": "Inaudible sounds used to fingerprint browsers catch AliExpress red-handed",
+      "link": "https://arstechnica.com/security/2026/08/aliexpress-caught-fingerprinting-visitors-after-sending-inaudible-sounds-to-browsers/",
+      "pubDate": "Mon, 24 Aug 2026 19:19:21 +0000",
+      "description": "Is the technique outdated? Yes. Is it still creepy? Also yes.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
