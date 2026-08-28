@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T17:12:49.086841+00:00",
+  "updated": "2026-08-28T18:02:10.378771+00:00",
   "items": [
     {
       "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
@@ -50,10 +50,10 @@
       "tag": "Security"
     },
     {
-      "title": "Inaudible sounds used to fingerprint browsers catch AliExpress red-handed",
-      "link": "https://arstechnica.com/security/2026/08/aliexpress-caught-fingerprinting-visitors-after-sending-inaudible-sounds-to-browsers/",
-      "pubDate": "Mon, 24 Aug 2026 19:19:21 +0000",
-      "description": "Is the technique outdated? Yes. Is it still creepy? Also yes.",
+      "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
+      "link": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/",
+      "pubDate": "Fri, 28 Aug 2026 11:15:05 +0000",
+      "description": "The group infected more than 1,000 organizations in a relentless supply-chain attack campaign.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
