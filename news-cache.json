@@ -1,11 +1,19 @@
 {
-  "updated": "2026-09-01T10:56:24.680252+00:00",
+  "updated": "2026-09-02T10:24:14.843861+00:00",
   "items": [
     {
       "title": "Microsoft Plugs Nearly 400 Security Holes",
       "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
       "pubDate": "Tue, 11 Aug 2026 21:28:35 +0000",
       "description": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "pubDate": "Tue, 01 Sep 2026 22:40:28 +0000",
+      "description": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United Sta",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
@@ -22,14 +30,6 @@
       "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
       "pubDate": "Thu, 27 Aug 2026 11:04:15 +0000",
       "description": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the lon",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "pubDate": "Thu, 06 Aug 2026 17:00:56 +0000",
-      "description": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy ",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
