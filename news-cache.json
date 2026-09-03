@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-02T10:24:14.843861+00:00",
+  "updated": "2026-09-03T10:32:05.211434+00:00",
   "items": [
+    {
+      "title": "I rented a car, and within hours, my driver's license was for sale",
+      "link": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/",
+      "pubDate": "Wed, 02 Sep 2026 20:32:02 +0000",
+      "description": "The FBI is reportedly investigating a massive data breach that is unfolding in real time.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all",
+      "link": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/",
+      "pubDate": "Wed, 02 Sep 2026 11:00:43 +0000",
+      "description": "What can we learn from a BGP hijacking that poisoned production software? Plenty.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "Microsoft Plugs Nearly 400 Security Holes",
       "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
@@ -16,14 +32,6 @@
       "description": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United Sta",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
-      "link": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
-      "pubDate": "Thu, 27 Aug 2026 14:00:13 +0000",
-      "description": "227 install commands were found in corporate docs pointing at code nobody owns.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
@@ -46,14 +54,6 @@
       "link": "https://arstechnica.com/security/2026/08/how-some-media-streaming-devices-open-home-networks-to-a-world-of-harm/",
       "pubDate": "Mon, 31 Aug 2026 16:33:38 +0000",
       "description": "In exchange for free stuff, devices make home connections part of a proxy network.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
-      "link": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/",
-      "pubDate": "Fri, 28 Aug 2026 11:15:05 +0000",
-      "description": "The group infected more than 1,000 organizations in a relentless supply-chain attack campaign.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
