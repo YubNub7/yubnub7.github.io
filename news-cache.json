@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T10:32:05.211434+00:00",
+  "updated": "2026-09-04T10:21:51.788220+00:00",
   "items": [
     {
       "title": "I rented a car, and within hours, my driver's license was for sale",
@@ -42,18 +42,18 @@
       "tag": "Security"
     },
     {
-      "title": "Inside Meta’s push to put robots to work in data centers",
-      "link": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
-      "pubDate": "Sun, 30 Aug 2026 11:03:47 +0000",
-      "description": "The company is testing robots on tasks that can performed by technicians.",
+      "title": "Confused about which VPN is right, US senator asks the NSA for guidance",
+      "link": "https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns/",
+      "pubDate": "Thu, 03 Sep 2026 19:52:06 +0000",
+      "description": "Open source, commercial, single-hop, multi-hop, mixnet? The array of options is dizzying.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
     {
-      "title": "Think twice before installing this device promising free movies",
-      "link": "https://arstechnica.com/security/2026/08/how-some-media-streaming-devices-open-home-networks-to-a-world-of-harm/",
-      "pubDate": "Mon, 31 Aug 2026 16:33:38 +0000",
-      "description": "In exchange for free stuff, devices make home connections part of a proxy network.",
+      "title": "VMware migration reduces Tottenham Hotspur's licensing fees by 85 percent",
+      "link": "https://arstechnica.com/information-technology/2026/09/vmware-migration-reduces-tottenham-hotspurs-licensing-fees-by-85-percent/",
+      "pubDate": "Thu, 03 Sep 2026 18:58:31 +0000",
+      "description": "Pro soccer team's CTO points to \"issues with the Broadcom takeover.\"",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
