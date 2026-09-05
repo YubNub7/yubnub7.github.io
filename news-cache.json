@@ -1,22 +1,6 @@
 {
-  "updated": "2026-09-04T10:21:51.788220+00:00",
+  "updated": "2026-09-05T09:49:16.885470+00:00",
   "items": [
-    {
-      "title": "I rented a car, and within hours, my driver's license was for sale",
-      "link": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/",
-      "pubDate": "Wed, 02 Sep 2026 20:32:02 +0000",
-      "description": "The FBI is reportedly investigating a massive data breach that is unfolding in real time.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all",
-      "link": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/",
-      "pubDate": "Wed, 02 Sep 2026 11:00:43 +0000",
-      "description": "What can we learn from a BGP hijacking that poisoned production software? Plenty.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
     {
       "title": "Microsoft Plugs Nearly 400 Security Holes",
       "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
@@ -50,20 +34,36 @@
       "tag": "Tech"
     },
     {
-      "title": "VMware migration reduces Tottenham Hotspur's licensing fees by 85 percent",
-      "link": "https://arstechnica.com/information-technology/2026/09/vmware-migration-reduces-tottenham-hotspurs-licensing-fees-by-85-percent/",
-      "pubDate": "Thu, 03 Sep 2026 18:58:31 +0000",
-      "description": "Pro soccer team's CTO points to \"issues with the Broadcom takeover.\"",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Who’s Tracking You? Use This New Service to Find Out",
       "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "pubDate": "Fri, 14 Aug 2026 11:24:35 +0000",
       "description": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+      "pubDate": "Fri, 04 Sep 2026 22:17:36 +0000",
+      "description": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
+      "link": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
+      "pubDate": "Fri, 04 Sep 2026 17:35:02 +0000",
+      "description": "Broadcom admits it put “too big a focus on VCF.”",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+      "link": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+      "pubDate": "Fri, 04 Sep 2026 17:18:12 +0000",
+      "description": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     }
   ]
 }
