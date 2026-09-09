@@ -1,13 +1,21 @@
 {
-  "updated": "2026-09-08T10:25:50.278596+00:00",
+  "updated": "2026-09-09T10:36:16.523868+00:00",
   "items": [
     {
-      "title": "Microsoft Plugs Nearly 400 Security Holes",
-      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-      "pubDate": "Tue, 11 Aug 2026 21:28:35 +0000",
-      "description": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "pubDate": "Tue, 08 Sep 2026 21:44:22 +0000",
+      "description": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch ba",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Why this month's Microsoft patch release is a doozy",
+      "link": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
+      "pubDate": "Tue, 08 Sep 2026 21:11:46 +0000",
+      "description": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
@@ -24,14 +32,6 @@
       "description": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the lon",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Confused about which VPN is right, US senator asks the NSA for guidance",
-      "link": "https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns/",
-      "pubDate": "Thu, 03 Sep 2026 19:52:06 +0000",
-      "description": "Open source, commercial, single-hop, multi-hop, mixnet? The array of options is dizzying.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Who’s Tracking You? Use This New Service to Find Out",
