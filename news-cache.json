@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-09T10:36:16.523868+00:00",
+  "updated": "2026-09-10T10:24:04.442142+00:00",
   "items": [
+    {
+      "title": "4 groups caught using the same Chrome and Windows exploit kit",
+      "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
+      "pubDate": "Wed, 09 Sep 2026 20:55:02 +0000",
+      "description": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "Microsoft Plugs Nearly 1,000 Security Holes",
       "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
@@ -54,14 +62,6 @@
       "link": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
       "pubDate": "Fri, 04 Sep 2026 17:35:02 +0000",
       "description": "Broadcom admits it put “too big a focus on VCF.”",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
-      "link": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
-      "pubDate": "Fri, 04 Sep 2026 17:18:12 +0000",
-      "description": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     }
