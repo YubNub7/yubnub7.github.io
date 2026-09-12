@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T10:26:02.258643+00:00",
+  "updated": "2026-09-12T09:55:26.952921+00:00",
   "items": [
     {
       "title": "Four groups caught using the same Chrome and Windows exploit kit",
@@ -50,18 +50,18 @@
       "tag": "Security"
     },
     {
-      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-      "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-      "pubDate": "Fri, 04 Sep 2026 22:17:36 +0000",
-      "description": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+      "title": "ClickFix attacks infecting PCs and Macs are going viral",
+      "link": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
+      "pubDate": "Fri, 11 Sep 2026 11:30:58 +0000",
+      "description": "Simplicity—combined with the difficulty of getting stuff done—makes ClickFix ideal.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
     {
-      "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
-      "link": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
-      "pubDate": "Fri, 04 Sep 2026 17:35:02 +0000",
-      "description": "Broadcom admits it put “too big a focus on VCF.”",
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+      "pubDate": "Fri, 04 Sep 2026 22:17:36 +0000",
+      "description": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     }
