@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-16T10:40:23.951724+00:00",
+  "updated": "2026-09-17T10:48:41.628185+00:00",
   "items": [
+    {
+      "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
+      "link": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
+      "pubDate": "Wed, 16 Sep 2026 21:08:14 +0000",
+      "description": "Group plans to be largely out of commission for several weeks.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+      "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+      "pubDate": "Wed, 16 Sep 2026 18:14:22 +0000",
+      "description": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search servic",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
     {
       "title": "Four groups caught using the same Chrome and Windows exploit kit",
       "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
@@ -16,14 +32,6 @@
       "description": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch ba",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Why this month's Microsoft patch release is a doozy",
-      "link": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
-      "pubDate": "Tue, 08 Sep 2026 21:11:46 +0000",
-      "description": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
@@ -48,14 +56,6 @@
       "description": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
       "feedName": "Ars Technica",
       "tag": "Tech"
-    },
-    {
-      "title": "Who’s Tracking You? Use This New Service to Find Out",
-      "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
-      "pubDate": "Fri, 14 Aug 2026 11:24:35 +0000",
-      "description": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
     },
     {
       "title": "ClickFix attacks infecting PCs and Macs are going viral",
