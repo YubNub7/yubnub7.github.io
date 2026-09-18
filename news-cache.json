@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T10:48:41.628185+00:00",
+  "updated": "2026-09-18T10:24:02.345569+00:00",
   "items": [
     {
       "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
@@ -16,14 +16,6 @@
       "description": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search servic",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Four groups caught using the same Chrome and Windows exploit kit",
-      "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-      "pubDate": "Wed, 09 Sep 2026 20:55:02 +0000",
-      "description": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Microsoft Plugs Nearly 1,000 Security Holes",
@@ -48,6 +40,14 @@
       "description": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the lon",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
+      "link": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+      "pubDate": "Thu, 17 Sep 2026 18:33:13 +0000",
+      "description": "SynthID can cause models to follow harmful instructions they would otherwise refuse.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
