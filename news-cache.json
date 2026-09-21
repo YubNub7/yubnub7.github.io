@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T10:26:30.202724+00:00",
+  "updated": "2026-09-21T11:43:47.485469+00:00",
   "items": [
     {
       "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
@@ -50,18 +50,18 @@
       "tag": "Tech"
     },
     {
-      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
-      "link": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
-      "pubDate": "Mon, 14 Sep 2026 21:04:32 +0000",
-      "description": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
+      "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+      "link": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
+      "pubDate": "Sun, 20 Sep 2026 11:07:00 +0000",
+      "description": "Google’s threat intelligence group said it had a mole inside TeamPCP's inner circle.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
     {
-      "title": "ClickFix attacks infecting PCs and Macs are going viral",
-      "link": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
-      "pubDate": "Fri, 11 Sep 2026 11:30:58 +0000",
-      "description": "Simplicity—combined with the difficulty of getting stuff done—makes ClickFix ideal.",
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+      "link": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+      "pubDate": "Mon, 14 Sep 2026 21:04:32 +0000",
+      "description": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
       "feedName": "Ars Technica",
       "tag": "Tech"
     }
