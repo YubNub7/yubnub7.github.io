@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T11:43:47.485469+00:00",
+  "updated": "2026-09-22T10:46:39.655284+00:00",
   "items": [
     {
       "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
@@ -58,10 +58,10 @@
       "tag": "Tech"
     },
     {
-      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
-      "link": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
-      "pubDate": "Mon, 14 Sep 2026 21:04:32 +0000",
-      "description": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
+      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+      "link": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+      "pubDate": "Mon, 21 Sep 2026 22:24:38 +0000",
+      "description": "A simple ClickFix attack is only one way to completely hijack the new agent.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     }
