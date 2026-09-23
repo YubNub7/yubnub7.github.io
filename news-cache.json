@@ -1,14 +1,6 @@
 {
-  "updated": "2026-09-22T10:46:39.655284+00:00",
+  "updated": "2026-09-23T10:36:45.321965+00:00",
   "items": [
-    {
-      "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
-      "link": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
-      "pubDate": "Wed, 16 Sep 2026 21:08:14 +0000",
-      "description": "Group plans to be largely out of commission for several weeks.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
     {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
       "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
@@ -16,6 +8,22 @@
       "description": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search servic",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "link": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+      "pubDate": "Tue, 22 Sep 2026 19:45:47 +0000",
+      "description": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "IT mistake erases 11 years of viewing history for hospitals’ maternity records",
+      "link": "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
+      "pubDate": "Tue, 22 Sep 2026 16:55:40 +0000",
+      "description": "The English hospitals recovered patient care data only.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Microsoft Plugs Nearly 1,000 Security Holes",
@@ -40,14 +48,6 @@
       "description": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the lon",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
-      "link": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
-      "pubDate": "Thu, 17 Sep 2026 18:33:13 +0000",
-      "description": "SynthID can cause models to follow harmful instructions they would otherwise refuse.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
