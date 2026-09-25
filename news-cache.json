@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T10:56:17.625116+00:00",
+  "updated": "2026-09-25T10:57:36.754356+00:00",
   "items": [
     {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
@@ -50,10 +50,10 @@
       "tag": "Security"
     },
     {
-      "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
-      "link": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
-      "pubDate": "Sun, 20 Sep 2026 11:07:00 +0000",
-      "description": "Google’s threat intelligence group said it had a mole inside TeamPCP's inner circle.",
+      "title": "There's a new way to break RSA that's faster than anything we've seen before",
+      "link": "https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/",
+      "pubDate": "Thu, 24 Sep 2026 11:15:44 +0000",
+      "description": "Until now, cryptographers thought factoring was the only way to break RSA. Not anymore.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
