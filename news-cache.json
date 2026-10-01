@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-30T11:45:38.106348+00:00",
+  "updated": "2026-10-01T12:14:39.381267+00:00",
   "items": [
+    {
+      "title": "Attackers have been exploiting critical Zimbra flaw to steal emails",
+      "link": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
+      "pubDate": "Wed, 30 Sep 2026 20:44:48 +0000",
+      "description": "A simple email gives the attackers the ability to remotely inject OS commands.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Cloudflare plans to issue quantum-safe TLS certificates",
+      "link": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/",
+      "pubDate": "Wed, 30 Sep 2026 11:15:14 +0000",
+      "description": "The move will be part of a major overhaul of the ecosystem for website authentication.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
       "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
@@ -8,22 +24,6 @@
       "description": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search servic",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
-      "link": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
-      "pubDate": "Tue, 22 Sep 2026 19:45:47 +0000",
-      "description": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "IT mistake erases 11 years of viewing history for hospitals’ maternity records",
-      "link": "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
-      "pubDate": "Tue, 22 Sep 2026 16:55:40 +0000",
-      "description": "The English hospitals recovered patient care data only.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Microsoft Plugs Nearly 1,000 Security Holes",
