@@ -1,19 +1,11 @@
 {
-  "updated": "2026-10-02T11:43:39.292618+00:00",
+  "updated": "2026-10-03T10:57:14.137951+00:00",
   "items": [
     {
       "title": "Attackers have been exploiting critical Zimbra flaw to steal emails",
       "link": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
       "pubDate": "Wed, 30 Sep 2026 20:44:48 +0000",
       "description": "A simple email gives the attackers the ability to remotely inject OS commands.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Cloudflare plans to issue quantum-safe TLS certificates",
-      "link": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/",
-      "pubDate": "Wed, 30 Sep 2026 11:15:14 +0000",
-      "description": "The move will be part of a major overhaul of the ecosystem for website authentication.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
@@ -64,6 +56,14 @@
       "description": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 millio",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+      "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "pubDate": "Fri, 02 Oct 2026 23:03:16 +0000",
+      "description": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     }
   ]
 }
