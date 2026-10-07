@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T12:35:32.837577+00:00",
+  "updated": "2026-10-07T12:28:43.361796+00:00",
   "items": [
     {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
@@ -18,18 +18,26 @@
       "tag": "Security"
     },
     {
-      "title": "Licensing costs driving 90 percent of VMware users to explore options: Survey",
-      "link": "https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/",
-      "pubDate": "Tue, 06 Oct 2026 12:00:31 +0000",
-      "description": "Users want to \"reduce risk and avoid unnecessary disruption\" while making changes.",
+      "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+      "link": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+      "pubDate": "Tue, 06 Oct 2026 19:21:14 +0000",
+      "description": "Compromise of 3 domain registries allows hackers to walk off with unauthorized certs.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
     {
-      "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
-      "link": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
-      "pubDate": "Thu, 01 Oct 2026 20:28:45 +0000",
-      "description": "It has been a bad month for federal government cybersecurity.",
+      "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+      "link": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+      "pubDate": "Tue, 06 Oct 2026 12:21:53 +0000",
+      "description": "The reports of OpenAI agents harming third-party sites keep coming.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Licensing costs driving 90 percent of VMware users to explore options: Survey",
+      "link": "https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/",
+      "pubDate": "Tue, 06 Oct 2026 12:00:31 +0000",
+      "description": "Users want to \"reduce risk and avoid unnecessary disruption\" while making changes.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
@@ -56,14 +64,6 @@
       "description": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 millio",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-      "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-      "pubDate": "Fri, 02 Oct 2026 23:03:16 +0000",
-      "description": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     }
   ]
 }
