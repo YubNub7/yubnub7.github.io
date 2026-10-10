@@ -1,14 +1,6 @@
 {
-  "updated": "2026-10-09T12:25:52.409710+00:00",
+  "updated": "2026-10-10T11:44:25.488117+00:00",
   "items": [
-    {
-      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-      "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-      "pubDate": "Wed, 16 Sep 2026 18:14:22 +0000",
-      "description": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search servic",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
     {
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
       "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
@@ -42,6 +34,14 @@
       "tag": "Tech"
     },
     {
+      "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+      "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+      "pubDate": "Sat, 10 Oct 2026 00:17:42 +0000",
+      "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation i",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
       "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
       "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
       "pubDate": "Mon, 28 Sep 2026 15:08:57 +0000",
@@ -50,20 +50,20 @@
       "tag": "Security"
     },
     {
-      "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
-      "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
-      "pubDate": "Mon, 05 Oct 2026 22:26:35 +0000",
-      "description": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
       "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
       "pubDate": "Fri, 25 Sep 2026 21:44:40 +0000",
       "description": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 millio",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
+      "link": "https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/",
+      "pubDate": "Fri, 09 Oct 2026 18:54:52 +0000",
+      "description": "\"The current decline may be just the beginning of a new downward cycle.\"",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     }
   ]
 }
