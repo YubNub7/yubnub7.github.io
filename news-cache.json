@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T13:21:01.910811+00:00",
+  "updated": "2026-10-14T11:00:01.714778+00:00",
   "items": [
     {
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
@@ -8,6 +8,22 @@
       "description": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "pubDate": "Tue, 13 Oct 2026 23:24:53 +0000",
+      "description": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwa",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "Topgolf saved over $11.3 million after leaving VMware",
+      "link": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
+      "pubDate": "Tue, 13 Oct 2026 21:33:43 +0000",
+      "description": "Topgolf and VMware \"ran deep\" before the migration.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
@@ -26,14 +42,6 @@
       "tag": "Tech"
     },
     {
-      "title": "Licensing costs driving 90 percent of VMware users to explore options: Survey",
-      "link": "https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/",
-      "pubDate": "Tue, 06 Oct 2026 12:00:31 +0000",
-      "description": "Users want to \"reduce risk and avoid unnecessary disruption\" while making changes.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
       "pubDate": "Sat, 10 Oct 2026 00:17:42 +0000",
@@ -46,14 +54,6 @@
       "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
       "pubDate": "Mon, 28 Sep 2026 15:08:57 +0000",
       "description": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker g",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
-      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-      "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-      "pubDate": "Fri, 25 Sep 2026 21:44:40 +0000",
-      "description": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 millio",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
