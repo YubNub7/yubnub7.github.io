@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T10:42:34.627508+00:00",
+  "updated": "2026-10-16T10:29:39.748675+00:00",
   "items": [
     {
       "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
@@ -50,20 +50,20 @@
       "tag": "Tech"
     },
     {
+      "title": "Targeted ads delivered 0-click exploits to install mercenary malware",
+      "link": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
+      "pubDate": "Thu, 15 Oct 2026 20:32:41 +0000",
+      "description": "The incident is likely 1st confirmation of mercenary spyware delivered by targeted ads.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
       "pubDate": "Sat, 10 Oct 2026 00:17:42 +0000",
       "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation i",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
-      "link": "https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/",
-      "pubDate": "Fri, 09 Oct 2026 18:54:52 +0000",
-      "description": "\"The current decline may be just the beginning of a new downward cycle.\"",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     }
   ]
 }
