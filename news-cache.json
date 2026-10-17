@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T10:29:39.748675+00:00",
+  "updated": "2026-10-17T10:00:01.638424+00:00",
   "items": [
     {
       "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
@@ -42,14 +42,6 @@
       "tag": "Security"
     },
     {
-      "title": "Topgolf saved over $11.3 million after leaving VMware",
-      "link": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
-      "pubDate": "Tue, 13 Oct 2026 21:33:43 +0000",
-      "description": "Topgolf and VMware \"ran deep\" before the migration.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Targeted ads delivered 0-click exploits to install mercenary malware",
       "link": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
       "pubDate": "Thu, 15 Oct 2026 20:32:41 +0000",
@@ -64,6 +56,14 @@
       "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation i",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "OpenAI models hacked a crypto wallet and breached more websites",
+      "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+      "pubDate": "Fri, 16 Oct 2026 20:59:01 +0000",
+      "description": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     }
   ]
 }
