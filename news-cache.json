@@ -1,35 +1,11 @@
 {
-  "updated": "2026-10-19T11:50:02.078680+00:00",
+  "updated": "2026-10-20T10:47:58.117722+00:00",
   "items": [
-    {
-      "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
-      "link": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
-      "pubDate": "Wed, 14 Oct 2026 21:35:09 +0000",
-      "description": "Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
     {
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
       "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
       "pubDate": "Wed, 14 Oct 2026 14:22:49 +0000",
       "description": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payment",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
-      "title": "Anthropic warns small AI models could self-replicate through IoT devices",
-      "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-      "pubDate": "Wed, 14 Oct 2026 12:55:06 +0000",
-      "description": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "pubDate": "Wed, 07 Oct 2026 13:48:45 +0000",
-      "description": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
@@ -54,6 +30,30 @@
       "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
       "pubDate": "Sat, 10 Oct 2026 00:17:42 +0000",
       "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation i",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "PSA: Patch your Plex media server before someone hacks it",
+      "link": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
+      "pubDate": "Mon, 19 Oct 2026 19:39:19 +0000",
+      "description": "A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "ReactOS reaches major milestone with NTFS install support",
+      "link": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/",
+      "pubDate": "Mon, 19 Oct 2026 18:30:56 +0000",
+      "description": "ReactOS gains NTFS install support with new driver.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+      "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "pubDate": "Mon, 19 Oct 2026 13:48:56 +0000",
+      "description": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two diff",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
