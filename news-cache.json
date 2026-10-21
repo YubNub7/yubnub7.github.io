@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-20T10:47:58.117722+00:00",
+  "updated": "2026-10-21T10:59:53.317050+00:00",
   "items": [
+    {
+      "title": "PHP warns it plans to release 2 emergency patches imminently",
+      "link": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
+      "pubDate": "Wed, 21 Oct 2026 02:12:18 +0000",
+      "description": "Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
       "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
@@ -10,20 +18,28 @@
       "tag": "Security"
     },
     {
+      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+      "link": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
+      "pubDate": "Tue, 20 Oct 2026 19:47:35 +0000",
+      "description": "Intermediate certs allow anyone to mint web credentials for any Internet server.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+      "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "pubDate": "Tue, 20 Oct 2026 12:33:13 +0000",
+      "description": "Meta is suspending the sharing feature while it investigates its privacy.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
       "pubDate": "Tue, 13 Oct 2026 23:24:53 +0000",
       "description": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwa",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Targeted ads delivered 0-click exploits to install mercenary malware",
-      "link": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
-      "pubDate": "Thu, 15 Oct 2026 20:32:41 +0000",
-      "description": "The incident is likely 1st confirmation of mercenary spyware delivered by targeted ads.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
@@ -42,28 +58,12 @@
       "tag": "Tech"
     },
     {
-      "title": "ReactOS reaches major milestone with NTFS install support",
-      "link": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/",
-      "pubDate": "Mon, 19 Oct 2026 18:30:56 +0000",
-      "description": "ReactOS gains NTFS install support with new driver.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
       "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
       "pubDate": "Mon, 19 Oct 2026 13:48:56 +0000",
       "description": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two diff",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-      "pubDate": "Fri, 16 Oct 2026 20:59:01 +0000",
-      "description": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     }
   ]
 }
