@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-21T10:59:53.317050+00:00",
+  "updated": "2026-10-22T10:58:47.254639+00:00",
   "items": [
+    {
+      "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
+      "link": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
+      "pubDate": "Wed, 21 Oct 2026 21:48:52 +0000",
+      "description": "Survey of 2,018 IT heads at big firms points to a lack of leverage.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+      "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+      "pubDate": "Wed, 21 Oct 2026 15:26:07 +0000",
+      "description": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pai",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
     {
       "title": "PHP warns it plans to release 2 emergency patches imminently",
       "link": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
@@ -40,22 +56,6 @@
       "description": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwa",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "pubDate": "Sat, 10 Oct 2026 00:17:42 +0000",
-      "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation i",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
-      "title": "PSA: Patch your Plex media server before someone hacks it",
-      "link": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
-      "pubDate": "Mon, 19 Oct 2026 19:39:19 +0000",
-      "description": "A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     },
     {
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
