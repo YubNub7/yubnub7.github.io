@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T10:58:47.254639+00:00",
+  "updated": "2026-10-23T10:52:10.496991+00:00",
   "items": [
     {
       "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
@@ -34,28 +34,28 @@
       "tag": "Security"
     },
     {
-      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
-      "link": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
-      "pubDate": "Tue, 20 Oct 2026 19:47:35 +0000",
-      "description": "Intermediate certs allow anyone to mint web credentials for any Internet server.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
-      "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-      "pubDate": "Tue, 20 Oct 2026 12:33:13 +0000",
-      "description": "Meta is suspending the sharing feature while it investigates its privacy.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
       "pubDate": "Tue, 13 Oct 2026 23:24:53 +0000",
       "description": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwa",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
+      "link": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/",
+      "pubDate": "Thu, 22 Oct 2026 20:17:52 +0000",
+      "description": "Flubbed key signing \"ceremony\" allowed minting of web credentials for any site.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email",
+      "link": "https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/",
+      "pubDate": "Thu, 22 Oct 2026 11:30:33 +0000",
+      "description": "For 3 days this month, 333 exit nodes were hacked in hopes of stealing sensitive data.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
