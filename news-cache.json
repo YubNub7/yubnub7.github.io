@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T11:25:26.127978+00:00",
+  "updated": "2026-10-28T11:57:22.452657+00:00",
   "items": [
     {
       "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
@@ -18,20 +18,20 @@
       "tag": "Security"
     },
     {
-      "title": "PHP warns it plans to release 2 emergency patches imminently",
-      "link": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
-      "pubDate": "Wed, 21 Oct 2026 02:12:18 +0000",
-      "description": "Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
       "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
       "pubDate": "Wed, 14 Oct 2026 14:22:49 +0000",
       "description": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payment",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+      "link": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+      "pubDate": "Tue, 27 Oct 2026 20:25:55 +0000",
+      "description": "Critical flaw in EDK2 allows attackers to execute code early in the boot process.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
