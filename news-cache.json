@@ -1,14 +1,6 @@
 {
-  "updated": "2026-10-30T11:58:21.744578+00:00",
+  "updated": "2026-10-31T11:32:40.298214+00:00",
   "items": [
-    {
-      "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
-      "link": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
-      "pubDate": "Wed, 21 Oct 2026 21:48:52 +0000",
-      "description": "Survey of 2,018 IT heads at big firms points to a lack of leverage.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
     {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -64,6 +56,14 @@
       "description": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two diff",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+      "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+      "pubDate": "Fri, 30 Oct 2026 21:09:54 +0000",
+      "description": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     }
   ]
 }
