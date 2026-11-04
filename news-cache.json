@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T13:27:17.905237+00:00",
+  "updated": "2026-11-04T13:38:25.641145+00:00",
   "items": [
     {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -26,6 +26,14 @@
       "tag": "Tech"
     },
     {
+      "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
+      "link": "https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/",
+      "pubDate": "Tue, 03 Nov 2026 16:03:13 +0000",
+      "description": "UEFI bootkit BlackX exploits Microsoft's lack of clarity around Secure Boot protections.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
       "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
       "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
       "pubDate": "Tue, 03 Nov 2026 02:24:31 +0000",
@@ -38,14 +46,6 @@
       "link": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/",
       "pubDate": "Thu, 22 Oct 2026 20:17:52 +0000",
       "description": "Flubbed key signing \"ceremony\" allowed minting of web credentials for any site.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email",
-      "link": "https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/",
-      "pubDate": "Thu, 22 Oct 2026 11:30:33 +0000",
-      "description": "For 3 days this month, 333 exit nodes were hacked in hopes of stealing sensitive data.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
