@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T13:36:16.251643+00:00",
+  "updated": "2026-11-07T12:16:06.524597+00:00",
   "items": [
     {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -22,14 +22,6 @@
       "link": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
       "pubDate": "Wed, 04 Nov 2026 21:38:49 +0000",
       "description": "“We started listening to a lot of our lower-end customers,\" VMware exec says.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Binance says hackers who stole billions in crypto spent months planning heist",
-      "link": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
-      "pubDate": "Wed, 04 Nov 2026 16:06:03 +0000",
-      "description": "Techniques included laptop infections, compromised internal tooling, and fake job interviews.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
@@ -64,6 +56,14 @@
       "description": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two diff",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "pubDate": "Fri, 06 Nov 2026 20:56:41 +0000",
+      "description": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     }
   ]
 }
