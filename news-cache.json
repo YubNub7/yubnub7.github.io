@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T14:54:46.192543+00:00",
+  "updated": "2026-11-10T14:07:38.465981+00:00",
   "items": [
     {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -14,14 +14,6 @@
       "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
       "pubDate": "Wed, 04 Nov 2026 22:26:49 +0000",
       "description": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "VMware releases vSphere Express for virtualization on up to 128 cores",
-      "link": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
-      "pubDate": "Wed, 04 Nov 2026 21:38:49 +0000",
-      "description": "“We started listening to a lot of our lower-end customers,\" VMware exec says.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
@@ -56,6 +48,14 @@
       "description": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two diff",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
+      "link": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+      "pubDate": "Mon, 09 Nov 2026 19:41:34 +0000",
+      "description": "\"*sshole\" poses a serious threat to Internet security.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
