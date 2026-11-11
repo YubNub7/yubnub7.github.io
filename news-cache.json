@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T14:07:38.465981+00:00",
+  "updated": "2026-11-11T13:24:00.945087+00:00",
   "items": [
     {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -10,10 +10,18 @@
       "tag": "Security"
     },
     {
-      "title": "Hackers exploited iOS and Android flaws to infect phones",
-      "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
-      "pubDate": "Wed, 04 Nov 2026 22:26:49 +0000",
-      "description": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "pubDate": "Tue, 10 Nov 2026 21:55:03 +0000",
+      "description": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
+    {
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "pubDate": "Tue, 10 Nov 2026 21:12:59 +0000",
+      "description": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
@@ -38,14 +46,6 @@
       "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
       "pubDate": "Thu, 05 Nov 2026 04:36:17 +0000",
       "description": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available ",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "pubDate": "Mon, 19 Oct 2026 13:48:56 +0000",
-      "description": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two diff",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
