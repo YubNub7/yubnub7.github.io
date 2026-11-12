@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-11T13:24:00.945087+00:00",
+  "updated": "2026-11-12T14:28:43.567161+00:00",
   "items": [
     {
-      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-      "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-      "pubDate": "Wed, 21 Oct 2026 15:26:07 +0000",
-      "description": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pai",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "pubDate": "Wed, 11 Nov 2026 18:06:01 +0000",
+      "description": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three mon",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
