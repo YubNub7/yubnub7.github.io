@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T13:46:16.408798+00:00",
+  "updated": "2026-11-14T12:50:54.785657+00:00",
   "items": [
     {
       "title": "Who Runs the Ransomware Group Qilin?",
@@ -34,14 +34,6 @@
       "tag": "Security"
     },
     {
-      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
-      "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
-      "pubDate": "Thu, 05 Nov 2026 23:09:36 +0000",
-      "description": "Certain configurations of Alpine are affected. Other distros may be as well.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
       "title": "Want to Rent an Internet Address at the White House?",
       "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
       "pubDate": "Thu, 05 Nov 2026 04:36:17 +0000",
@@ -54,6 +46,14 @@
       "link": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
       "pubDate": "Mon, 09 Nov 2026 19:41:34 +0000",
       "description": "\"*sshole\" poses a serious threat to Internet security.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
+      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+      "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+      "pubDate": "Fri, 13 Nov 2026 16:26:32 +0000",
+      "description": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
