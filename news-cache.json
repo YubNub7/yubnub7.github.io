@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T14:31:02.162585+00:00",
+  "updated": "2026-11-17T15:21:57.262546+00:00",
   "items": [
     {
       "title": "Who Runs the Ransomware Group Qilin?",
@@ -8,6 +8,14 @@
       "description": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three mon",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+      "pubDate": "Tue, 17 Nov 2026 14:00:29 +0000",
+      "description": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
@@ -42,10 +50,10 @@
       "tag": "Security"
     },
     {
-      "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
-      "link": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
-      "pubDate": "Mon, 09 Nov 2026 19:41:34 +0000",
-      "description": "\"*sshole\" poses a serious threat to Internet security.",
+      "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
+      "link": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+      "pubDate": "Mon, 16 Nov 2026 20:37:47 +0000",
+      "description": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
@@ -54,14 +62,6 @@
       "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
       "pubDate": "Fri, 13 Nov 2026 16:26:32 +0000",
       "description": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
-      "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
-      "pubDate": "Fri, 06 Nov 2026 20:56:41 +0000",
-      "description": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     }
