@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-17T15:21:57.262546+00:00",
+  "updated": "2026-11-18T14:56:24.256103+00:00",
   "items": [
+    {
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "pubDate": "Wed, 18 Nov 2026 02:52:04 +0000",
+      "description": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability in",
+      "feedName": "Krebs on Security",
+      "tag": "Security"
+    },
     {
       "title": "Who Runs the Ransomware Group Qilin?",
       "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
@@ -8,6 +16,14 @@
       "description": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three mon",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
+      "link": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
+      "pubDate": "Tue, 17 Nov 2026 22:32:16 +0000",
+      "description": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     },
     {
       "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
@@ -22,22 +38,6 @@
       "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
       "pubDate": "Tue, 10 Nov 2026 21:55:03 +0000",
       "description": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported",
-      "feedName": "Krebs on Security",
-      "tag": "Security"
-    },
-    {
-      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-      "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-      "pubDate": "Tue, 10 Nov 2026 21:12:59 +0000",
-      "description": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
-      "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
-      "pubDate": "Tue, 03 Nov 2026 02:24:31 +0000",
-      "description": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious soft",
       "feedName": "Krebs on Security",
       "tag": "Security"
     },
