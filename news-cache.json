@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T14:56:24.256103+00:00",
+  "updated": "2026-11-19T15:03:06.315287+00:00",
   "items": [
     {
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
@@ -42,6 +42,14 @@
       "tag": "Security"
     },
     {
+      "title": "How to tell a cyberattack from a plain old outage",
+      "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
+      "pubDate": "Thu, 19 Nov 2026 11:13:01 +0000",
+      "description": "When everything goes down, don’t assume it’s a cyberattack.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
       "title": "Want to Rent an Internet Address at the White House?",
       "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
       "pubDate": "Thu, 05 Nov 2026 04:36:17 +0000",
@@ -54,14 +62,6 @@
       "link": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
       "pubDate": "Mon, 16 Nov 2026 20:37:47 +0000",
       "description": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
-      "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-      "pubDate": "Fri, 13 Nov 2026 16:26:32 +0000",
-      "description": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     }
