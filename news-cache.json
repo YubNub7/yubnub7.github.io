@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T15:03:06.315287+00:00",
+  "updated": "2026-11-20T14:45:02.891862+00:00",
   "items": [
     {
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
@@ -42,6 +42,14 @@
       "tag": "Security"
     },
     {
+      "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
+      "link": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+      "pubDate": "Thu, 19 Nov 2026 20:29:46 +0000",
+      "description": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
+    {
       "title": "How to tell a cyberattack from a plain old outage",
       "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
       "pubDate": "Thu, 19 Nov 2026 11:13:01 +0000",
@@ -56,14 +64,6 @@
       "description": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available ",
       "feedName": "Krebs on Security",
       "tag": "Security"
-    },
-    {
-      "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
-      "link": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
-      "pubDate": "Mon, 16 Nov 2026 20:37:47 +0000",
-      "description": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
     }
   ]
 }
