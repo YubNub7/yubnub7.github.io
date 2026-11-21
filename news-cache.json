@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T14:45:02.891862+00:00",
+  "updated": "2026-11-21T14:00:43.690097+00:00",
   "items": [
     {
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
@@ -22,14 +22,6 @@
       "link": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
       "pubDate": "Tue, 17 Nov 2026 22:32:16 +0000",
       "description": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-      "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-      "pubDate": "Tue, 17 Nov 2026 14:00:29 +0000",
-      "description": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
@@ -58,12 +50,20 @@
       "tag": "Tech"
     },
     {
-      "title": "Want to Rent an Internet Address at the White House?",
-      "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
-      "pubDate": "Thu, 05 Nov 2026 04:36:17 +0000",
-      "description": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available ",
+      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+      "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "pubDate": "Sat, 21 Nov 2026 00:36:39 +0000",
+      "description": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore",
       "feedName": "Krebs on Security",
       "tag": "Security"
+    },
+    {
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "pubDate": "Fri, 20 Nov 2026 20:59:08 +0000",
+      "description": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
     }
   ]
 }
