@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T17:05:47.140188+00:00",
+  "updated": "2026-11-24T16:50:57.648058+00:00",
   "items": [
     {
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
@@ -18,10 +18,10 @@
       "tag": "Security"
     },
     {
-      "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
-      "link": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
-      "pubDate": "Tue, 17 Nov 2026 22:32:16 +0000",
-      "description": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "pubDate": "Tue, 24 Nov 2026 12:30:05 +0000",
+      "description": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
