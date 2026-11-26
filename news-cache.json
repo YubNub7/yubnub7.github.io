@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-25T16:38:55.108924+00:00",
+  "updated": "2026-11-26T16:11:46.522976+00:00",
   "items": [
+    {
+      "title": "Backblaze explains why it's sharing customer information with advertisers",
+      "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+      "pubDate": "Wed, 25 Nov 2026 18:38:29 +0000",
+      "description": "Backblaze tells Ars it won't share users' backup, storage files with advertisers.",
+      "feedName": "Ars Technica",
+      "tag": "Tech"
+    },
     {
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
       "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
@@ -38,14 +46,6 @@
       "link": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
       "pubDate": "Thu, 19 Nov 2026 20:29:46 +0000",
       "description": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit.",
-      "feedName": "Ars Technica",
-      "tag": "Tech"
-    },
-    {
-      "title": "How to tell a cyberattack from a plain old outage",
-      "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
-      "pubDate": "Thu, 19 Nov 2026 11:13:01 +0000",
-      "description": "When everything goes down, don’t assume it’s a cyberattack.",
       "feedName": "Ars Technica",
       "tag": "Tech"
     },
